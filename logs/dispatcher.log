@@ -1,0 +1,542 @@
+2022-11-25 09:27:20 DEBUG TelegramBot:48 - /bymessage
+2022-11-25 09:27:20 DEBUG TelegramBot:120 - Введите адрес для получения координат
+2022-11-25 09:27:20 DEBUG TelegramBot:120 - Желательно вводить адрес в формате:
+2022-11-25 09:27:20 DEBUG TelegramBot:120 - (Страна), (область), (округ), населённый пункт, (уточнение), улица, номер дома
+2022-11-25 09:27:20 DEBUG TelegramBot:120 - в скобках указаны необязательные для ввода параметры
+2022-11-25 09:27:25 DEBUG TelegramBot:48 - Санкт-Петербург
+2022-11-25 09:27:25 DEBUG LinkForGeocoderApi:29 - -----------------------------------------------
+2022-11-25 09:27:25 DEBUG LinkForGeocoderApi:30 - Received address for request: Санкт-Петербург
+2022-11-25 09:28:32 DEBUG TelegramBot:48 - /bymessage
+2022-11-25 09:28:32 DEBUG TelegramBot:120 - Введите адрес для получения координат
+2022-11-25 09:28:32 DEBUG TelegramBot:120 - Желательно вводить адрес в формате:
+2022-11-25 09:28:32 DEBUG TelegramBot:120 - (Страна), (область), (округ), населённый пункт, (уточнение), улица, номер дома
+2022-11-25 09:28:32 DEBUG TelegramBot:120 - в скобках указаны необязательные для ввода параметры
+2022-11-25 09:28:36 DEBUG TelegramBot:48 - /restart
+2022-11-25 09:28:36 DEBUG TelegramBot:120 - Выберите действие заново
+2022-11-25 09:28:38 DEBUG TelegramBot:48 - /getcounter
+2022-11-25 09:28:38 DEBUG TelegramBot:120 - Сегодня совершено 1 запросов из 900.
+2022-11-25 09:28:41 DEBUG TelegramBot:48 - /bytable
+2022-11-25 09:28:41 DEBUG TelegramBot:120 - Пришлите файл формата .xlsx с адресами, в котором адрес находится в столбце "D"
+2022-11-25 09:29:00 DEBUG TelegramBot:48 - 
+2022-11-25 09:29:00 DEBUG TelegramBot:120 - Получен файл
+2022-11-25 09:29:00 DEBUG FileDownloader:24 - -----------------------------------------------
+2022-11-25 09:29:00 DEBUG FileDownloader:25 - File downloading
+2022-11-25 09:29:00 DEBUG FileDownloader:26 - https://api.telegram.org/file/bot5505170056:AAG-H1biJ_jMUMIuZrMa8yjVFRPnDNIZ4mA/documents/file_42.xlsx
+2022-11-25 09:40:49 DEBUG TelegramBot:48 - /bytable
+2022-11-25 09:40:49 DEBUG TelegramBot:120 - Пришлите файл формата .xlsx с адресами, в котором адрес находится в столбце "D"
+2022-11-25 09:40:54 DEBUG TelegramBot:48 - 
+2022-11-25 09:40:54 DEBUG TelegramBot:120 - Получен файл
+2022-11-25 09:40:54 DEBUG FileDownloader:27 - -----------------------------------------------
+2022-11-25 09:40:54 DEBUG FileDownloader:28 - File downloading
+2022-11-25 09:40:54 DEBUG FileDownloader:29 - https://api.telegram.org/file/bot5505170056:AAG-H1biJ_jMUMIuZrMa8yjVFRPnDNIZ4mA/documents/file_43.xlsx
+2022-11-25 09:40:54 DEBUG FileDownloader:48 - File downloaded
+2022-11-25 09:40:54 DEBUG FileDownloader:49 - -----------------------------------------------
+2022-11-25 09:42:50 DEBUG TelegramBot:48 - /bytable
+2022-11-25 09:42:50 DEBUG TelegramBot:120 - Пришлите файл формата .xlsx с адресами, в котором адрес находится в столбце "D"
+2022-11-25 09:42:56 DEBUG TelegramBot:48 - 
+2022-11-25 09:42:56 DEBUG TelegramBot:120 - Получен файл
+2022-11-25 09:42:56 DEBUG FileDownloader:27 - -----------------------------------------------
+2022-11-25 09:42:56 DEBUG FileDownloader:28 - File downloading
+2022-11-25 09:42:56 DEBUG FileDownloader:29 - https://api.telegram.org/file/bot5505170056:AAG-H1biJ_jMUMIuZrMa8yjVFRPnDNIZ4mA/documents/file_44.xlsx
+2022-11-25 09:42:56 DEBUG FileDownloader:48 - File downloaded
+2022-11-25 09:42:56 DEBUG FileDownloader:49 - -----------------------------------------------
+2022-11-25 09:45:57 DEBUG TelegramBot:48 - /bytable
+2022-11-25 09:45:57 DEBUG TelegramBot:120 - Пришлите файл формата .xlsx с адресами, в котором адрес находится в столбце "D"
+2022-11-25 09:46:01 DEBUG TelegramBot:48 - 
+2022-11-25 09:46:01 DEBUG TelegramBot:120 - Получен файл
+2022-11-25 09:46:02 DEBUG FileDownloader:27 - -----------------------------------------------
+2022-11-25 09:46:02 DEBUG FileDownloader:28 - File downloading
+2022-11-25 09:46:02 DEBUG FileDownloader:29 - https://api.telegram.org/file/bot5505170056:AAG-H1biJ_jMUMIuZrMa8yjVFRPnDNIZ4mA/documents/file_45.xlsx
+2022-11-25 09:46:02 DEBUG FileDownloader:48 - File downloaded
+2022-11-25 09:46:02 DEBUG FileDownloader:49 - -----------------------------------------------
+2022-11-25 09:47:39 DEBUG TelegramBot:48 - /bytable
+2022-11-25 09:47:39 DEBUG TelegramBot:120 - Пришлите файл формата .xlsx с адресами, в котором адрес находится в столбце "D"
+2022-11-25 09:47:44 DEBUG TelegramBot:48 - 
+2022-11-25 09:47:44 DEBUG TelegramBot:120 - Получен файл
+2022-11-25 09:47:44 DEBUG FileDownloader:27 - -----------------------------------------------
+2022-11-25 09:47:44 DEBUG FileDownloader:28 - File downloading
+2022-11-25 09:47:44 DEBUG FileDownloader:29 - https://api.telegram.org/file/bot5505170056:AAG-H1biJ_jMUMIuZrMa8yjVFRPnDNIZ4mA/documents/file_46.xlsx
+2022-11-25 09:47:44 DEBUG FileDownloader:48 - File downloaded
+2022-11-25 09:47:44 DEBUG FileDownloader:49 - -----------------------------------------------
+2022-11-25 09:47:45 DEBUG LinkForGeocoderApi:29 - -----------------------------------------------
+2022-11-25 09:47:45 DEBUG LinkForGeocoderApi:30 - Received address for request: 140000, Московская область, р-н Егорьевский, д. Данилово, д. 26
+2022-11-25 10:41:31 DEBUG TelegramBot:48 - /restart
+2022-11-25 10:41:31 DEBUG TelegramBot:120 - Выберите действие заново
+2022-11-25 10:41:34 DEBUG TelegramBot:48 - /bymessage
+2022-11-25 10:41:34 DEBUG TelegramBot:120 - Введите адрес для получения координат
+2022-11-25 10:41:34 DEBUG TelegramBot:120 - Желательно вводить адрес в формате:
+2022-11-25 10:41:35 DEBUG TelegramBot:120 - (Страна), (область), (округ), населённый пункт, (уточнение), улица, номер дома
+2022-11-25 10:41:35 DEBUG TelegramBot:120 - в скобках указаны необязательные для ввода параметры
+2022-11-25 10:41:44 DEBUG TelegramBot:48 - Санкт-Петербург
+2022-11-25 10:41:44 DEBUG LinkForGeocoderApi:28 - -----------------------------------------------
+2022-11-25 10:41:44 DEBUG LinkForGeocoderApi:29 - Received address for request: Санкт-Петербург
+2022-11-25 10:41:44 DEBUG TelegramBot:120 - По адресу: Россия, Санкт-Петербург найдены примерные координаты 59.938955 с.ш. 30.315644 в. д.
+2022-11-25 10:41:56 DEBUG TelegramBot:48 - /bytable
+2022-11-25 10:41:56 DEBUG TelegramBot:120 - Пришлите файл формата .xlsx с адресами, в котором адрес находится в столбце "D"
+2022-11-25 10:42:02 DEBUG TelegramBot:48 - 
+2022-11-25 10:42:02 DEBUG TelegramBot:120 - Получен файл
+2022-11-25 10:42:02 DEBUG FileDownloader:27 - -----------------------------------------------
+2022-11-25 10:42:02 DEBUG FileDownloader:28 - File downloading
+2022-11-25 10:42:02 DEBUG FileDownloader:29 - https://api.telegram.org/file/bot5505170056:AAG-H1biJ_jMUMIuZrMa8yjVFRPnDNIZ4mA/documents/file_47.xlsx
+2022-11-25 10:42:02 DEBUG FileDownloader:48 - File downloaded
+2022-11-25 10:42:02 DEBUG FileDownloader:49 - -----------------------------------------------
+2022-11-25 10:42:03 DEBUG LinkForGeocoderApi:28 - -----------------------------------------------
+2022-11-25 10:42:03 DEBUG LinkForGeocoderApi:29 - Received address for request: 140000, Московская область, р-н Егорьевский, д. Данилово, д. 26
+2022-11-25 10:42:03 DEBUG LinkForGeocoderApi:28 - -----------------------------------------------
+2022-11-25 10:42:03 DEBUG LinkForGeocoderApi:29 - Received address for request: 140300, Московская обл., Егорьевский г.о., д. Юрцово, д.д.224
+2022-11-25 10:42:03 DEBUG LinkForGeocoderApi:28 - -----------------------------------------------
+2022-11-25 10:42:03 DEBUG LinkForGeocoderApi:29 - Received address for request: 140500, Московская область, Луховицкий район, СНТ "Россия", уч. 123
+2022-11-25 10:42:03 DEBUG LinkForGeocoderApi:28 - -----------------------------------------------
+2022-11-25 10:42:03 DEBUG LinkForGeocoderApi:29 - Received address for request: 140514, установлено относительно ориентира, расположенного в границах участка. Почтовый адрес ориентира: Московская обл., р-н Луховицкий, снт Березка-4, уч-к 49
+2022-11-25 10:42:03 DEBUG LinkForGeocoderApi:28 - -----------------------------------------------
+2022-11-25 10:42:03 DEBUG LinkForGeocoderApi:29 - Received address for request: 140235, Московская область, Воскресенский район, д. Елкино, ул. Совхозная, участок 30-а
+2022-11-25 10:42:04 DEBUG LinkForGeocoderApi:28 - -----------------------------------------------
+2022-11-25 10:42:04 DEBUG LinkForGeocoderApi:29 - Received address for request: Московская область, Ногинский район, д. Жилино, массив №1, участок б/н
+2022-11-25 10:42:04 DEBUG LinkForGeocoderApi:28 - -----------------------------------------------
+2022-11-25 10:42:04 DEBUG LinkForGeocoderApi:29 - Received address for request: 140000, Московская обл., Воскресенский р-н
+2022-11-25 10:42:04 DEBUG LinkForGeocoderApi:28 - -----------------------------------------------
+2022-11-25 10:42:04 DEBUG LinkForGeocoderApi:29 - Received address for request: 140000, Московская обл., Воскресенск г
+2022-11-25 10:42:04 DEBUG LinkForGeocoderApi:28 - -----------------------------------------------
+2022-11-25 10:42:04 DEBUG LinkForGeocoderApi:29 - Received address for request: 140000, Московская обл., Зарайский р-н, Беспятово д
+2022-11-25 10:42:04 DEBUG LinkForGeocoderApi:28 - -----------------------------------------------
+2022-11-25 10:42:04 DEBUG LinkForGeocoderApi:29 - Received address for request: 140318, Московская область, р-н Егорьевский, д. Фильчаково, д.14
+2022-11-25 10:42:04 DEBUG LinkForGeocoderApi:28 - -----------------------------------------------
+2022-11-25 10:42:04 DEBUG LinkForGeocoderApi:29 - Received address for request: 140000, Местоположение установлено относительно ориентира, расположенного в границах участка. Почтовый адрес ориентира: обл. Московская, р-н Егорьевский, д. Парыкино, дом 98
+2022-11-25 10:42:04 DEBUG LinkForGeocoderApi:28 - -----------------------------------------------
+2022-11-25 10:42:04 DEBUG LinkForGeocoderApi:29 - Received address for request: 142440, Московская область, р-н Ногинский, с/п Аксено-Бутырское, д. Колонтаево, от ул. Полевая, мимо гаражей до спортивной площадки, со строительством подъезда к ФАП
+2022-11-25 10:42:05 DEBUG LinkForGeocoderApi:28 - -----------------------------------------------
+2022-11-25 10:42:05 DEBUG LinkForGeocoderApi:29 - Received address for request: 140209, Местоположение установлено относительно ориентира, расположенного в границах участка. Почтовый адрес ориентира: обл. Московская, р-н Воскресенский, с/пос Фединское, д. Муромцево, ул. Солнечная, уч-к 5
+2022-11-25 10:42:05 DEBUG LinkForGeocoderApi:28 - -----------------------------------------------
+2022-11-25 10:42:05 DEBUG LinkForGeocoderApi:29 - Received address for request: 141147, Московская обл., Щёлковский р-н, г.п. Фряново, вблизи д. Большие Петрищи
+2022-11-25 10:42:05 DEBUG LinkForGeocoderApi:28 - -----------------------------------------------
+2022-11-25 10:42:05 DEBUG LinkForGeocoderApi:29 - Received address for request: Московская обл., Балашиха г, Щитниково кв-л
+2022-11-25 10:42:05 DEBUG LinkForGeocoderApi:28 - -----------------------------------------------
+2022-11-25 10:42:05 DEBUG LinkForGeocoderApi:29 - Received address for request: 140000, Московская область, Павлово-Посадский район, севернее д. Назарьево
+2022-11-25 10:42:05 DEBUG LinkForGeocoderApi:28 - -----------------------------------------------
+2022-11-25 10:42:05 DEBUG LinkForGeocoderApi:29 - Received address for request: 140400, Московская обл., Коломна г, Цветочная ул, д.73
+2022-11-25 10:42:05 DEBUG LinkForGeocoderApi:28 - -----------------------------------------------
+2022-11-25 10:42:05 DEBUG LinkForGeocoderApi:29 - Received address for request: Московская область, Орехово-Зуевский городской округ, д. Красная Дубрава, участок 128-Г
+2022-11-25 10:42:06 DEBUG LinkForGeocoderApi:28 - -----------------------------------------------
+2022-11-25 10:42:06 DEBUG LinkForGeocoderApi:29 - Received address for request: Московская обл., г.о.Электросталь, Ногинское лесничество, Ногинское сельское участковое лесничество, квартал 33, часть выдела 9
+2022-11-25 10:42:06 DEBUG LinkForGeocoderApi:28 - -----------------------------------------------
+2022-11-25 10:42:06 DEBUG LinkForGeocoderApi:29 - Received address for request: Московская обл., Люберецкий р-н, мкрн.Саввино, в районе ул.Безымянная
+2022-11-25 10:42:06 DEBUG LinkForGeocoderApi:28 - -----------------------------------------------
+2022-11-25 10:42:06 DEBUG LinkForGeocoderApi:29 - Received address for request: 140000, Московская область, городской округ Щелково, д. Воря- Богородское, кадастровый квартал 50:14:0020326, площадь земельного участка 289 кв.м. Согласно заключению Мособлархитектуры испрашиваемый участок расположен в придорожной полосе автомобильной дороги общего пользования федерального значения А-107 Московское малое кольцо через Икшу, Ногинск, Бронницы, Голицыно, Истру на участке км. 14+300 - км. 25+400 (Щелковский муниципальный район Московской области), в водоохранной зоне, в зоне прибрежной защитной полосы р. Воря
+2022-11-25 10:42:06 DEBUG LinkForGeocoderApi:28 - -----------------------------------------------
+2022-11-25 10:42:06 DEBUG LinkForGeocoderApi:29 - Received address for request: 140000, Московская обл., Луховицкий р-н, в районе станции "Черная"
+2022-11-25 10:42:06 DEBUG LinkForGeocoderApi:28 - -----------------------------------------------
+2022-11-25 10:42:06 DEBUG LinkForGeocoderApi:29 - Received address for request: 143000, Московская область, г.о. Егорьевск, д. Ширяевская
+2022-11-25 10:42:06 DEBUG LinkForGeocoderApi:28 - -----------------------------------------------
+2022-11-25 10:42:06 DEBUG LinkForGeocoderApi:29 - Received address for request: 101000, Московская область, г. Коломна, ул. Цветочная, №76
+2022-11-25 10:42:06 DEBUG LinkForGeocoderApi:28 - -----------------------------------------------
+2022-11-25 10:42:06 DEBUG LinkForGeocoderApi:29 - Received address for request: 140400, Московская обл., Коломна г, Подлипки-6 ул, Коломенский городской округ
+2022-11-25 10:42:06 DEBUG LinkForGeocoderApi:28 - -----------------------------------------------
+2022-11-25 10:42:06 DEBUG LinkForGeocoderApi:29 - Received address for request: 140000, Московская обл., Ногинский р-н, с/пос Аксено-Бутырское, вблизи д. Березовый Мостик, з/у 109
+2022-11-25 10:42:07 DEBUG LinkForGeocoderApi:28 - -----------------------------------------------
+2022-11-25 10:42:07 DEBUG LinkForGeocoderApi:29 - Received address for request: 141135, Московская область, Щелковский р-н, с/п Огудневское, д.Протасово, Российская Федерация
+2022-11-25 10:42:07 DEBUG LinkForGeocoderApi:28 - -----------------------------------------------
+2022-11-25 10:42:07 DEBUG LinkForGeocoderApi:29 - Received address for request: 142649, установлено относительно ориентира, расположенного в границах участка. Почтовый адрес ориентира: обл. Московская, р-н Орехово- Зуевский, с/о Соболевский, д. Смолево, дом 53
+2022-11-25 10:42:07 DEBUG LinkForGeocoderApi:28 - -----------------------------------------------
+2022-11-25 10:42:07 DEBUG LinkForGeocoderApi:29 - Received address for request: 140000, Московская область,р-н Ногинский,с/п Ямкинское,д.Кабаново
+2022-11-25 10:42:07 DEBUG LinkForGeocoderApi:28 - -----------------------------------------------
+2022-11-25 10:42:07 DEBUG LinkForGeocoderApi:29 - Received address for request: 140000, обл.Московская,р-н Егорьевский,д.Голубевая
+2022-11-25 10:42:07 DEBUG LinkForGeocoderApi:28 - -----------------------------------------------
+2022-11-25 10:42:07 DEBUG LinkForGeocoderApi:29 - Received address for request: 140000, Московская обл., Ногинский р-н, с/п Аксено-Бутырское, д.Стулово
+2022-11-25 10:42:07 DEBUG LinkForGeocoderApi:28 - -----------------------------------------------
+2022-11-25 10:42:07 DEBUG LinkForGeocoderApi:29 - Received address for request: 140400, Московская обл., Коломна г
+2022-11-25 10:42:07 DEBUG LinkForGeocoderApi:28 - -----------------------------------------------
+2022-11-25 10:42:07 DEBUG LinkForGeocoderApi:29 - Received address for request: 142430, Московская обл., Ногинский р-н, Починки д, Советская ул, д.47
+2022-11-25 10:42:07 DEBUG LinkForGeocoderApi:28 - -----------------------------------------------
+2022-11-25 10:42:07 DEBUG LinkForGeocoderApi:29 - Received address for request: 140700, Московская область, р-н Шатурский, городское поселение Шатура, д. Филисово
+2022-11-25 10:42:07 DEBUG LinkForGeocoderApi:28 - -----------------------------------------------
+2022-11-25 10:42:07 DEBUG LinkForGeocoderApi:29 - Received address for request: 140000, Московская обл., Коломна г, СНТ "Коломзаводской №4" участок 423
+2022-11-25 10:42:08 DEBUG LinkForGeocoderApi:28 - -----------------------------------------------
+2022-11-25 10:42:08 DEBUG LinkForGeocoderApi:29 - Received address for request: 140000, установлено относительно ориентира, расположенного в границах участка. Почтовый адрес ориентира: обл. Московская, р-н Коломенский, с/о Непецинский, д.Речки
+2022-11-25 10:42:08 DEBUG LinkForGeocoderApi:28 - -----------------------------------------------
+2022-11-25 10:42:08 DEBUG LinkForGeocoderApi:29 - Received address for request: 142515, Московская область, р-н Павлово-Посадский
+2022-11-25 10:42:08 DEBUG LinkForGeocoderApi:28 - -----------------------------------------------
+2022-11-25 10:42:08 DEBUG LinkForGeocoderApi:29 - Received address for request: 140000, Московская обл., Шатурский район,сельское поселение Дмитровское,д. Дубровка
+2022-11-25 10:42:08 DEBUG LinkForGeocoderApi:28 - -----------------------------------------------
+2022-11-25 10:42:08 DEBUG LinkForGeocoderApi:29 - Received address for request: 140405, Московская обл., Коломенский р-н, г.Коломна, Сычево д, Коломенски йгородской округ
+2022-11-25 10:42:08 DEBUG LinkForGeocoderApi:28 - -----------------------------------------------
+2022-11-25 10:42:08 DEBUG LinkForGeocoderApi:29 - Received address for request: 140225, Московская обл., Воскресенский р-н, д. Чемодурово, ул. Солнечная, д.45
+2022-11-25 10:42:08 DEBUG LinkForGeocoderApi:28 - -----------------------------------------------
+2022-11-25 10:42:08 DEBUG LinkForGeocoderApi:29 - Received address for request: 140000, Московская обл., Ногинский р-н, Аборино д, д.27
+2022-11-25 10:42:08 DEBUG LinkForGeocoderApi:28 - -----------------------------------------------
+2022-11-25 10:42:08 DEBUG LinkForGeocoderApi:29 - Received address for request: 140220,Российская Федерация, Московская обл., Воскресенский муниципальный р-н, деревня Старая , 88
+2022-11-25 10:42:08 DEBUG LinkForGeocoderApi:28 - -----------------------------------------------
+2022-11-25 10:42:08 DEBUG LinkForGeocoderApi:29 - Received address for request: 140000, Московская обл., Шатурский район, городское поселение Шатура, деревня Левошево
+2022-11-25 10:42:09 DEBUG LinkForGeocoderApi:28 - -----------------------------------------------
+2022-11-25 10:42:09 DEBUG LinkForGeocoderApi:29 - Received address for request: 140250, Московская область, р-н Воскресенский, д. Цибино, ул. Трудовая, д. 2
+2022-11-25 10:42:09 DEBUG LinkForGeocoderApi:28 - -----------------------------------------------
+2022-11-25 10:42:09 DEBUG LinkForGeocoderApi:29 - Received address for request: 140341, местоположение установлено относительно ориентира, распложенного в границах участка. Почтовый адрес ориентира Московская обл., Егорьевский р-н, с/о Ефремовский, д. Вишневая д
+2022-11-25 10:42:09 DEBUG LinkForGeocoderApi:28 - -----------------------------------------------
+2022-11-25 10:42:09 DEBUG LinkForGeocoderApi:29 - Received address for request: 140000, местоположение установлено относительно ориентира, расположенного в границах участка. Московская обл., Коломенский р-н, с/о Макшеевский, СТН "Перово", уч-к 30
+2022-11-25 10:42:09 DEBUG LinkForGeocoderApi:28 - -----------------------------------------------
+2022-11-25 10:42:09 DEBUG LinkForGeocoderApi:29 - Received address for request: Московская обл., Щелковский р-н
+2022-11-25 10:42:09 DEBUG LinkForGeocoderApi:28 - -----------------------------------------------
+2022-11-25 10:42:09 DEBUG LinkForGeocoderApi:29 - Received address for request: 140000, Московская область, р-н Шатурский, д. Бабынино, д. 8а
+2022-11-25 10:42:09 DEBUG LinkForGeocoderApi:28 - -----------------------------------------------
+2022-11-25 10:42:09 DEBUG LinkForGeocoderApi:29 - Received address for request: 140473, Московская обл., Коломенский р-н, Непецино с
+2022-11-25 10:42:09 DEBUG LinkForGeocoderApi:28 - -----------------------------------------------
+2022-11-25 10:42:09 DEBUG LinkForGeocoderApi:29 - Received address for request: 140000, установлено относительно ориентира, расположенного в границах участка. Почтовый адрес ориентира: обл. Московская, р-н Озерский, вблизи д. Марково, снт "Надежда-1", уч-к 53
+2022-11-25 10:42:10 DEBUG LinkForGeocoderApi:28 - -----------------------------------------------
+2022-11-25 10:42:10 DEBUG LinkForGeocoderApi:29 - Received address for request: 142542, Московская обл., Павлово-Посадский р-н, Носырево д, д.70
+2022-11-25 10:42:10 DEBUG LinkForGeocoderApi:28 - -----------------------------------------------
+2022-11-25 10:42:10 DEBUG LinkForGeocoderApi:29 - Received address for request: обл.Московская, р-н Орехово-Зуевский, д. Радованье (Новинское с/п), участок 48
+2022-11-25 10:42:10 DEBUG LinkForGeocoderApi:28 - -----------------------------------------------
+2022-11-25 10:42:10 DEBUG LinkForGeocoderApi:29 - Received address for request: Московская обл., Ногинский р-н
+2022-11-25 10:42:10 DEBUG LinkForGeocoderApi:28 - -----------------------------------------------
+2022-11-25 10:42:10 DEBUG LinkForGeocoderApi:29 - Received address for request: 142671, Московская область, Орехово-Зуевский район, сельское поселение Горское, д. Кудыкино, ул. Молодежная, участок №14
+2022-11-25 10:42:11 DEBUG LinkForGeocoderApi:28 - -----------------------------------------------
+2022-11-25 10:42:11 DEBUG LinkForGeocoderApi:29 - Received address for request: 140000, Московская область, Луховицкий район, СТ "Хроматографист", уч. 3
+2022-11-25 10:42:11 DEBUG LinkForGeocoderApi:28 - -----------------------------------------------
+2022-11-25 10:42:11 DEBUG LinkForGeocoderApi:29 - Received address for request: 140000, Московская область, р-н Шатурский, д. Воронинская, д.66
+2022-11-25 10:42:11 DEBUG LinkForGeocoderApi:28 - -----------------------------------------------
+2022-11-25 10:42:11 DEBUG LinkForGeocoderApi:29 - Received address for request: 140000, Московская обл., Ногинский р-н, Гаврилово д, д.южнее деревни Гаврилово
+2022-11-25 10:42:11 DEBUG LinkForGeocoderApi:28 - -----------------------------------------------
+2022-11-25 10:42:11 DEBUG LinkForGeocoderApi:29 - Received address for request: 140720, Московская обл., Шатурский р-н, г/п Мишеронский, ДП "Покросвкий", Центральный кв-л, уч.8
+2022-11-25 10:42:11 DEBUG LinkForGeocoderApi:28 - -----------------------------------------------
+2022-11-25 10:42:11 DEBUG LinkForGeocoderApi:29 - Received address for request: 140000, Московская область, р-н Воскресенский, с/п Фединское
+2022-11-25 10:42:11 DEBUG LinkForGeocoderApi:28 - -----------------------------------------------
+2022-11-25 10:42:11 DEBUG LinkForGeocoderApi:29 - Received address for request: 140000, Московская обл., Коломенский р-н, местоположение установлено относительно ориентира, расположенного за пределами участка. Участок находится примерно в 80 м от ориентира строение №21 по направлению на север. Почтовый адрес ориентира: Московская обл., Коломенский р-н, вблизи д.Солосцово. строение №21
+2022-11-25 10:42:11 DEBUG LinkForGeocoderApi:28 - -----------------------------------------------
+2022-11-25 10:42:11 DEBUG LinkForGeocoderApi:29 - Received address for request: 140000, Московская обл., Щелковский р-н, с/п Анискинское, ДНТ "Ветерок"
+2022-11-25 10:42:12 DEBUG LinkForGeocoderApi:28 - -----------------------------------------------
+2022-11-25 10:42:12 DEBUG LinkForGeocoderApi:29 - Received address for request: 140000, Московская обл., Егорьевск г, Васютино д, д.6А
+2022-11-25 10:42:12 DEBUG LinkForGeocoderApi:28 - -----------------------------------------------
+2022-11-25 10:42:12 DEBUG LinkForGeocoderApi:29 - Received address for request: 000000, Местоположение установлено относительно ориентира, расположенного в границах участка. Почтовый адрес ориентира:обл.Московская, р-н Ногинский, городское поселение Ногинск, д.Молзино, ул.Советская, дом 23
+2022-11-25 10:42:12 DEBUG LinkForGeocoderApi:28 - -----------------------------------------------
+2022-11-25 10:42:12 DEBUG LinkForGeocoderApi:29 - Received address for request: 140000, установлено относительно ориентира, расположенного за пределами участка. Ориентир, с.Константиново. Участок находится примерно в 455 метрах от ориентира по направлению на юго-запад. Почтовый адрес ориентира: обл.Московская , р-н Воскресенский, с/пос Фединское
+2022-11-25 10:42:12 DEBUG LinkForGeocoderApi:28 - -----------------------------------------------
+2022-11-25 10:42:12 DEBUG LinkForGeocoderApi:29 - Received address for request: 140000, Московская область, р-н Егорьевский, с/т "Федякино", участок 194
+2022-11-25 10:42:12 DEBUG LinkForGeocoderApi:28 - -----------------------------------------------
+2022-11-25 10:42:12 DEBUG LinkForGeocoderApi:29 - Received address for request: 141140, Московская обл., Щелковский р-н, п. Свердловский, ПК ЗИЖ "Гвардейский", ул. Сосновая, д.22
+2022-11-25 10:42:13 DEBUG LinkForGeocoderApi:28 - -----------------------------------------------
+2022-11-25 10:42:13 DEBUG LinkForGeocoderApi:29 - Received address for request: Московская область, Щелковский район, Осеевский с/о, д. Орловка, дом 19, уч-к 19
+2022-11-25 10:42:13 DEBUG LinkForGeocoderApi:28 - -----------------------------------------------
+2022-11-25 10:42:13 DEBUG LinkForGeocoderApi:29 - Received address for request: 140000, Московская обл., г.о. Люберцы, Торбеево д, д.3
+2022-11-25 10:42:13 DEBUG LinkForGeocoderApi:28 - -----------------------------------------------
+2022-11-25 10:42:13 DEBUG LinkForGeocoderApi:29 - Received address for request: 140207, установлено относительно ориентира, расположенного в границах участка. Почтовый адрес ориентира: обл. Московская, р-н Воскресенский, с/пос. Фединское, д. Ратмирово, дом 56
+2022-11-25 10:42:13 DEBUG LinkForGeocoderApi:28 - -----------------------------------------------
+2022-11-25 10:42:13 DEBUG LinkForGeocoderApi:29 - Received address for request: 140000, Московская область, Ногинский район, у д. Следово
+2022-11-25 10:42:13 DEBUG LinkForGeocoderApi:28 - -----------------------------------------------
+2022-11-25 10:42:13 DEBUG LinkForGeocoderApi:29 - Received address for request: 140000, Московская обл., г.о. Воскресенск, д. Цибино, 157
+2022-11-25 10:42:13 DEBUG LinkForGeocoderApi:28 - -----------------------------------------------
+2022-11-25 10:42:13 DEBUG LinkForGeocoderApi:29 - Received address for request: 101001, Московская область, Воскресенский район, с/пос. Ашитковское, с. Барановское, ул. Центральная, д. 18
+2022-11-25 10:42:13 DEBUG LinkForGeocoderApi:28 - -----------------------------------------------
+2022-11-25 10:42:13 DEBUG LinkForGeocoderApi:29 - Received address for request: Российская Федерация, Московская область, Ногинский район, сельское поселение Ямкинское, с.Ямкино. ул.Советская, участок №14
+2022-11-25 10:42:14 DEBUG LinkForGeocoderApi:28 - -----------------------------------------------
+2022-11-25 10:42:14 DEBUG LinkForGeocoderApi:29 - Received address for request: 140000, Местоположение установлено относительно ориентира, расположенного в границах участка. Почтовый адрес ориентира: обл. Московская, р-н Луховицкий, д. Аксеново, уч-к 261 а.
+2022-11-25 10:42:14 DEBUG LinkForGeocoderApi:28 - -----------------------------------------------
+2022-11-25 10:42:14 DEBUG LinkForGeocoderApi:29 - Received address for request: 140318, Московская область, Егорьевский р-н, с/т Кельма
+2022-11-25 10:42:14 DEBUG LinkForGeocoderApi:28 - -----------------------------------------------
+2022-11-25 10:42:14 DEBUG LinkForGeocoderApi:29 - Received address for request: 140000, обл. Московская, р-н Луховицкий, с/о Григорьевский, с/т "Хроматографист", уч-к 20
+2022-11-25 10:42:14 DEBUG LinkForGeocoderApi:28 - -----------------------------------------------
+2022-11-25 10:42:14 DEBUG LinkForGeocoderApi:29 - Received address for request: 141143, Московская область, Щелковский район, Медвежье-Озерский с.о., дер. Долгое-Ледово, ул. Лесная, д.8
+2022-11-25 10:42:15 DEBUG LinkForGeocoderApi:28 - -----------------------------------------------
+2022-11-25 10:42:15 DEBUG LinkForGeocoderApi:29 - Received address for request: 140304,установлено относительно ориентира,расположенного в границах участка. Почтовый адрес ориентира: Московская обл., р-н Егорьевский, д.Бережки, дом 20
+2022-11-25 10:42:15 DEBUG LinkForGeocoderApi:28 - -----------------------------------------------
+2022-11-25 10:42:15 DEBUG LinkForGeocoderApi:29 - Received address for request: 140000, Московская область,д. Овчагино, проезд 1-й Овчагинский, уч. 9, городской округ Егорьевск
+2022-11-25 10:42:15 DEBUG LinkForGeocoderApi:28 - -----------------------------------------------
+2022-11-25 10:42:15 DEBUG LinkForGeocoderApi:29 - Received address for request: 140000, Московская обл., Коломенский р-н, СНТ "Таёжный" уч-к 271
+2022-11-25 10:42:15 DEBUG LinkForGeocoderApi:28 - -----------------------------------------------
+2022-11-25 10:42:15 DEBUG LinkForGeocoderApi:29 - Received address for request: 140000, Российская Федерация,Московская область, Коломенский муниципальный район,сельское поселение Биорковское, вблизи д.Кудрявцево, садовое товарищество "Дубок", участок 78
+2022-11-25 10:42:15 DEBUG LinkForGeocoderApi:28 - -----------------------------------------------
+2022-11-25 10:42:15 DEBUG LinkForGeocoderApi:29 - Received address for request: 140000, Московская обл., Воскресенский р-н, Расловлево д, СНТ "Виноградово", уч. 74
+2022-11-25 10:42:15 DEBUG LinkForGeocoderApi:28 - -----------------------------------------------
+2022-11-25 10:42:15 DEBUG LinkForGeocoderApi:29 - Received address for request: 140516, Московская область, Луховицкий район, с. Городна, ул. Центральная, д. 72а
+2022-11-25 10:42:16 DEBUG LinkForGeocoderApi:28 - -----------------------------------------------
+2022-11-25 10:42:16 DEBUG LinkForGeocoderApi:29 - Received address for request: Московская область, Щелковский р-н, СПК "Новое Литвиново"
+2022-11-25 10:42:16 DEBUG LinkForGeocoderApi:28 - -----------------------------------------------
+2022-11-25 10:42:16 DEBUG LinkForGeocoderApi:29 - Received address for request: 140200, установлено относительно ориентира, расположенного в границах участка. Почтовый адрес ориентира: Московская обл., Воскресенский р- н,с/п Фединское, Ратмирово д, д.46
+2022-11-25 10:42:16 DEBUG LinkForGeocoderApi:28 - -----------------------------------------------
+2022-11-25 10:42:16 DEBUG LinkForGeocoderApi:29 - Received address for request: 144012, установлено относительно ориентира, расположенного в границах участка. Почтовый адрес ориентира: обл. Московская, р-н Егорьевский, д.Жабки.
+2022-11-25 10:42:16 DEBUG LinkForGeocoderApi:28 - -----------------------------------------------
+2022-11-25 10:42:16 DEBUG LinkForGeocoderApi:29 - Received address for request: 140000, Местоположение установлено относительно ориентира, расположенного в границах участка. Почтовый адрес ориентира: обл. Московская, р-н Шатурский, с/о Бордуковский, д. Бордуки, ул. б/н
+2022-11-25 10:42:16 DEBUG LinkForGeocoderApi:28 - -----------------------------------------------
+2022-11-25 10:42:16 DEBUG LinkForGeocoderApi:29 - Received address for request: 140250, Местоположение установлено относительно ориентира, расположенного в границах участка. Почтовый адрес ориентира: обл. Московская, р-н Воскресенский, с/о Михалевский, с. Юрасово, ул. Центральная, дом 129
+2022-11-25 10:42:16 DEBUG LinkForGeocoderApi:28 - -----------------------------------------------
+2022-11-25 10:42:16 DEBUG LinkForGeocoderApi:29 - Received address for request: Московская область, Павлово-Посадский район, с/п Кузнецовское, д. Кузнецы
+2022-11-25 10:42:16 DEBUG LinkForGeocoderApi:28 - -----------------------------------------------
+2022-11-25 10:42:16 DEBUG LinkForGeocoderApi:29 - Received address for request: 140479, Московская обл., г. Коломна, Коломенский г. о., Негомож д
+2022-11-25 10:42:17 DEBUG LinkForGeocoderApi:28 - -----------------------------------------------
+2022-11-25 10:42:17 DEBUG LinkForGeocoderApi:29 - Received address for request: 140000, установлено относительно ориентира, расположенного в границах участка. Почтовый адрес ориентира: обл. Московская, р-н Егорьевский, сдт "Сирень", уч. 46
+2022-11-25 10:42:17 DEBUG LinkForGeocoderApi:28 - -----------------------------------------------
+2022-11-25 10:42:17 DEBUG LinkForGeocoderApi:29 - Received address for request: Московская область, Щелковский муниципальный район, городское поселение Фряново, д.Большие Петрищи
+2022-11-25 10:42:17 DEBUG LinkForGeocoderApi:28 - -----------------------------------------------
+2022-11-25 10:42:17 DEBUG LinkForGeocoderApi:29 - Received address for request: Местоположение установлено относительно ориентира, расположенного в границах участка. Почтовый адрес ориентира: обл. Московская, р-н Балашихинский, д. Русавкино-Романово, массив засройки "Вьюнка", участок 62а
+2022-11-25 10:42:17 DEBUG LinkForGeocoderApi:28 - -----------------------------------------------
+2022-11-25 10:42:17 DEBUG LinkForGeocoderApi:29 - Received address for request: 140000, установлено относительно ориентира, расположенного в границах участка. Почтовый адрес ориентира: обл. Московская, р-н Озерский, вблизи д. Холмы, СНТ "Текстильщик-4", уч. 150
+2022-11-25 10:42:18 DEBUG LinkForGeocoderApi:28 - -----------------------------------------------
+2022-11-25 10:42:18 DEBUG LinkForGeocoderApi:29 - Received address for request: 141133, Местоположение установлено относительно ориентира, расположенного за пределами участка. Ориентир жилой дом. Участок находится примерно в 880 м, по направлению на северо-восток от ориентира. Почтовый адрес ориентира: обл. Московская, Щелковский р-н, сельское поселение Огудневское, вблизи д. Вторая Алексеевка, дом 4
+2022-11-25 10:42:18 DEBUG LinkForGeocoderApi:28 - -----------------------------------------------
+2022-11-25 10:42:18 DEBUG LinkForGeocoderApi:29 - Received address for request: 140342, местоположение установлено относительно ориентира, расположенного в границах участка. Почтовый адрес ориентира: Московская обл., Егорьевский р-н, д. Костылёво, д. 64
+2022-11-25 10:42:18 DEBUG LinkForGeocoderApi:28 - -----------------------------------------------
+2022-11-25 10:42:18 DEBUG LinkForGeocoderApi:29 - Received address for request: 140000, Московская обл., Коломенский г.о., Куземкино д
+2022-11-25 10:42:18 DEBUG LinkForGeocoderApi:28 - -----------------------------------------------
+2022-11-25 10:42:18 DEBUG LinkForGeocoderApi:29 - Received address for request: 140573 Московская область, Озерский район, вблизи д. Липитино, СНТ «Полесье, уч. 15.
+2022-11-25 10:42:18 DEBUG LinkForGeocoderApi:28 - -----------------------------------------------
+2022-11-25 10:42:18 DEBUG LinkForGeocoderApi:29 - Received address for request: 140323, Московская обл., Егорьевский р-н, Полбино д.
+2022-11-25 10:42:18 DEBUG TelegramBot:120 - Записываю координаты в файл
+2022-11-25 10:42:18 DEBUG TelegramBot:120 - Вот заполенный файл
+2022-11-25 10:52:42 DEBUG TelegramBot:48 - /bytable
+2022-11-25 10:52:42 DEBUG TelegramBot:120 - Пришлите файл формата .xlsx с адресами, в котором адрес находится в столбце "D"
+2022-11-25 10:52:45 DEBUG TelegramBot:48 - 
+2022-11-25 10:52:45 DEBUG TelegramBot:120 - Получен файл
+2022-11-25 10:52:46 DEBUG FileDownloader:27 - -----------------------------------------------
+2022-11-25 10:52:46 DEBUG FileDownloader:28 - File downloading
+2022-11-25 10:52:46 DEBUG FileDownloader:29 - https://api.telegram.org/file/bot5505170056:AAG-H1biJ_jMUMIuZrMa8yjVFRPnDNIZ4mA/documents/file_49.xlsx
+2022-11-25 10:52:46 DEBUG FileDownloader:48 - File downloaded
+2022-11-25 10:52:46 DEBUG FileDownloader:49 - -----------------------------------------------
+2022-11-25 10:55:08 DEBUG TelegramBot:48 - /bytable
+2022-11-25 10:55:08 DEBUG TelegramBot:120 - Пришлите файл формата .xlsx с адресами, в котором адрес находится в столбце "D"
+2022-11-25 10:55:14 DEBUG TelegramBot:48 - 
+2022-11-25 10:55:14 DEBUG TelegramBot:120 - Получен файл
+2022-11-25 10:55:14 DEBUG FileDownloader:27 - -----------------------------------------------
+2022-11-25 10:55:14 DEBUG FileDownloader:28 - File downloading
+2022-11-25 10:55:14 DEBUG FileDownloader:29 - https://api.telegram.org/file/bot5505170056:AAG-H1biJ_jMUMIuZrMa8yjVFRPnDNIZ4mA/documents/file_50.xlsx
+2022-11-25 10:56:47 DEBUG TelegramBot:48 - /bytable
+2022-11-25 10:56:47 DEBUG TelegramBot:120 - Пришлите файл формата .xlsx с адресами, в котором адрес находится в столбце "D"
+2022-11-25 10:56:52 DEBUG TelegramBot:48 - 
+2022-11-25 10:56:52 DEBUG TelegramBot:120 - Получен файл
+2022-11-25 10:56:52 DEBUG FileDownloader:27 - -----------------------------------------------
+2022-11-25 10:56:52 DEBUG FileDownloader:28 - File downloading
+2022-11-25 10:56:52 DEBUG FileDownloader:29 - https://api.telegram.org/file/bot5505170056:AAG-H1biJ_jMUMIuZrMa8yjVFRPnDNIZ4mA/documents/file_51.xlsx
+2022-11-25 10:58:24 DEBUG TelegramBot:48 - /bytable
+2022-11-25 10:58:24 DEBUG TelegramBot:120 - Пришлите файл формата .xlsx с адресами, в котором адрес находится в столбце "D"
+2022-11-25 10:58:30 DEBUG TelegramBot:48 - 
+2022-11-25 10:58:30 DEBUG TelegramBot:120 - Получен файл
+2022-11-25 10:58:30 DEBUG FileDownloader:27 - -----------------------------------------------
+2022-11-25 10:58:30 DEBUG FileDownloader:28 - File downloading
+2022-11-25 10:58:30 DEBUG FileDownloader:29 - https://api.telegram.org/file/bot5505170056:AAG-H1biJ_jMUMIuZrMa8yjVFRPnDNIZ4mA/documents/file_52.xlsx
+2022-11-25 11:00:40 DEBUG TelegramBot:48 - /bytable
+2022-11-25 11:00:40 DEBUG TelegramBot:120 - Пришлите файл формата .xlsx с адресами, в котором адрес находится в столбце "D"
+2022-11-25 11:00:47 DEBUG TelegramBot:48 - 
+2022-11-25 11:00:47 DEBUG TelegramBot:120 - Получен файл
+2022-11-25 11:00:47 DEBUG FileDownloader:27 - -----------------------------------------------
+2022-11-25 11:00:47 DEBUG FileDownloader:28 - File downloading
+2022-11-25 11:00:47 DEBUG FileDownloader:29 - https://api.telegram.org/file/bot5505170056:AAG-H1biJ_jMUMIuZrMa8yjVFRPnDNIZ4mA/documents/file_53.xlsx
+2022-11-25 11:02:29 DEBUG TelegramBot:48 - /bytable
+2022-11-25 11:02:29 DEBUG TelegramBot:120 - Пришлите файл формата .xlsx с адресами, в котором адрес находится в столбце "D"
+2022-11-25 11:02:33 DEBUG TelegramBot:48 - 
+2022-11-25 11:02:33 DEBUG TelegramBot:120 - Получен файл
+2022-11-25 11:02:33 DEBUG FileDownloader:27 - -----------------------------------------------
+2022-11-25 11:02:33 DEBUG FileDownloader:28 - File downloading
+2022-11-25 11:02:33 DEBUG FileDownloader:29 - https://api.telegram.org/file/bot5505170056:AAG-H1biJ_jMUMIuZrMa8yjVFRPnDNIZ4mA/documents/file_54.xlsx
+2022-11-25 11:03:26 DEBUG TelegramBot:48 - /bytable
+2022-11-25 11:03:26 DEBUG TelegramBot:120 - Пришлите файл формата .xlsx с адресами, в котором адрес находится в столбце "D"
+2022-11-25 11:03:29 DEBUG TelegramBot:48 - 
+2022-11-25 11:03:29 DEBUG TelegramBot:120 - Получен файл
+2022-11-25 11:03:29 DEBUG FileDownloader:27 - -----------------------------------------------
+2022-11-25 11:03:29 DEBUG FileDownloader:28 - File downloading
+2022-11-25 11:03:29 DEBUG FileDownloader:29 - https://api.telegram.org/file/bot5505170056:AAG-H1biJ_jMUMIuZrMa8yjVFRPnDNIZ4mA/documents/file_55.xlsx
+2022-11-25 11:06:53 DEBUG TelegramBot:48 - /bytable
+2022-11-25 11:06:53 DEBUG TelegramBot:120 - Пришлите файл формата .xlsx с адресами, в котором адрес находится в столбце "D"
+2022-11-25 11:06:57 DEBUG TelegramBot:48 - 
+2022-11-25 11:06:57 DEBUG TelegramBot:120 - Получен файл
+2022-11-25 11:06:58 DEBUG FileDownloader:27 - -----------------------------------------------
+2022-11-25 11:06:58 DEBUG FileDownloader:28 - File downloading
+2022-11-25 11:06:58 DEBUG FileDownloader:29 - https://api.telegram.org/file/bot5505170056:AAG-H1biJ_jMUMIuZrMa8yjVFRPnDNIZ4mA/documents/file_56.xlsx
+2022-11-25 11:06:58 DEBUG FileDownloader:50 - File downloaded
+2022-11-25 11:06:58 DEBUG FileDownloader:51 - -----------------------------------------------
+2022-11-25 11:06:58 DEBUG LinkForGeocoderApi:28 - -----------------------------------------------
+2022-11-25 11:06:58 DEBUG LinkForGeocoderApi:29 - Received address for request: 140000, Московская область, р-н Егорьевский, д. Данилово, д. 26
+2022-11-25 11:06:58 DEBUG LinkForGeocoderApi:28 - -----------------------------------------------
+2022-11-25 11:06:58 DEBUG LinkForGeocoderApi:29 - Received address for request: 140300, Московская обл., Егорьевский г.о., д. Юрцово, д.д.224
+2022-11-25 11:06:58 DEBUG LinkForGeocoderApi:28 - -----------------------------------------------
+2022-11-25 11:06:58 DEBUG LinkForGeocoderApi:29 - Received address for request: 140500, Московская область, Луховицкий район, СНТ "Россия", уч. 123
+2022-11-25 11:06:59 DEBUG LinkForGeocoderApi:28 - -----------------------------------------------
+2022-11-25 11:06:59 DEBUG LinkForGeocoderApi:29 - Received address for request: 140514, установлено относительно ориентира, расположенного в границах участка. Почтовый адрес ориентира: Московская обл., р-н Луховицкий, снт Березка-4, уч-к 49
+2022-11-25 11:06:59 DEBUG LinkForGeocoderApi:28 - -----------------------------------------------
+2022-11-25 11:06:59 DEBUG LinkForGeocoderApi:29 - Received address for request: 140235, Московская область, Воскресенский район, д. Елкино, ул. Совхозная, участок 30-а
+2022-11-25 11:06:59 DEBUG LinkForGeocoderApi:28 - -----------------------------------------------
+2022-11-25 11:06:59 DEBUG LinkForGeocoderApi:29 - Received address for request: Московская область, Ногинский район, д. Жилино, массив №1, участок б/н
+2022-11-25 11:06:59 DEBUG LinkForGeocoderApi:28 - -----------------------------------------------
+2022-11-25 11:06:59 DEBUG LinkForGeocoderApi:29 - Received address for request: 140000, Московская обл., Воскресенский р-н
+2022-11-25 11:06:59 DEBUG LinkForGeocoderApi:28 - -----------------------------------------------
+2022-11-25 11:06:59 DEBUG LinkForGeocoderApi:29 - Received address for request: 140000, Московская обл., Воскресенск г
+2022-11-25 11:06:59 DEBUG LinkForGeocoderApi:28 - -----------------------------------------------
+2022-11-25 11:06:59 DEBUG LinkForGeocoderApi:29 - Received address for request: 140000, Московская обл., Зарайский р-н, Беспятово д
+2022-11-25 11:06:59 DEBUG LinkForGeocoderApi:28 - -----------------------------------------------
+2022-11-25 11:06:59 DEBUG LinkForGeocoderApi:29 - Received address for request: 140318, Московская область, р-н Егорьевский, д. Фильчаково, д.14
+2022-11-25 11:06:59 DEBUG LinkForGeocoderApi:28 - -----------------------------------------------
+2022-11-25 11:06:59 DEBUG LinkForGeocoderApi:29 - Received address for request: 140000, Местоположение установлено относительно ориентира, расположенного в границах участка. Почтовый адрес ориентира: обл. Московская, р-н Егорьевский, д. Парыкино, дом 98
+2022-11-25 11:07:00 DEBUG LinkForGeocoderApi:28 - -----------------------------------------------
+2022-11-25 11:07:00 DEBUG LinkForGeocoderApi:29 - Received address for request: 142440, Московская область, р-н Ногинский, с/п Аксено-Бутырское, д. Колонтаево, от ул. Полевая, мимо гаражей до спортивной площадки, со строительством подъезда к ФАП
+2022-11-25 11:07:00 DEBUG LinkForGeocoderApi:28 - -----------------------------------------------
+2022-11-25 11:07:00 DEBUG LinkForGeocoderApi:29 - Received address for request: 140209, Местоположение установлено относительно ориентира, расположенного в границах участка. Почтовый адрес ориентира: обл. Московская, р-н Воскресенский, с/пос Фединское, д. Муромцево, ул. Солнечная, уч-к 5
+2022-11-25 11:07:00 DEBUG LinkForGeocoderApi:28 - -----------------------------------------------
+2022-11-25 11:07:00 DEBUG LinkForGeocoderApi:29 - Received address for request: 141147, Московская обл., Щёлковский р-н, г.п. Фряново, вблизи д. Большие Петрищи
+2022-11-25 11:07:00 DEBUG LinkForGeocoderApi:28 - -----------------------------------------------
+2022-11-25 11:07:00 DEBUG LinkForGeocoderApi:29 - Received address for request: Московская обл., Балашиха г, Щитниково кв-л
+2022-11-25 11:07:00 DEBUG LinkForGeocoderApi:28 - -----------------------------------------------
+2022-11-25 11:07:00 DEBUG LinkForGeocoderApi:29 - Received address for request: 140000, Московская область, Павлово-Посадский район, севернее д. Назарьево
+2022-11-25 11:07:00 DEBUG LinkForGeocoderApi:28 - -----------------------------------------------
+2022-11-25 11:07:00 DEBUG LinkForGeocoderApi:29 - Received address for request: 140400, Московская обл., Коломна г, Цветочная ул, д.73
+2022-11-25 11:07:01 DEBUG LinkForGeocoderApi:28 - -----------------------------------------------
+2022-11-25 11:07:01 DEBUG LinkForGeocoderApi:29 - Received address for request: Московская область, Орехово-Зуевский городской округ, д. Красная Дубрава, участок 128-Г
+2022-11-25 11:07:01 DEBUG LinkForGeocoderApi:28 - -----------------------------------------------
+2022-11-25 11:07:01 DEBUG LinkForGeocoderApi:29 - Received address for request: Московская обл., г.о.Электросталь, Ногинское лесничество, Ногинское сельское участковое лесничество, квартал 33, часть выдела 9
+2022-11-25 11:07:01 DEBUG LinkForGeocoderApi:28 - -----------------------------------------------
+2022-11-25 11:07:01 DEBUG LinkForGeocoderApi:29 - Received address for request: Московская обл., Люберецкий р-н, мкрн.Саввино, в районе ул.Безымянная
+2022-11-25 11:07:01 DEBUG LinkForGeocoderApi:28 - -----------------------------------------------
+2022-11-25 11:07:01 DEBUG LinkForGeocoderApi:29 - Received address for request: 140000, Московская область, городской округ Щелково, д. Воря- Богородское, кадастровый квартал 50:14:0020326, площадь земельного участка 289 кв.м. Согласно заключению Мособлархитектуры испрашиваемый участок расположен в придорожной полосе автомобильной дороги общего пользования федерального значения А-107 Московское малое кольцо через Икшу, Ногинск, Бронницы, Голицыно, Истру на участке км. 14+300 - км. 25+400 (Щелковский муниципальный район Московской области), в водоохранной зоне, в зоне прибрежной защитной полосы р. Воря
+2022-11-25 11:07:01 DEBUG LinkForGeocoderApi:28 - -----------------------------------------------
+2022-11-25 11:07:01 DEBUG LinkForGeocoderApi:29 - Received address for request: 140000, Московская обл., Луховицкий р-н, в районе станции "Черная"
+2022-11-25 11:07:01 DEBUG LinkForGeocoderApi:28 - -----------------------------------------------
+2022-11-25 11:07:01 DEBUG LinkForGeocoderApi:29 - Received address for request: 143000, Московская область, г.о. Егорьевск, д. Ширяевская
+2022-11-25 11:07:01 DEBUG LinkForGeocoderApi:28 - -----------------------------------------------
+2022-11-25 11:07:01 DEBUG LinkForGeocoderApi:29 - Received address for request: 101000, Московская область, г. Коломна, ул. Цветочная, №76
+2022-11-25 11:07:01 DEBUG LinkForGeocoderApi:28 - -----------------------------------------------
+2022-11-25 11:07:01 DEBUG LinkForGeocoderApi:29 - Received address for request: 140400, Московская обл., Коломна г, Подлипки-6 ул, Коломенский городской округ
+2022-11-25 11:07:02 DEBUG LinkForGeocoderApi:28 - -----------------------------------------------
+2022-11-25 11:07:02 DEBUG LinkForGeocoderApi:29 - Received address for request: 140000, Московская обл., Ногинский р-н, с/пос Аксено-Бутырское, вблизи д. Березовый Мостик, з/у 109
+2022-11-25 11:07:02 DEBUG LinkForGeocoderApi:28 - -----------------------------------------------
+2022-11-25 11:07:02 DEBUG LinkForGeocoderApi:29 - Received address for request: 141135, Московская область, Щелковский р-н, с/п Огудневское, д.Протасово, Российская Федерация
+2022-11-25 11:07:02 DEBUG LinkForGeocoderApi:28 - -----------------------------------------------
+2022-11-25 11:07:02 DEBUG LinkForGeocoderApi:29 - Received address for request: 142649, установлено относительно ориентира, расположенного в границах участка. Почтовый адрес ориентира: обл. Московская, р-н Орехово- Зуевский, с/о Соболевский, д. Смолево, дом 53
+2022-11-25 11:07:02 DEBUG LinkForGeocoderApi:28 - -----------------------------------------------
+2022-11-25 11:07:02 DEBUG LinkForGeocoderApi:29 - Received address for request: 140000, Московская область,р-н Ногинский,с/п Ямкинское,д.Кабаново
+2022-11-25 11:07:02 DEBUG LinkForGeocoderApi:28 - -----------------------------------------------
+2022-11-25 11:07:02 DEBUG LinkForGeocoderApi:29 - Received address for request: 140000, обл.Московская,р-н Егорьевский,д.Голубевая
+2022-11-25 11:07:02 DEBUG LinkForGeocoderApi:28 - -----------------------------------------------
+2022-11-25 11:07:02 DEBUG LinkForGeocoderApi:29 - Received address for request: 140000, Московская обл., Ногинский р-н, с/п Аксено-Бутырское, д.Стулово
+2022-11-25 11:07:02 DEBUG LinkForGeocoderApi:28 - -----------------------------------------------
+2022-11-25 11:07:02 DEBUG LinkForGeocoderApi:29 - Received address for request: 140400, Московская обл., Коломна г
+2022-11-25 11:07:02 DEBUG LinkForGeocoderApi:28 - -----------------------------------------------
+2022-11-25 11:07:02 DEBUG LinkForGeocoderApi:29 - Received address for request: 142430, Московская обл., Ногинский р-н, Починки д, Советская ул, д.47
+2022-11-25 11:07:03 DEBUG LinkForGeocoderApi:28 - -----------------------------------------------
+2022-11-25 11:07:03 DEBUG LinkForGeocoderApi:29 - Received address for request: 140700, Московская область, р-н Шатурский, городское поселение Шатура, д. Филисово
+2022-11-25 11:07:03 DEBUG LinkForGeocoderApi:28 - -----------------------------------------------
+2022-11-25 11:07:03 DEBUG LinkForGeocoderApi:29 - Received address for request: 140000, Московская обл., Коломна г, СНТ "Коломзаводской №4" участок 423
+2022-11-25 11:07:03 DEBUG LinkForGeocoderApi:28 - -----------------------------------------------
+2022-11-25 11:07:03 DEBUG LinkForGeocoderApi:29 - Received address for request: 140000, установлено относительно ориентира, расположенного в границах участка. Почтовый адрес ориентира: обл. Московская, р-н Коломенский, с/о Непецинский, д.Речки
+2022-11-25 11:07:03 DEBUG LinkForGeocoderApi:28 - -----------------------------------------------
+2022-11-25 11:07:03 DEBUG LinkForGeocoderApi:29 - Received address for request: 142515, Московская область, р-н Павлово-Посадский
+2022-11-25 11:07:03 DEBUG LinkForGeocoderApi:28 - -----------------------------------------------
+2022-11-25 11:07:03 DEBUG LinkForGeocoderApi:29 - Received address for request: 140000, Московская обл., Шатурский район,сельское поселение Дмитровское,д. Дубровка
+2022-11-25 11:07:03 DEBUG LinkForGeocoderApi:28 - -----------------------------------------------
+2022-11-25 11:07:03 DEBUG LinkForGeocoderApi:29 - Received address for request: 140405, Московская обл., Коломенский р-н, г.Коломна, Сычево д, Коломенски йгородской округ
+2022-11-25 11:07:03 DEBUG LinkForGeocoderApi:28 - -----------------------------------------------
+2022-11-25 11:07:03 DEBUG LinkForGeocoderApi:29 - Received address for request: 140225, Московская обл., Воскресенский р-н, д. Чемодурово, ул. Солнечная, д.45
+2022-11-25 11:07:03 DEBUG LinkForGeocoderApi:28 - -----------------------------------------------
+2022-11-25 11:07:03 DEBUG LinkForGeocoderApi:29 - Received address for request: 140000, Московская обл., Ногинский р-н, Аборино д, д.27
+2022-11-25 11:07:04 DEBUG LinkForGeocoderApi:28 - -----------------------------------------------
+2022-11-25 11:07:04 DEBUG LinkForGeocoderApi:29 - Received address for request: 140220,Российская Федерация, Московская обл., Воскресенский муниципальный р-н, деревня Старая , 88
+2022-11-25 11:07:04 DEBUG LinkForGeocoderApi:28 - -----------------------------------------------
+2022-11-25 11:07:04 DEBUG LinkForGeocoderApi:29 - Received address for request: 140000, Московская обл., Шатурский район, городское поселение Шатура, деревня Левошево
+2022-11-25 11:07:04 DEBUG LinkForGeocoderApi:28 - -----------------------------------------------
+2022-11-25 11:07:04 DEBUG LinkForGeocoderApi:29 - Received address for request: 140250, Московская область, р-н Воскресенский, д. Цибино, ул. Трудовая, д. 2
+2022-11-25 11:07:04 DEBUG LinkForGeocoderApi:28 - -----------------------------------------------
+2022-11-25 11:07:04 DEBUG LinkForGeocoderApi:29 - Received address for request: 140341, местоположение установлено относительно ориентира, распложенного в границах участка. Почтовый адрес ориентира Московская обл., Егорьевский р-н, с/о Ефремовский, д. Вишневая д
+2022-11-25 11:07:04 DEBUG LinkForGeocoderApi:28 - -----------------------------------------------
+2022-11-25 11:07:04 DEBUG LinkForGeocoderApi:29 - Received address for request: 140000, местоположение установлено относительно ориентира, расположенного в границах участка. Московская обл., Коломенский р-н, с/о Макшеевский, СТН "Перово", уч-к 30
+2022-11-25 11:07:05 DEBUG LinkForGeocoderApi:28 - -----------------------------------------------
+2022-11-25 11:07:05 DEBUG LinkForGeocoderApi:29 - Received address for request: Московская обл., Щелковский р-н
+2022-11-25 11:07:05 DEBUG LinkForGeocoderApi:28 - -----------------------------------------------
+2022-11-25 11:07:05 DEBUG LinkForGeocoderApi:29 - Received address for request: 140000, Московская область, р-н Шатурский, д. Бабынино, д. 8а
+2022-11-25 11:07:05 DEBUG LinkForGeocoderApi:28 - -----------------------------------------------
+2022-11-25 11:07:05 DEBUG LinkForGeocoderApi:29 - Received address for request: 140473, Московская обл., Коломенский р-н, Непецино с
+2022-11-25 11:07:05 DEBUG LinkForGeocoderApi:28 - -----------------------------------------------
+2022-11-25 11:07:05 DEBUG LinkForGeocoderApi:29 - Received address for request: 140000, установлено относительно ориентира, расположенного в границах участка. Почтовый адрес ориентира: обл. Московская, р-н Озерский, вблизи д. Марково, снт "Надежда-1", уч-к 53
+2022-11-25 11:07:05 DEBUG LinkForGeocoderApi:28 - -----------------------------------------------
+2022-11-25 11:07:05 DEBUG LinkForGeocoderApi:29 - Received address for request: 142542, Московская обл., Павлово-Посадский р-н, Носырево д, д.70
+2022-11-25 11:07:05 DEBUG LinkForGeocoderApi:28 - -----------------------------------------------
+2022-11-25 11:07:05 DEBUG LinkForGeocoderApi:29 - Received address for request: обл.Московская, р-н Орехово-Зуевский, д. Радованье (Новинское с/п), участок 48
+2022-11-25 11:07:05 DEBUG LinkForGeocoderApi:28 - -----------------------------------------------
+2022-11-25 11:07:05 DEBUG LinkForGeocoderApi:29 - Received address for request: Московская обл., Ногинский р-н
+2022-11-25 11:07:05 DEBUG LinkForGeocoderApi:28 - -----------------------------------------------
+2022-11-25 11:07:05 DEBUG LinkForGeocoderApi:29 - Received address for request: 142671, Московская область, Орехово-Зуевский район, сельское поселение Горское, д. Кудыкино, ул. Молодежная, участок №14
+2022-11-25 11:07:06 DEBUG LinkForGeocoderApi:28 - -----------------------------------------------
+2022-11-25 11:07:06 DEBUG LinkForGeocoderApi:29 - Received address for request: 140000, Московская область, Луховицкий район, СТ "Хроматографист", уч. 3
+2022-11-25 11:07:06 DEBUG LinkForGeocoderApi:28 - -----------------------------------------------
+2022-11-25 11:07:06 DEBUG LinkForGeocoderApi:29 - Received address for request: 140000, Московская область, р-н Шатурский, д. Воронинская, д.66
+2022-11-25 11:07:06 DEBUG LinkForGeocoderApi:28 - -----------------------------------------------
+2022-11-25 11:07:06 DEBUG LinkForGeocoderApi:29 - Received address for request: 140000, Московская обл., Ногинский р-н, Гаврилово д, д.южнее деревни Гаврилово
+2022-11-25 11:07:06 DEBUG LinkForGeocoderApi:28 - -----------------------------------------------
+2022-11-25 11:07:06 DEBUG LinkForGeocoderApi:29 - Received address for request: 140720, Московская обл., Шатурский р-н, г/п Мишеронский, ДП "Покросвкий", Центральный кв-л, уч.8
+2022-11-25 11:07:06 DEBUG LinkForGeocoderApi:28 - -----------------------------------------------
+2022-11-25 11:07:06 DEBUG LinkForGeocoderApi:29 - Received address for request: 140000, Московская область, р-н Воскресенский, с/п Фединское
+2022-11-25 11:07:06 DEBUG LinkForGeocoderApi:28 - -----------------------------------------------
+2022-11-25 11:07:06 DEBUG LinkForGeocoderApi:29 - Received address for request: 140000, Московская обл., Коломенский р-н, местоположение установлено относительно ориентира, расположенного за пределами участка. Участок находится примерно в 80 м от ориентира строение №21 по направлению на север. Почтовый адрес ориентира: Московская обл., Коломенский р-н, вблизи д.Солосцово. строение №21
+2022-11-25 11:07:06 DEBUG LinkForGeocoderApi:28 - -----------------------------------------------
+2022-11-25 11:07:06 DEBUG LinkForGeocoderApi:29 - Received address for request: 140000, Московская обл., Щелковский р-н, с/п Анискинское, ДНТ "Ветерок"
+2022-11-25 11:07:07 DEBUG LinkForGeocoderApi:28 - -----------------------------------------------
+2022-11-25 11:07:07 DEBUG LinkForGeocoderApi:29 - Received address for request: 140000, Московская обл., Егорьевск г, Васютино д, д.6А
+2022-11-25 11:07:07 DEBUG LinkForGeocoderApi:28 - -----------------------------------------------
+2022-11-25 11:07:07 DEBUG LinkForGeocoderApi:29 - Received address for request: 000000, Местоположение установлено относительно ориентира, расположенного в границах участка. Почтовый адрес ориентира:обл.Московская, р-н Ногинский, городское поселение Ногинск, д.Молзино, ул.Советская, дом 23
+2022-11-25 11:07:07 DEBUG LinkForGeocoderApi:28 - -----------------------------------------------
+2022-11-25 11:07:07 DEBUG LinkForGeocoderApi:29 - Received address for request: 140000, установлено относительно ориентира, расположенного за пределами участка. Ориентир, с.Константиново. Участок находится примерно в 455 метрах от ориентира по направлению на юго-запад. Почтовый адрес ориентира: обл.Московская , р-н Воскресенский, с/пос Фединское
+2022-11-25 11:07:07 DEBUG LinkForGeocoderApi:28 - -----------------------------------------------
+2022-11-25 11:07:07 DEBUG LinkForGeocoderApi:29 - Received address for request: 140000, Московская область, р-н Егорьевский, с/т "Федякино", участок 194
+2022-11-25 11:07:07 DEBUG LinkForGeocoderApi:28 - -----------------------------------------------
+2022-11-25 11:07:07 DEBUG LinkForGeocoderApi:29 - Received address for request: 141140, Московская обл., Щелковский р-н, п. Свердловский, ПК ЗИЖ "Гвардейский", ул. Сосновая, д.22
+2022-11-25 11:07:07 DEBUG LinkForGeocoderApi:28 - -----------------------------------------------
+2022-11-25 11:07:07 DEBUG LinkForGeocoderApi:29 - Received address for request: Московская область, Щелковский район, Осеевский с/о, д. Орловка, дом 19, уч-к 19
+2022-11-25 11:07:08 DEBUG LinkForGeocoderApi:28 - -----------------------------------------------
+2022-11-25 11:07:08 DEBUG LinkForGeocoderApi:29 - Received address for request: 140000, Московская обл., г.о. Люберцы, Торбеево д, д.3
+2022-11-25 11:07:08 DEBUG LinkForGeocoderApi:28 - -----------------------------------------------
+2022-11-25 11:07:08 DEBUG LinkForGeocoderApi:29 - Received address for request: 140207, установлено относительно ориентира, расположенного в границах участка. Почтовый адрес ориентира: обл. Московская, р-н Воскресенский, с/пос. Фединское, д. Ратмирово, дом 56
+2022-11-25 11:07:08 DEBUG LinkForGeocoderApi:28 - -----------------------------------------------
+2022-11-25 11:07:08 DEBUG LinkForGeocoderApi:29 - Received address for request: 140000, Московская область, Ногинский район, у д. Следово
+2022-11-25 11:07:08 DEBUG LinkForGeocoderApi:28 - -----------------------------------------------
+2022-11-25 11:07:08 DEBUG LinkForGeocoderApi:29 - Received address for request: 140000, Московская обл., г.о. Воскресенск, д. Цибино, 157
+2022-11-25 11:07:08 DEBUG LinkForGeocoderApi:28 - -----------------------------------------------
+2022-11-25 11:07:08 DEBUG LinkForGeocoderApi:29 - Received address for request: 101001, Московская область, Воскресенский район, с/пос. Ашитковское, с. Барановское, ул. Центральная, д. 18
+2022-11-25 11:07:08 DEBUG LinkForGeocoderApi:28 - -----------------------------------------------
+2022-11-25 11:07:08 DEBUG LinkForGeocoderApi:29 - Received address for request: Российская Федерация, Московская область, Ногинский район, сельское поселение Ямкинское, с.Ямкино. ул.Советская, участок №14
+2022-11-25 11:07:09 DEBUG LinkForGeocoderApi:28 - -----------------------------------------------
+2022-11-25 11:07:09 DEBUG LinkForGeocoderApi:29 - Received address for request: 140000, Местоположение установлено относительно ориентира, расположенного в границах участка. Почтовый адрес ориентира: обл. Московская, р-н Луховицкий, д. Аксеново, уч-к 261 а.
+2022-11-25 11:07:09 DEBUG LinkForGeocoderApi:28 - -----------------------------------------------
+2022-11-25 11:07:09 DEBUG LinkForGeocoderApi:29 - Received address for request: 140318, Московская область, Егорьевский р-н, с/т Кельма
+2022-11-25 11:07:09 DEBUG LinkForGeocoderApi:28 - -----------------------------------------------
+2022-11-25 11:07:09 DEBUG LinkForGeocoderApi:29 - Received address for request: 140000, обл. Московская, р-н Луховицкий, с/о Григорьевский, с/т "Хроматографист", уч-к 20
+2022-11-25 11:07:09 DEBUG LinkForGeocoderApi:28 - -----------------------------------------------
+2022-11-25 11:07:09 DEBUG LinkForGeocoderApi:29 - Received address for request: 141143, Московская область, Щелковский район, Медвежье-Озерский с.о., дер. Долгое-Ледово, ул. Лесная, д.8
+2022-11-25 11:07:09 DEBUG LinkForGeocoderApi:28 - -----------------------------------------------
+2022-11-25 11:07:09 DEBUG LinkForGeocoderApi:29 - Received address for request: 140304,установлено относительно ориентира,расположенного в границах участка. Почтовый адрес ориентира: Московская обл., р-н Егорьевский, д.Бережки, дом 20
+2022-11-25 11:07:09 DEBUG LinkForGeocoderApi:28 - -----------------------------------------------
+2022-11-25 11:07:09 DEBUG LinkForGeocoderApi:29 - Received address for request: 140000, Московская область,д. Овчагино, проезд 1-й Овчагинский, уч. 9, городской округ Егорьевск
+2022-11-25 11:07:10 DEBUG LinkForGeocoderApi:28 - -----------------------------------------------
+2022-11-25 11:07:10 DEBUG LinkForGeocoderApi:29 - Received address for request: 140000, Московская обл., Коломенский р-н, СНТ "Таёжный" уч-к 271
+2022-11-25 11:07:10 DEBUG LinkForGeocoderApi:28 - -----------------------------------------------
+2022-11-25 11:07:10 DEBUG LinkForGeocoderApi:29 - Received address for request: 140000, Российская Федерация,Московская область, Коломенский муниципальный район,сельское поселение Биорковское, вблизи д.Кудрявцево, садовое товарищество "Дубок", участок 78
+2022-11-25 11:07:10 DEBUG LinkForGeocoderApi:28 - -----------------------------------------------
+2022-11-25 11:07:10 DEBUG LinkForGeocoderApi:29 - Received address for request: 140000, Московская обл., Воскресенский р-н, Расловлево д, СНТ "Виноградово", уч. 74
+2022-11-25 11:07:10 DEBUG LinkForGeocoderApi:28 - -----------------------------------------------
+2022-11-25 11:07:10 DEBUG LinkForGeocoderApi:29 - Received address for request: 140516, Московская область, Луховицкий район, с. Городна, ул. Центральная, д. 72а
+2022-11-25 11:07:10 DEBUG LinkForGeocoderApi:28 - -----------------------------------------------
+2022-11-25 11:07:10 DEBUG LinkForGeocoderApi:29 - Received address for request: Московская область, Щелковский р-н, СПК "Новое Литвиново"
+2022-11-25 11:07:11 DEBUG LinkForGeocoderApi:28 - -----------------------------------------------
+2022-11-25 11:07:11 DEBUG LinkForGeocoderApi:29 - Received address for request: 140200, установлено относительно ориентира, расположенного в границах участка. Почтовый адрес ориентира: Московская обл., Воскресенский р- н,с/п Фединское, Ратмирово д, д.46
+2022-11-25 11:07:11 DEBUG LinkForGeocoderApi:28 - -----------------------------------------------
+2022-11-25 11:07:11 DEBUG LinkForGeocoderApi:29 - Received address for request: 144012, установлено относительно ориентира, расположенного в границах участка. Почтовый адрес ориентира: обл. Московская, р-н Егорьевский, д.Жабки.
+2022-11-25 11:07:11 DEBUG LinkForGeocoderApi:28 - -----------------------------------------------
+2022-11-25 11:07:11 DEBUG LinkForGeocoderApi:29 - Received address for request: 140000, Местоположение установлено относительно ориентира, расположенного в границах участка. Почтовый адрес ориентира: обл. Московская, р-н Шатурский, с/о Бордуковский, д. Бордуки, ул. б/н
+2022-11-25 11:07:11 DEBUG LinkForGeocoderApi:28 - -----------------------------------------------
+2022-11-25 11:07:11 DEBUG LinkForGeocoderApi:29 - Received address for request: 140250, Местоположение установлено относительно ориентира, расположенного в границах участка. Почтовый адрес ориентира: обл. Московская, р-н Воскресенский, с/о Михалевский, с. Юрасово, ул. Центральная, дом 129
+2022-11-25 11:07:11 DEBUG LinkForGeocoderApi:28 - -----------------------------------------------
+2022-11-25 11:07:11 DEBUG LinkForGeocoderApi:29 - Received address for request: Московская область, Павлово-Посадский район, с/п Кузнецовское, д. Кузнецы
+2022-11-25 11:07:11 DEBUG LinkForGeocoderApi:28 - -----------------------------------------------
+2022-11-25 11:07:11 DEBUG LinkForGeocoderApi:29 - Received address for request: 140479, Московская обл., г. Коломна, Коломенский г. о., Негомож д
+2022-11-25 11:07:12 DEBUG LinkForGeocoderApi:28 - -----------------------------------------------
+2022-11-25 11:07:12 DEBUG LinkForGeocoderApi:29 - Received address for request: 140000, установлено относительно ориентира, расположенного в границах участка. Почтовый адрес ориентира: обл. Московская, р-н Егорьевский, сдт "Сирень", уч. 46
+2022-11-25 11:07:12 DEBUG LinkForGeocoderApi:28 - -----------------------------------------------
+2022-11-25 11:07:12 DEBUG LinkForGeocoderApi:29 - Received address for request: Московская область, Щелковский муниципальный район, городское поселение Фряново, д.Большие Петрищи
+2022-11-25 11:07:12 DEBUG LinkForGeocoderApi:28 - -----------------------------------------------
+2022-11-25 11:07:12 DEBUG LinkForGeocoderApi:29 - Received address for request: Местоположение установлено относительно ориентира, расположенного в границах участка. Почтовый адрес ориентира: обл. Московская, р-н Балашихинский, д. Русавкино-Романово, массив засройки "Вьюнка", участок 62а
+2022-11-25 11:07:12 DEBUG LinkForGeocoderApi:28 - -----------------------------------------------
+2022-11-25 11:07:12 DEBUG LinkForGeocoderApi:29 - Received address for request: 140000, установлено относительно ориентира, расположенного в границах участка. Почтовый адрес ориентира: обл. Московская, р-н Озерский, вблизи д. Холмы, СНТ "Текстильщик-4", уч. 150
+2022-11-25 11:07:12 DEBUG LinkForGeocoderApi:28 - -----------------------------------------------
+2022-11-25 11:07:12 DEBUG LinkForGeocoderApi:29 - Received address for request: 141133, Местоположение установлено относительно ориентира, расположенного за пределами участка. Ориентир жилой дом. Участок находится примерно в 880 м, по направлению на северо-восток от ориентира. Почтовый адрес ориентира: обл. Московская, Щелковский р-н, сельское поселение Огудневское, вблизи д. Вторая Алексеевка, дом 4
+2022-11-25 11:07:13 DEBUG LinkForGeocoderApi:28 - -----------------------------------------------
+2022-11-25 11:07:13 DEBUG LinkForGeocoderApi:29 - Received address for request: 140342, местоположение установлено относительно ориентира, расположенного в границах участка. Почтовый адрес ориентира: Московская обл., Егорьевский р-н, д. Костылёво, д. 64
+2022-11-25 11:07:13 DEBUG LinkForGeocoderApi:28 - -----------------------------------------------
+2022-11-25 11:07:13 DEBUG LinkForGeocoderApi:29 - Received address for request: 140000, Московская обл., Коломенский г.о., Куземкино д
+2022-11-25 11:07:13 DEBUG LinkForGeocoderApi:28 - -----------------------------------------------
+2022-11-25 11:07:13 DEBUG LinkForGeocoderApi:29 - Received address for request: 140573 Московская область, Озерский район, вблизи д. Липитино, СНТ «Полесье, уч. 15.
+2022-11-25 11:07:13 DEBUG LinkForGeocoderApi:28 - -----------------------------------------------
+2022-11-25 11:07:13 DEBUG LinkForGeocoderApi:29 - Received address for request: 140323, Московская обл., Егорьевский р-н, Полбино д.
+2022-11-25 11:07:13 DEBUG TelegramBot:120 - Записываю координаты в файл
+2022-11-25 11:07:13 DEBUG TelegramBot:120 - Вот заполенный файл
