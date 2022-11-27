@@ -1,8 +1,11 @@
 HELP.md
+fortests.xlsx
+fortestsLight.xlsx
 target/
 !.mvn/wrapper/maven-wrapper.jar
 !**/src/main/**/target/
 !**/src/test/**/target/
+!**/src/main/recources/application.properties
 
 ### STS ###
 .apt_generated

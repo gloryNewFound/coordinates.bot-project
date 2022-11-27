@@ -540,3 +540,50 @@
 2022-11-25 11:07:13 DEBUG LinkForGeocoderApi:29 - Received address for request: 140323, Московская обл., Егорьевский р-н, Полбино д.
 2022-11-25 11:07:13 DEBUG TelegramBot:120 - Записываю координаты в файл
 2022-11-25 11:07:13 DEBUG TelegramBot:120 - Вот заполенный файл
+2022-11-27 16:05:09 DEBUG LinkForGeocoderApi:35 - Received address for request: Санкт-Петербург, Учебный пер. 6 кор 1
+2022-11-27 16:17:41 DEBUG LinkForGeocoderApi:35 - Received address for request: Санкт-Петербург, Учебный пер. 6 кор 1
+2022-11-27 16:24:36 DEBUG TelegramBot:48 - /getcounter
+2022-11-27 16:24:36 DEBUG TelegramBot:120 - Сегодня совершено 0 запросов из 900.
+2022-11-27 16:24:43 DEBUG TelegramBot:48 - /bytable
+2022-11-27 16:24:43 DEBUG TelegramBot:120 - Пришлите файл формата .xlsx с адресами, в котором адрес находится в столбце "D"
+2022-11-27 16:25:33 DEBUG TelegramBot:48 - 
+2022-11-27 16:25:33 DEBUG TelegramBot:120 - Получен файл
+2022-11-27 16:25:34 DEBUG FileDownloader:27 - -----------------------------------------------
+2022-11-27 16:25:34 DEBUG FileDownloader:28 - File downloading
+2022-11-27 16:25:34 DEBUG FileDownloader:29 - https://api.telegram.org/file/bot5505170056:AAG-H1biJ_jMUMIuZrMa8yjVFRPnDNIZ4mA/documents/file_59.xlsx
+2022-11-27 16:25:34 DEBUG FileDownloader:50 - File downloaded
+2022-11-27 16:25:34 DEBUG FileDownloader:51 - -----------------------------------------------
+2022-11-27 16:26:40 DEBUG TelegramBot:48 - /bytable
+2022-11-27 16:26:40 DEBUG TelegramBot:120 - Пришлите файл формата .xlsx с адресами, в котором адрес находится в столбце "D"
+2022-11-27 16:26:46 DEBUG TelegramBot:48 - 
+2022-11-27 16:26:46 DEBUG TelegramBot:120 - Получен файл
+2022-11-27 16:26:46 DEBUG FileDownloader:27 - -----------------------------------------------
+2022-11-27 16:26:46 DEBUG FileDownloader:28 - File downloading
+2022-11-27 16:26:46 DEBUG FileDownloader:29 - https://api.telegram.org/file/bot5505170056:AAG-H1biJ_jMUMIuZrMa8yjVFRPnDNIZ4mA/documents/file_60.xlsx
+2022-11-27 16:26:47 DEBUG FileDownloader:50 - File downloaded
+2022-11-27 16:26:47 DEBUG FileDownloader:51 - -----------------------------------------------
+2022-11-27 16:51:42 DEBUG TelegramBot:52 - /bytable
+2022-11-27 16:51:42 DEBUG TelegramBot:124 - Пришлите файл формата .xlsx с адресами, в котором адрес находится в столбце "D"
+2022-11-27 16:51:48 DEBUG TelegramBot:52 - 
+2022-11-27 16:51:48 DEBUG TelegramBot:124 - Получен файл
+2022-11-27 16:51:48 DEBUG FileDownloader:27 - -----------------------------------------------
+2022-11-27 16:51:48 DEBUG FileDownloader:28 - File downloading
+2022-11-27 16:51:48 DEBUG FileDownloader:29 - https://api.telegram.org/file/bot5505170056:AAG-H1biJ_jMUMIuZrMa8yjVFRPnDNIZ4mA/documents/file_61.xlsx
+2022-11-27 16:51:49 DEBUG FileDownloader:50 - File downloaded
+2022-11-27 16:51:49 DEBUG FileDownloader:51 - -----------------------------------------------
+2022-11-27 16:53:44 DEBUG TelegramBot:52 - /bytable
+2022-11-27 16:53:44 DEBUG TelegramBot:124 - Пришлите файл формата .xlsx с адресами, в котором адрес находится в столбце "D"
+2022-11-27 16:53:54 DEBUG TelegramBot:52 - 
+2022-11-27 16:53:54 DEBUG TelegramBot:124 - Получен файл
+2022-11-27 16:53:54 DEBUG FileDownloader:27 - -----------------------------------------------
+2022-11-27 16:53:54 DEBUG FileDownloader:28 - File downloading
+2022-11-27 16:53:54 DEBUG FileDownloader:29 - https://api.telegram.org/file/bot5505170056:AAG-H1biJ_jMUMIuZrMa8yjVFRPnDNIZ4mA/documents/file_62.xlsx
+2022-11-27 16:53:54 DEBUG FileDownloader:50 - File downloaded
+2022-11-27 16:53:54 DEBUG FileDownloader:51 - -----------------------------------------------
+2022-11-27 16:53:55 DEBUG LinkForGeocoderApi:37 - Received address for request: 140000, Московская область, р-н Егорьевский, д. Данилово, д. 26
+2022-11-27 16:53:55 DEBUG LinkForGeocoderApi:37 - Received address for request: 140300, Московская обл., Егорьевский г.о., д. Юрцово, д.д.224
+2022-11-27 16:53:55 DEBUG LinkForGeocoderApi:37 - Received address for request: 140500, Московская область, Луховицкий район, СНТ "Россия", уч. 123
+2022-11-27 16:53:55 DEBUG LinkForGeocoderApi:37 - Received address for request: 140514, установлено относительно ориентира, расположенного в границах участка. Почтовый адрес ориентира: Московская обл., р-н Луховицкий, снт Березка-4, уч-к 49
+2022-11-27 16:53:55 DEBUG LinkForGeocoderApi:37 - Received address for request: 140235, Московская область, Воскресенский район, д. Елкино, ул. Совхозная, участок 30-а
+2022-11-27 16:53:56 DEBUG TelegramBot:124 - Записываю координаты в файл
+2022-11-27 16:53:56 DEBUG TelegramBot:124 - Вот заполенный файл

@@ -7,10 +7,15 @@ import dvn.coordinates_bot.coordinates.bot.parser.ResponseParser;
 import dvn.coordinates_bot.coordinates.bot.parser.pojoResponseGeocoderAPI.FeatureMemberItem;
 import dvn.coordinates_bot.coordinates.bot.parser.pojoResponseGeocoderAPI.Point;
 import dvn.coordinates_bot.coordinates.bot.parser.pojoResponseGeocoderAPI.Response;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.annotation.Scope;
+import org.springframework.stereotype.Component;
 
 import java.util.Date;
 import java.util.List;
 
+@Component
+@Scope("prototype")
 public class ObjectAddress {
 
     private Response response;
@@ -21,12 +26,18 @@ public class ObjectAddress {
     private double latitude;
     private double longitude;
 
-    public ObjectAddress(String address) {
-        LinkForGeocoderApi urlForRequest = new LinkForGeocoderApi(address);
-        String responseFromApi = ApiController.getRequest(urlForRequest.getRequestLink());
+    @Autowired
+    private LinkForGeocoderApi linkForGeocoderApi;
+
+    public ObjectAddress() {
+    }
+
+    public void fillAllObjectAddressFields(String foundAddress) {
+        this.requestedAddress = foundAddress;
+        String responseFromApi = ApiController.getRequest(linkForGeocoderApi.getLinkForGeocoderApi(requestedAddress));
         GeocoderApiCounter.getAPICounter().incrementCounter();
         this.response = ResponseParser.pojoFromJsonGeocoderApiString(responseFromApi);
-        this.requestedAddress = address;
+
         List<FeatureMemberItem> responsesToCheck = response.getResponse().getGeoObjectCollection().getFeatureMember();
         if (responsesToCheck.size() == 0) {
             this.precision = false;

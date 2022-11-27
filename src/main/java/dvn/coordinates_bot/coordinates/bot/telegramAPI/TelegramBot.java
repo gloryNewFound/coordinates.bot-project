@@ -1,9 +1,10 @@
 package dvn.coordinates_bot.coordinates.bot.telegramAPI;
 
 import dvn.coordinates_bot.coordinates.bot.geocoderAPI.GeocoderApiCounter;
-import dvn.coordinates_bot.coordinates.bot.service.MainController;
+import dvn.coordinates_bot.coordinates.bot.controller.AnswerConfigurator;
 import dvn.coordinates_bot.coordinates.bot.telegramAPI.config.BotConfig;
 import lombok.extern.log4j.Log4j;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 import org.telegram.telegrambots.bots.TelegramLongPollingBot;
 import org.telegram.telegrambots.meta.api.methods.send.SendDocument;
@@ -26,6 +27,9 @@ public class TelegramBot extends TelegramLongPollingBot {
     private boolean flagByMessage;
 
     private boolean flagByFile;
+
+    @Autowired
+    private AnswerConfigurator answerConfigurator;
 
     public TelegramBot(BotConfig config) {
         this.config = config;
@@ -137,12 +141,12 @@ public class TelegramBot extends TelegramLongPollingBot {
     }
 
     private void byMessageAnswer(long chatId, String address) {
-        sendMessage(chatId, MainController.prepareAnswerForMessage(address));
+        sendMessage(chatId, answerConfigurator.prepareAnswerForMessage(address));
     }
 
     private void byTableAnswer(long chatId, Message message) {
         String fileDownloadStatus = null;
-        fileDownloadStatus = MainController.fillExcelFile(message.getDocument().getFileName(), message.getDocument().getFileId());
+        fileDownloadStatus = answerConfigurator.fillExcelFile(message.getDocument().getFileName(), message.getDocument().getFileId());
         sendMessage(chatId, fileDownloadStatus);
         sendMessage(chatId, "Вот заполенный файл");
         sendFile(chatId, new File(message.getDocument().getFileName()));
