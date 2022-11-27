@@ -60,8 +60,6 @@ public class TelegramBot extends TelegramLongPollingBot {
                 return;
             } else if (update.getMessage().getText().equals("/restart")) {
                 flagByFile = false;
-                flagByMessage = false;
-                sendMessage(chatId, "Выберите действие заново");
             } else {
                 sendMessage(chatId, "Пришлите файл формата .xlsx с адресами, в котором адрес находится в столбце \"D\"");
                 return;
@@ -73,7 +71,7 @@ public class TelegramBot extends TelegramLongPollingBot {
             if (flagByMessage && (message.charAt(0) != '/') ) {
                 if (update.getMessage().hasText()) {
                     byMessageAnswer(chatId, message);
-                    flagByMessage = false;
+                    sendMessage(chatId, "Введите следующий адрес или введите /restart, чтобы выбрать другую команду");
                     return;
                 } else {
                     sendMessage(chatId, "Введите адрес для получения координат");
