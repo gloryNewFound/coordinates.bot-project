@@ -7,6 +7,7 @@ import dvn.coordinates_bot.coordinates.bot.parser.ResponseParser;
 import dvn.coordinates_bot.coordinates.bot.parser.pojoResponseGeocoderAPI.FeatureMemberItem;
 import dvn.coordinates_bot.coordinates.bot.parser.pojoResponseGeocoderAPI.Point;
 import dvn.coordinates_bot.coordinates.bot.parser.pojoResponseGeocoderAPI.Response;
+import dvn.coordinates_bot.coordinates.bot.regions.Region;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Component;
@@ -32,9 +33,10 @@ public class ObjectAddress {
     public ObjectAddress() {
     }
 
-    public void fillAllObjectAddressFields(String foundAddress) {
+    public void fillAllObjectAddressFields(String foundAddress, String region) {
         this.requestedAddress = foundAddress;
-        String responseFromApi = ApiController.getRequest(linkForGeocoderApi.getLinkForGeocoderApi(requestedAddress));
+
+        String responseFromApi = ApiController.getRequest(linkForGeocoderApi.getLinkForGeocoderApi(requestedAddress, region));
         GeocoderApiCounter.getAPICounter().incrementCounter();
         this.response = ResponseParser.pojoFromJsonGeocoderApiString(responseFromApi);
 

@@ -3,6 +3,7 @@ package dvn.coordinates_bot.coordinates.bot.controller;
 import dvn.coordinates_bot.coordinates.bot.entity.ObjectAddress;
 import dvn.coordinates_bot.coordinates.bot.geocoderAPI.GeocoderApiCounter;
 import dvn.coordinates_bot.coordinates.bot.telegramAPI.service.FileDownloader;
+import lombok.extern.log4j.Log4j;
 import org.apache.poi.ss.usermodel.Cell;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
@@ -15,6 +16,7 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 
 @Component
+@Log4j
 public class AnswerConfigurator {
 
     @Autowired
@@ -28,7 +30,7 @@ public class AnswerConfigurator {
         if (isRequestsLimitReached()) {
             return "Количество запросв превысило допустимые 900 шт. Новые запросы можно будет совершать завтра.";
         }
-        objectAddress.fillAllObjectAddressFields(requestedAddress);
+        objectAddress.fillAllObjectAddressFields(requestedAddress, null);
         writeLogToConsole(objectAddress.getFoundAddress(), objectAddress.isPrecision(), objectAddress.getLatitude(), objectAddress.getLongitude());
 
         return "По адресу: " + objectAddress.getFoundAddress() + " "
@@ -44,7 +46,7 @@ public class AnswerConfigurator {
         Cell currentCell;
         int rowIndex = 1;
         while (((currentCell = getRequestedAddressFromCell(excelShit, rowIndex)) != null) && !isRequestsLimitReached()) {
-            objectAddress.fillAllObjectAddressFields(currentCell.getStringCellValue());
+            objectAddress.fillAllObjectAddressFields(currentCell.getStringCellValue(), null);
             writeToTable(excelShit, objectAddress, rowIndex);
             writeLogToConsole(objectAddress.getFoundAddress(), objectAddress.isPrecision(), objectAddress.getLatitude(), objectAddress.getLongitude());
 
@@ -107,11 +109,11 @@ public class AnswerConfigurator {
     }
 
     private void writeLogToConsole(String foundAddress, boolean precision, double latitude, double longitude) {
-        System.out.println("---------------------------------Answer start---------------------------------");
-        System.out.println("Адрес: " + foundAddress);
-        System.out.println("Точность найденного объекта " + (precision ? "точные" : "примерные"));
-        System.out.println("Координаты: " + latitude + " с.ш. " + longitude + " в. д.");
-        System.out.println("---------------------------------Answer end---------------------------------");
+        log.info("---------------------------------Answer start---------------------------------");
+        log.info("Адрес: " + foundAddress);
+        log.info("Точность найденного объекта " + (precision ? "точные" : "примерные"));
+        log.info("Координаты: " + latitude + " с.ш. " + longitude + " в. д.");
+        log.info("---------------------------------Answer end---------------------------------");
     }
 
 
