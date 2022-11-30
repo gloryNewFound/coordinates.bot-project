@@ -23,7 +23,6 @@ public class AnswerConfigurator {
     private ObjectAddress objectAddress;
 
     public AnswerConfigurator(){
-
     }
 
     public String prepareAnswerForMessage(String requestedAddress) {
@@ -43,10 +42,11 @@ public class AnswerConfigurator {
         File file = openReceivedFile(fileName, fileId);
         XSSFWorkbook excelFile = openExcelXFileAndSheetForRead(file);
         XSSFSheet excelShit = excelFile.getSheetAt(0);
-        Cell currentCell;
+        Cell cellWithAddress;
         int rowIndex = 1;
-        while (((currentCell = getRequestedAddressFromCell(excelShit, rowIndex)) != null) && !isRequestsLimitReached()) {
-            objectAddress.fillAllObjectAddressFields(currentCell.getStringCellValue(), null);
+        while (((cellWithAddress = getRequestedAddressFromCell(excelShit, rowIndex)) != null) && !isRequestsLimitReached()) {
+            String region = getRequestedRegionFromCell(excelShit, rowIndex);
+            objectAddress.fillAllObjectAddressFields(cellWithAddress.getStringCellValue(), region);
             writeToTable(excelShit, objectAddress, rowIndex);
             writeLogToConsole(objectAddress.getFoundAddress(), objectAddress.isPrecision(), objectAddress.getLatitude(), objectAddress.getLongitude());
 
@@ -102,6 +102,16 @@ public class AnswerConfigurator {
             System.out.println("Все строки в файле прочитаны");
             return null;
         }
+    }
+
+    private String getRequestedRegionFromCell(XSSFSheet excelShit, int rowIndex) {
+//        try {
+            String res = excelShit.getRow(rowIndex).getCell(2).getStringCellValue();
+            return res.split(" ")[0];
+//        } catch (NullPointerException e) {
+//            log.info("Для данного запроса область не указана");
+//            return null;
+//        }
     }
 
     private boolean isRequestsLimitReached() {

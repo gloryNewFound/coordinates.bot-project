@@ -101,6 +101,11 @@ public class TelegramBot extends TelegramLongPollingBot {
                         sendMessage(chatId, "Сегодня совершено " + GeocoderApiCounter.getAPICounter().getCounter() + " запросов из 900.");
                         break;
 
+
+                    case "/getdraftfile":
+                        sendDraftTableFile(chatId, update.getMessage());
+                        break;
+
                     case "/restart":
                         sendMessage(chatId, "Выберите действие заново");
                         break;
@@ -148,5 +153,10 @@ public class TelegramBot extends TelegramLongPollingBot {
         sendMessage(chatId, fileDownloadStatus);
         sendMessage(chatId, "Вот заполенный файл");
         sendFile(chatId, new File(message.getDocument().getFileName()));
+    }
+
+    private void sendDraftTableFile(long chatId, Message message) {
+        sendMessage(chatId, "Заполните файл адресами и районами, а потом пришлите его мне");
+        sendFile(chatId, new File("Draft Table.xlsx"));
     }
 }
