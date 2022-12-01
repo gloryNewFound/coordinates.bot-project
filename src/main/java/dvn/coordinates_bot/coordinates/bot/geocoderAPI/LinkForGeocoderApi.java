@@ -40,7 +40,7 @@ public class LinkForGeocoderApi {
         if (region != null) {
             for (Region r: Region.values()) {
                 if (r.getName().equals(region)) {
-                    ll = r.getCenterLati() + "," + r.getCenterLong();
+                    ll = r.getCenterLong() + "," + r.getCenterLati();
                     spn = r.getWidth() + "," + r.getHeight();
                     break;
                 }
@@ -57,6 +57,7 @@ public class LinkForGeocoderApi {
         if (ll != null) {
             linkForGeocoderApi = (BASE_URL + "?apikey=" + API_TOKEN
                     + "&geocode=" + encodedAddress
+                    + "&rspn=" + "0"
                     + "&ll=" + ll + "&spn=" + spn //Если потребуется установить центр и область для поиска
                     + "&format=json");
         } else {

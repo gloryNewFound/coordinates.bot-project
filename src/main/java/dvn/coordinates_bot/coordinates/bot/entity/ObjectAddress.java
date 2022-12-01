@@ -27,6 +27,9 @@ public class ObjectAddress {
     private double latitude;
     private double longitude;
 
+    private String precisionDetails;
+
+
     @Autowired
     private LinkForGeocoderApi linkForGeocoderApi;
 
@@ -35,31 +38,53 @@ public class ObjectAddress {
 
     public void fillAllObjectAddressFields(String foundAddress, String region) {
         this.requestedAddress = foundAddress;
-
+        System.out.println(region);
         String responseFromApi = ApiController.getRequest(linkForGeocoderApi.getLinkForGeocoderApi(requestedAddress, region));
         GeocoderApiCounter.getAPICounter().incrementCounter();
         this.response = ResponseParser.pojoFromJsonGeocoderApiString(responseFromApi);
-
+        this.precision = false;
         List<FeatureMemberItem> responsesToCheck = response.getResponse().getGeoObjectCollection().getFeatureMember();
         if (responsesToCheck.size() == 0) {
             this.precision = false;
+            this.precisionDetails = null;
             this.point = null;
             this.foundAddress = null;
             this.latitude = 0;
             this.longitude = 0;
+            return;
 
-        } else {
+        }
             for (FeatureMemberItem item : responsesToCheck) {
                 if (item.getGeoObject().getMetaDataProperty().getGeocoderMetaData().getPrecision().equals("exact")) {
                     System.out.println(item.toString());
                     this.precision = true;
+                    this.precisionDetails = "Найдены точные координаты";
                     this.point = item.getGeoObject().getPoint();
                     this.foundAddress = item.getGeoObject().getMetaDataProperty().getGeocoderMetaData().getText();
                     break;
+                } else {
+
                 }
             }
             if (!precision) {
                 FeatureMemberItem item = responsesToCheck.get(0);
+                switch (item.getGeoObject().getMetaDataProperty().getGeocoderMetaData().getPrecision()) {
+                    case "number":
+                        this.precisionDetails = "Найден дом с указанным номером, но с другим номером строения или корпуса";
+                        break;
+                    case "near":
+                        this.precisionDetails = "Найден дом с номером, близким к запрошенному";
+                        break;
+                    case "range":
+                        this.precisionDetails = " \tНайдены приблизительные координаты запрашиваемого дома";
+                        break;
+                    case "street":
+                        this.precisionDetails = "Найдена только улица";
+                        break;
+                    case "other":
+                        this.precisionDetails = "Найдено примерное местоположение населенного пункта";
+                        break;
+                }
                 System.out.println(item.toString());
                 this.point = item.getGeoObject().getPoint();
                 this.foundAddress = item.getGeoObject().getMetaDataProperty().getGeocoderMetaData().getText();
@@ -67,7 +92,7 @@ public class ObjectAddress {
 
             this.latitude = Double.parseDouble(point.getPos().split(" ")[1]);
             this.longitude = Double.parseDouble(point.getPos().split(" ")[0]);
-        }
+
     }
 
     public String getRequestedAddress() {
@@ -94,5 +119,8 @@ public class ObjectAddress {
         return longitude;
     }
 
+    public String getPrecisionDetails() {
+        return precisionDetails;
+    }
 }
 

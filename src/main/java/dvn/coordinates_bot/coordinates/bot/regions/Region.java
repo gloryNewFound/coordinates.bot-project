@@ -18,15 +18,15 @@ public enum Region {
     SHELK("Щелковский", 56.002017, 38.134184, 0.49, 0.96);
 
     private String name;
-    private double centerLong;
     private double centerLati;
+    private double centerLong;
     private double height;
     private double width;
 
-    Region(String name, double centerLong, double centerLati, double height, double width) {
+    Region(String name, double centerLati, double centerLong, double width, double height) {
         this.name = name;
-        this.centerLong = centerLong;
         this.centerLati = centerLati;
+        this.centerLong = centerLong;
         this.height = height;
         this.width = width;
     }
@@ -35,12 +35,12 @@ public enum Region {
         return name;
     }
 
-    public double getCenterLong() {
-        return centerLong;
-    }
-
     public double getCenterLati() {
         return centerLati;
+    }
+
+    public double getCenterLong() {
+        return centerLong;
     }
 
     public double getHeight() {

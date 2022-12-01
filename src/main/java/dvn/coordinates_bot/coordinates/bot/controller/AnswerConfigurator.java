@@ -33,7 +33,7 @@ public class AnswerConfigurator {
         writeLogToConsole(objectAddress.getFoundAddress(), objectAddress.isPrecision(), objectAddress.getLatitude(), objectAddress.getLongitude());
 
         return "По адресу: " + objectAddress.getFoundAddress() + " "
-                + "найдены " + (objectAddress.isPrecision() ? "точные" : "примерные")
+                + objectAddress.getPrecisionDetails()
                 + " координаты " + objectAddress.getLatitude() + " с.ш. "
                 + objectAddress.getLongitude() + " в. д.";
     }
@@ -49,7 +49,6 @@ public class AnswerConfigurator {
             objectAddress.fillAllObjectAddressFields(cellWithAddress.getStringCellValue(), region);
             writeToTable(excelShit, objectAddress, rowIndex);
             writeLogToConsole(objectAddress.getFoundAddress(), objectAddress.isPrecision(), objectAddress.getLatitude(), objectAddress.getLongitude());
-
             rowIndex++;
         }
         writeToFile(excelFile, file);
@@ -84,7 +83,7 @@ public class AnswerConfigurator {
         Cell cellToWrite1 = excelShit.getRow(rowIndex).createCell(6);
         cellToWrite1.setCellValue(objectAddress.getLatitude() + " " + objectAddress.getLongitude());
         Cell cellToWrite2 = excelShit.getRow(rowIndex).createCell(7);
-        cellToWrite2.setCellValue("Найдены " + (objectAddress.isPrecision() ? "точные" : "примерные") + " координаты");
+        cellToWrite2.setCellValue(objectAddress.getPrecisionDetails());
     }
 
     private void writeToFile(XSSFWorkbook excelFile, File file) {
