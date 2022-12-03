@@ -17,29 +17,22 @@ import org.telegram.telegrambots.meta.exceptions.TelegramApiException;
 import java.io.File;
 import java.util.Date;
 
-
 @Component
 @Log4j
 public class TelegramBot extends TelegramLongPollingBot {
 
     final BotConfig config;
-
     private boolean flagByMessage;
-
     private boolean flagByFile;
-
     @Autowired
     private AnswerConfigurator answerConfigurator;
-
     public TelegramBot(BotConfig config) {
         this.config = config;
     }
-
     @Override
     public String getBotUsername() {
         return config.getBotName();
     }
-
     @Override
     public String getBotToken() {
         return config.getToken();
@@ -49,69 +42,89 @@ public class TelegramBot extends TelegramLongPollingBot {
     public void onUpdateReceived(Update update) {
         long chatId = update.getMessage().getChatId();
         String message = update.getMessage().getText();
-        log.debug(message);
+        log.debug("Received new message: " + message);
+
         if (flagByFile) {
             if (update.getMessage().hasDocument()) {
-                System.out.println(new Date());
-                System.out.println("File received");
-                sendMessage(chatId, "Получен файл");
-                byTableAnswer(chatId, update.getMessage());
-                flagByFile = false;
+                fileReceived(chatId, update); //Starting to handle the file and stop waiting for a new message
                 return;
-            } else if (update.getMessage().getText().equals("/restart")) {
-                flagByFile = false;
+            } else if (message.equals("/restart")) {
+                flagByFile = false; //Restarting commandline and starting to wait for a new message
+                return;
+            } else if (message.equals("/getdraftfile")) {
+                sendDraftTableFile(chatId, update.getMessage());
+                return;
             } else {
-                sendMessage(chatId, "Пришлите файл формата .xlsx с адресами, в котором адрес находится в столбце \"D\"");
+                byTableCommandReceived(chatId);
                 return;
             }
         }
 
         if(update.hasMessage() && update.getMessage().hasText() ) {
-
             if (flagByMessage && (message.charAt(0) != '/') ) {
                 if (update.getMessage().hasText()) {
                     byMessageAnswer(chatId, message);
-                    sendMessage(chatId, "Введите следующий адрес или введите /restart, чтобы выбрать другую команду");
                     return;
                 } else {
                     sendMessage(chatId, "Введите адрес для получения координат");
+                    return;
                 }
             }
-
             if (message.charAt(0) == '/') {
                 switch (message) {
                     case "/start":
                         startCommandReceived(chatId, update.getMessage().getChat().getFirstName());
                         break;
-
                     case "/bymessage":
-                        sendMessage(chatId, "Введите адрес для получения координат");
-                        sendMessage(chatId, "Желательно вводить адрес в формате:");
-                        sendMessage(chatId, "(Страна), (область), (округ), населённый пункт, (уточнение), улица, номер дома");
-                        sendMessage(chatId, "в скобках указаны необязательные для ввода параметры");
-                        flagByMessage = true;
+                        byMessageCommandReceived(chatId);
                         break;
-
                     case "/bytable":
-                        sendMessage(chatId, "Пришлите файл формата .xlsx с адресами, в котором адрес находится в столбце \"D\"");
-                        flagByFile = true;
+                        byTableCommandReceived(chatId);
                         break;
-
                     case "/getcounter":
-                        sendMessage(chatId, "Сегодня совершено " + GeocoderApiCounter.getAPICounter().getCounter() + " запросов из 900.");
+                        getCounterCommandReceived(chatId);
                         break;
-
-
                     case "/getdraftfile":
                         sendDraftTableFile(chatId, update.getMessage());
                         break;
-
                     case "/restart":
-                        sendMessage(chatId, "Выберите действие заново");
-                        break;
+                        restartCommandReceived(chatId);
                 }
             }
         }
+    }
+
+    private void fileReceived(long chatId, Update update) {
+        System.out.println(new Date());
+        System.out.println("File received");
+        sendMessage(chatId, "Получен файл");
+        byTableAnswer(chatId, update.getMessage());
+        flagByFile = false;
+    }
+
+    private void restartCommandReceived(long chatId) {
+        sendMessage(chatId, "Выберите действие заново");
+        flagByFile = false;
+        flagByMessage = false;
+    }
+
+    private void getCounterCommandReceived(long chatId) {
+        String quantityOfRequests = String.valueOf(GeocoderApiCounter.getAPICounter().getCounter());
+        sendMessage(chatId, "Сегодня совершено " + quantityOfRequests + " запросов из 900.");
+    }
+
+    private void byTableCommandReceived(long chatId) {
+        sendMessage(chatId, "Пришлите файл формата .xlsx с адресами, в котором адрес находится в столбце \"D\"");
+        sendMessage(chatId, "Запросить файл для заполнения адресами можно командой /getdraftfile");
+        flagByFile = true;
+    }
+
+    private void byMessageCommandReceived(long chatId) {
+        sendMessage(chatId, "Введите адрес для получения координат");
+        sendMessage(chatId, "Желательно вводить адрес в формате:");
+        sendMessage(chatId, "(Страна), (область), (округ), населённый пункт, (уточнение), улица, номер дома");
+        sendMessage(chatId, "в скобках указаны необязательные для ввода параметры");
+        flagByMessage = true;
     }
 
     private void startCommandReceived(long chatId, String userFirstName) {
@@ -124,8 +137,7 @@ public class TelegramBot extends TelegramLongPollingBot {
         SendMessage message = new SendMessage();
         message.setChatId(String.valueOf(chatId));
         message.setText(text);
-        log.info(message.getText());
-
+        log.info("Sending message: " + text);
         try {
             execute(message);
         } catch (TelegramApiException e) {
@@ -139,17 +151,22 @@ public class TelegramBot extends TelegramLongPollingBot {
         try {
             execute(sendDocument);
         } catch (TelegramApiException e) {
-            throw new RuntimeException(e);
+            System.out.println("Can't send the file: " + e.getMessage());;
         }
     }
 
     private void byMessageAnswer(long chatId, String address) {
-        sendMessage(chatId, answerConfigurator.prepareAnswerForMessage(address));
+        sendMessage(chatId, answerConfigurator.answerForMessage(address));
+        sendMessage(chatId, "Введите следующий адрес или введите /restart," +
+                " чтобы выбрать другую команду");
     }
 
     private void byTableAnswer(long chatId, Message message) {
         String fileDownloadStatus = null;
-        fileDownloadStatus = answerConfigurator.fillExcelFile(message.getDocument().getFileName(), message.getDocument().getFileId());
+        fileDownloadStatus = answerConfigurator.fillExcelFile(
+                message.getDocument().getFileName(),
+                message.getDocument().getFileId());
+
         sendMessage(chatId, fileDownloadStatus);
         sendMessage(chatId, "Вот заполенный файл");
         sendFile(chatId, new File(message.getDocument().getFileName()));

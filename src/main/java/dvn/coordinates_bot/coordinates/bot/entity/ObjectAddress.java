@@ -39,7 +39,7 @@ public class ObjectAddress {
     public void fillAllObjectAddressFields(String foundAddress, String region) {
         this.requestedAddress = foundAddress;
         System.out.println(region);
-        String responseFromApi = ApiController.getRequest(linkForGeocoderApi.getLinkForGeocoderApi(requestedAddress, region));
+        String responseFromApi = ApiController.getRequest(linkForGeocoderApi.getLinkForGeocoderApi(requestedAddress, (region.split(" "))[0]));
         GeocoderApiCounter.getAPICounter().incrementCounter();
         this.response = ResponseParser.pojoFromJsonGeocoderApiString(responseFromApi);
         this.precision = false;
@@ -76,7 +76,7 @@ public class ObjectAddress {
                         this.precisionDetails = "Найден дом с номером, близким к запрошенному";
                         break;
                     case "range":
-                        this.precisionDetails = " \tНайдены приблизительные координаты запрашиваемого дома";
+                        this.precisionDetails = " Найдены приблизительные координаты запрашиваемого дома";
                         break;
                     case "street":
                         this.precisionDetails = "Найдена только улица";

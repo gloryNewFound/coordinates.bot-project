@@ -25,13 +25,16 @@ public class AnswerConfigurator {
     public AnswerConfigurator(){
     }
 
-    public String prepareAnswerForMessage(String requestedAddress) {
+    public String answerForMessage(String requestedAddress) {
         if (isRequestsLimitReached()) {
             return "Количество запросв превысило допустимые 900 шт. Новые запросы можно будет совершать завтра.";
         }
         objectAddress.fillAllObjectAddressFields(requestedAddress, null);
         writeLogToConsole(objectAddress.getFoundAddress(), objectAddress.isPrecision(), objectAddress.getLatitude(), objectAddress.getLongitude());
+        return formatAnswerForMessage(objectAddress);
+    }
 
+    private String formatAnswerForMessage(ObjectAddress objectAddress) {
         return "По адресу: " + objectAddress.getFoundAddress() + " "
                 + objectAddress.getPrecisionDetails()
                 + " координаты " + objectAddress.getLatitude() + " с.ш. "
@@ -104,13 +107,8 @@ public class AnswerConfigurator {
     }
 
     private String getRequestedRegionFromCell(XSSFSheet excelShit, int rowIndex) {
-//        try {
-            String res = excelShit.getRow(rowIndex).getCell(2).getStringCellValue();
-            return res.split(" ")[0];
-//        } catch (NullPointerException e) {
-//            log.info("Для данного запроса область не указана");
-//            return null;
-//        }
+        String res = excelShit.getRow(rowIndex).getCell(2).getStringCellValue();
+        return res.split(", ")[0];
     }
 
     private boolean isRequestsLimitReached() {
