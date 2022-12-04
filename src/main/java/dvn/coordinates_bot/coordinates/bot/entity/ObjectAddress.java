@@ -69,6 +69,7 @@ public class ObjectAddress {
             if (!precision) {
                 FeatureMemberItem item = responsesToCheck.get(0);
                 switch (item.getGeoObject().getMetaDataProperty().getGeocoderMetaData().getPrecision()) {
+
                     case "number":
                         this.precisionDetails = "Найден дом с указанным номером, но с другим номером строения или корпуса";
                         break;

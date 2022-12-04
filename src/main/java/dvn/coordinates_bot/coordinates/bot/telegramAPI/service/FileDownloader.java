@@ -28,15 +28,6 @@ public class FileDownloader {
         log.debug("File downloading");
         log.debug(urlFileDownloading);
         URL url = new URL(urlFileDownloading);
-//        BufferedInputStream inputStream = new BufferedInputStream(url.openStream());
-//        FileOutputStream fos = new FileOutputStream(".\\forFiles\\" + fileName);
-//        byte[] buffer = new byte[1024];
-//        int count=0;
-//        while((count = inputStream.read(buffer,0,1024)) != -1) {
-//            fos.write(buffer, 0, count);
-//        }
-//        fos.close();
-//        inputStream.close();
 
         String fullFileName = fileName;
         System.out.println(fullFileName);

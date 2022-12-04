@@ -23,7 +23,7 @@ public enum Region {
     private double height;
     private double width;
 
-    Region(String name, double centerLati, double centerLong, double width, double height) {
+    Region(String name, double centerLati, double centerLong, double height, double width) {
         this.name = name;
         this.centerLati = centerLati;
         this.centerLong = centerLong;
