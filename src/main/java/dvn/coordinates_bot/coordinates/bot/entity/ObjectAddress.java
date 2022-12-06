@@ -29,7 +29,6 @@ public class ObjectAddress {
 
     private String precisionDetails;
 
-
     @Autowired
     private LinkForGeocoderApi linkForGeocoderApi;
 
@@ -39,7 +38,14 @@ public class ObjectAddress {
     public void fillAllObjectAddressFields(String foundAddress, String region) {
         this.requestedAddress = foundAddress;
         System.out.println(region);
-        String responseFromApi = ApiController.getRequest(linkForGeocoderApi.getLinkForGeocoderApi(requestedAddress, (region.split(" "))[0]));
+        String regionString = "";
+        if (region != null) {
+            regionString = (region.split(" "))[0];
+        }
+        else {
+            regionString = null;
+        }
+        String responseFromApi = ApiController.getRequest(linkForGeocoderApi.getLinkForGeocoderApi(requestedAddress, regionString));
         GeocoderApiCounter.getAPICounter().incrementCounter();
         this.response = ResponseParser.pojoFromJsonGeocoderApiString(responseFromApi);
         this.precision = false;
