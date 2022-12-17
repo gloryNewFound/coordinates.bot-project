@@ -17,11 +17,11 @@ public enum RegionsAreas {
     SHATUR("Шатурский", 55.470882, 39.788486, 1.09, 1.33),
     SHELK("Щелковский", 56.002017, 38.134184, 0.49, 0.96);
 
-    private String name;
-    private double centerLati;
-    private double centerLong;
-    private double height;
-    private double width;
+    private final String name;
+    private final double centerLati;
+    private final double centerLong;
+    private final double height;
+    private final double width;
 
     RegionsAreas(String name, double centerLati, double centerLong, double height, double width) {
         this.name = name;

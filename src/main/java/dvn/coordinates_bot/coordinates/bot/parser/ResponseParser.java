@@ -19,7 +19,7 @@ public class ResponseParser {
         try {
             pojoFromJsonString = objectMapper.readValue(response, ResponseFromGeocoderAPI.class);
         } catch (IOException e) {
-            log.error("Не удалось распарсить JSON" + e.getMessage());;
+            log.error("Не удалось распарсить JSON" + e.getMessage());
         }
         return pojoFromJsonString;
     }
@@ -30,7 +30,7 @@ public class ResponseParser {
         try {
             pojoFromJsonString = objectMapper.readValue(response, FileFromChat.class);
         } catch (IOException e) {
-            log.error("Не удалось распарсить JSON: " + e.getMessage());;
+            log.error("Не удалось распарсить JSON: " + e.getMessage());
         }
         return pojoFromJsonString;
     }

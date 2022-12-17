@@ -18,8 +18,7 @@ public class APIController {
         URL url = getURL(linkForRequest);
 
         HttpURLConnection connection = createConnection(url);
-        String response = getResponse(connection);
-        return response;
+        return getResponse(connection);
     }
 
     private static URL getURL(String linkForRequest) {
@@ -47,7 +46,7 @@ public class APIController {
     private static String getResponse(HttpURLConnection connection) {
 
         log.info("Getting response from API");
-        StringBuffer response = new StringBuffer();
+        StringBuilder response = new StringBuilder();
         try (BufferedReader input = new BufferedReader(new InputStreamReader(connection.getInputStream()))) {
             String inputLine;
             while ((inputLine = input.readLine()) != null) {

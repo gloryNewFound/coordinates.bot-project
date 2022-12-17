@@ -15,7 +15,6 @@ import org.telegram.telegrambots.meta.api.objects.Update;
 import org.telegram.telegrambots.meta.exceptions.TelegramApiException;
 
 import java.io.File;
-import java.util.Date;
 
 @Component
 @Log4j
@@ -150,7 +149,7 @@ public class TelegramBot extends TelegramLongPollingBot {
         try {
             execute(sendDocument);
         } catch (TelegramApiException e) {
-            log.error("Can't send the file: " + e.getMessage());;
+            log.error("Can't send the file: " + e.getMessage());
         }
     }
 

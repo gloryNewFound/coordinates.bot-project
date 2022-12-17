@@ -64,7 +64,7 @@ public class ObjectAddress {
         }
             for (FeatureMemberItem item : responsesToCheck) {
                 if (getFoundAddressPrecision(item).equals("exact")) {
-                    System.out.println(item.toString());
+                    System.out.println(item);
                     this.precision = true;
                     this.precisionDetails = "Найдены точные координаты";
                     this.point = item.getGeoObject().getPoint();
