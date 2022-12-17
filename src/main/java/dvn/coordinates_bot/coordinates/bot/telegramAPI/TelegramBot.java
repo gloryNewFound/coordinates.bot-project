@@ -1,7 +1,7 @@
 package dvn.coordinates_bot.coordinates.bot.telegramAPI;
 
 import dvn.coordinates_bot.coordinates.bot.geocoderAPI.GeocoderApiCounter;
-import dvn.coordinates_bot.coordinates.bot.controller.AnswerConfigurator;
+import dvn.coordinates_bot.coordinates.bot.services.AnswerConfigurator;
 import dvn.coordinates_bot.coordinates.bot.telegramAPI.config.BotConfig;
 import lombok.extern.log4j.Log4j;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -44,7 +44,7 @@ public class TelegramBot extends TelegramLongPollingBot {
         String message = update.getMessage().getText();
         log.debug("Received new message: " + message);
 
-        if (flagByFile) {
+        if (flagByFile && (message.charAt(0) != '/')) {
             if (update.getMessage().hasDocument()) {
                 fileReceived(chatId, update); //Starting to handle the file and stop waiting for a new message
                 return;
@@ -95,8 +95,7 @@ public class TelegramBot extends TelegramLongPollingBot {
     }
 
     private void fileReceived(long chatId, Update update) {
-        System.out.println(new Date());
-        System.out.println("File received");
+        log.info("File received");
         sendMessage(chatId, "Получен файл");
         byTableAnswer(chatId, update.getMessage());
         flagByFile = false;
@@ -141,7 +140,7 @@ public class TelegramBot extends TelegramLongPollingBot {
         try {
             execute(message);
         } catch (TelegramApiException e) {
-            System.out.println("Message was not executed: " + e.getMessage());
+            log.error("Message was not executed: " + e.getMessage());
         }
     }
 
@@ -151,7 +150,7 @@ public class TelegramBot extends TelegramLongPollingBot {
         try {
             execute(sendDocument);
         } catch (TelegramApiException e) {
-            System.out.println("Can't send the file: " + e.getMessage());;
+            log.error("Can't send the file: " + e.getMessage());;
         }
     }
 
@@ -162,8 +161,7 @@ public class TelegramBot extends TelegramLongPollingBot {
     }
 
     private void byTableAnswer(long chatId, Message message) {
-        String fileDownloadStatus = null;
-        fileDownloadStatus = answerConfigurator.fillExcelFile(
+        String fileDownloadStatus = answerConfigurator.fillExcelFile(
                 message.getDocument().getFileName(),
                 message.getDocument().getFileId());
 

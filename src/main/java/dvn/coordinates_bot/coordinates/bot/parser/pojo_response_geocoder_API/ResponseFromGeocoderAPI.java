@@ -1,21 +1,21 @@
-package dvn.coordinates_bot.coordinates.bot.parser.pojoResponseGeocoderAPI;
+package dvn.coordinates_bot.coordinates.bot.parser.pojo_response_geocoder_API;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 
-public class Response{
+public class ResponseFromGeocoderAPI {
 
 	@JsonProperty("response")
-	private Response response;
+	private ResponseFromGeocoderAPI responseFromGeocoderAPI;
 
 	@JsonProperty("GeoObjectCollection")
 	private GeoObjectCollection geoObjectCollection;
 
-	public void setResponse(Response response){
-		this.response = response;
+	public void setResponse(ResponseFromGeocoderAPI responseFromGeocoderAPI){
+		this.responseFromGeocoderAPI = responseFromGeocoderAPI;
 	}
 
-	public Response getResponse(){
-		return response;
+	public ResponseFromGeocoderAPI getResponse(){
+		return responseFromGeocoderAPI;
 	}
 
 	public void setGeoObjectCollection(GeoObjectCollection geoObjectCollection){
@@ -30,7 +30,7 @@ public class Response{
  	public String toString(){
 		return 
 			"Response{" + 
-			"response = '" + response + '\'' + 
+			"response = '" + responseFromGeocoderAPI + '\'' +
 			",geoObjectCollection = '" + geoObjectCollection + '\'' + 
 			"}";
 		}

@@ -1,8 +1,8 @@
-package dvn.coordinates_bot.coordinates.bot.parser.pojoResponseTGBotAPI;
+package dvn.coordinates_bot.coordinates.bot.parser.pojo_response_tgbot_API;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 
-public class Result{
+public class FileFromChatData {
 
 	@JsonProperty("file_path")
 	private String filePath;

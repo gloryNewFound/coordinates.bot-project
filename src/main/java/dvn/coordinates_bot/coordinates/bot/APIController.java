@@ -1,4 +1,6 @@
-package dvn.coordinates_bot.coordinates.bot.controller;
+package dvn.coordinates_bot.coordinates.bot;
+
+import lombok.extern.log4j.Log4j;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -7,11 +9,12 @@ import java.net.HttpURLConnection;
 import java.net.MalformedURLException;
 import java.net.URL;
 
-public class ApiController {
+@Log4j
+public class APIController {
 
-    public static String getRequest(String linkForRequest) {
+    public static String getFileDataString(String linkForRequest) {
 
-        System.out.println("Sending request to API. Link: " + linkForRequest);
+        log.info("Sending request to API. Link: " + linkForRequest);
         URL url = getURL(linkForRequest);
 
         HttpURLConnection connection = createConnection(url);
@@ -20,12 +23,12 @@ public class ApiController {
     }
 
     private static URL getURL(String linkForRequest) {
-        System.out.println("Preparing URL");
+        log.info("Preparing URL");
         URL url = null;
         try {
             url = new URL(linkForRequest);
         } catch (MalformedURLException e) {
-            System.out.println("Exception in Preparing URL " + e.getMessage());
+            log.error("Exception in Preparing URL " + e.getMessage());
         }
         return url;
     }
@@ -36,14 +39,14 @@ public class ApiController {
             connection = (HttpURLConnection) url.openConnection();
             connection.setRequestMethod("GET");
         } catch (IOException e) {
-            System.out.println(e.getStackTrace());
+            log.error(e.getStackTrace());
         }
         return connection;
     }
 
     private static String getResponse(HttpURLConnection connection) {
 
-        System.out.println("Getting response from API");
+        log.info("Getting response from API");
         StringBuffer response = new StringBuffer();
         try (BufferedReader input = new BufferedReader(new InputStreamReader(connection.getInputStream()))) {
             String inputLine;
@@ -51,7 +54,7 @@ public class ApiController {
                 response.append(inputLine);
             }
         } catch (IOException e) {
-            System.out.println("IOException in getResponse" + e.getStackTrace());
+            log.error("IOException in getResponse" + e.getStackTrace());
         }
         return response.toString();
     }

@@ -6306,3 +6306,636 @@
 2022-12-06 16:00:42 DEBUG TelegramBot:45 - Received new message: Село красное
 2022-12-06 16:00:42 INFO  TelegramBot:140 - Sending message: Пришлите файл формата .xlsx с адресами, в котором адрес находится в столбце "D"
 2022-12-06 16:00:42 INFO  TelegramBot:140 - Sending message: Запросить файл для заполнения адресами можно командой /getdraftfile
+2022-12-17 18:52:40 DEBUG TelegramBot:45 - Received new message: /bytable
+2022-12-17 18:52:40 INFO  TelegramBot:140 - Sending message: Пришлите файл формата .xlsx с адресами, в котором адрес находится в столбце "D"
+2022-12-17 18:52:40 INFO  TelegramBot:140 - Sending message: Запросить файл для заполнения адресами можно командой /getdraftfile
+2022-12-17 18:52:47 DEBUG TelegramBot:45 - Received new message: null
+2022-12-17 18:52:47 INFO  TelegramBot:140 - Sending message: Получен файл
+2022-12-17 18:55:51 DEBUG TelegramBot:45 - Received new message: /bytable
+2022-12-17 18:55:51 INFO  TelegramBot:140 - Sending message: Пришлите файл формата .xlsx с адресами, в котором адрес находится в столбце "D"
+2022-12-17 18:55:51 INFO  TelegramBot:140 - Sending message: Запросить файл для заполнения адресами можно командой /getdraftfile
+2022-12-17 18:55:56 DEBUG TelegramBot:45 - Received new message: null
+2022-12-17 18:55:56 INFO  TelegramBot:140 - Sending message: Получен файл
+2022-12-17 18:55:57 INFO  FileDownloader:21 - -----------------------------------------------
+2022-12-17 18:55:57 INFO  FileDownloader:22 - File downloading /file/bot5505170056:AAG-H1biJ_jMUMIuZrMa8yjVFRPnDNIZ4mA/documents/file_99.xlsx
+2022-12-17 18:55:57 INFO  FileDownloader:23 - File name: fortestsLight.xlsx
+2022-12-17 18:55:57 INFO  FileDownloader:35 - File downloaded
+2022-12-17 18:55:57 INFO  FileDownloader:36 - -----------------------------------------------
+2022-12-17 18:55:57 DEBUG LinkForGeocoderApi:46 - Received address for request: 140000, Московская область, р-н Егорьевский, д. Данилово, д. 26
+2022-12-17 18:55:57 INFO  AnswerConfigurator:113 - ---------------------------------Answer start---------------------------------
+2022-12-17 18:55:57 INFO  AnswerConfigurator:114 - Адрес: Россия, Московская область, городской округ Егорьевск, деревня Данилово, 26
+2022-12-17 18:55:57 INFO  AnswerConfigurator:115 - Точность найденного объекта точные
+2022-12-17 18:55:57 INFO  AnswerConfigurator:116 - Координаты: 55.4184 с.ш. 39.068064 в. д.
+2022-12-17 18:55:57 INFO  AnswerConfigurator:117 - ---------------------------------Answer end---------------------------------
+2022-12-17 18:55:57 DEBUG LinkForGeocoderApi:46 - Received address for request: 140300, Московская обл., Егорьевский г.о., д. Юрцово, д.д.224
+2022-12-17 18:55:57 INFO  AnswerConfigurator:113 - ---------------------------------Answer start---------------------------------
+2022-12-17 18:55:57 INFO  AnswerConfigurator:114 - Адрес: Россия, Московская область, городской округ Егорьевск, деревня Юрцово, 220
+2022-12-17 18:55:57 INFO  AnswerConfigurator:115 - Точность найденного объекта примерные
+2022-12-17 18:55:57 INFO  AnswerConfigurator:116 - Координаты: 55.315258 с.ш. 39.193738 в. д.
+2022-12-17 18:55:57 INFO  AnswerConfigurator:117 - ---------------------------------Answer end---------------------------------
+2022-12-17 18:55:57 DEBUG LinkForGeocoderApi:46 - Received address for request: 140500, Московская область, Луховицкий район, СНТ "Россия", уч. 123
+2022-12-17 18:55:57 INFO  AnswerConfigurator:113 - ---------------------------------Answer start---------------------------------
+2022-12-17 18:55:57 INFO  AnswerConfigurator:114 - Адрес: null
+2022-12-17 18:55:57 INFO  AnswerConfigurator:115 - Точность найденного объекта примерные
+2022-12-17 18:55:57 INFO  AnswerConfigurator:116 - Координаты: 0.0 с.ш. 0.0 в. д.
+2022-12-17 18:55:57 INFO  AnswerConfigurator:117 - ---------------------------------Answer end---------------------------------
+2022-12-17 18:55:57 DEBUG LinkForGeocoderApi:46 - Received address for request: 140514, установлено относительно ориентира, расположенного в границах участка. Почтовый адрес ориентира: Московская обл., р-н Луховицкий, снт Березка-4, уч-к 49
+2022-12-17 18:55:58 INFO  AnswerConfigurator:113 - ---------------------------------Answer start---------------------------------
+2022-12-17 18:55:58 INFO  AnswerConfigurator:114 - Адрес: Россия, Московская область, городской округ Луховицы, СНТ Берёзка-4, 49
+2022-12-17 18:55:58 INFO  AnswerConfigurator:115 - Точность найденного объекта точные
+2022-12-17 18:55:58 INFO  AnswerConfigurator:116 - Координаты: 54.986299 с.ш. 39.088079 в. д.
+2022-12-17 18:55:58 INFO  AnswerConfigurator:117 - ---------------------------------Answer end---------------------------------
+2022-12-17 18:55:58 DEBUG LinkForGeocoderApi:46 - Received address for request: 140235, Московская область, Воскресенский район, д. Елкино, ул. Совхозная, участок 30-а
+2022-12-17 18:55:58 INFO  AnswerConfigurator:113 - ---------------------------------Answer start---------------------------------
+2022-12-17 18:55:58 INFO  AnswerConfigurator:114 - Адрес: Россия, Московская область, городской округ Воскресенск, деревня Ёлкино, Совхозная улица, 28
+2022-12-17 18:55:58 INFO  AnswerConfigurator:115 - Точность найденного объекта примерные
+2022-12-17 18:55:58 INFO  AnswerConfigurator:116 - Координаты: 55.31243 с.ш. 38.828268 в. д.
+2022-12-17 18:55:58 INFO  AnswerConfigurator:117 - ---------------------------------Answer end---------------------------------
+2022-12-17 18:55:58 INFO  TelegramBot:140 - Sending message: Записываю координаты в файл
+2022-12-17 18:55:58 INFO  TelegramBot:140 - Sending message: Вот заполенный файл
+2022-12-17 18:56:20 DEBUG TelegramBot:45 - Received new message: /getcounter
+2022-12-17 18:56:20 INFO  TelegramBot:140 - Sending message: Сегодня совершено 5 запросов из 900.
+2022-12-17 18:58:02 DEBUG TelegramBot:45 - Received new message: /getcounter
+2022-12-17 18:58:59 DEBUG TelegramBot:45 - Received new message: /getcounter
+2022-12-17 18:59:00 INFO  TelegramBot:140 - Sending message: Сегодня совершено 0 запросов из 900.
+2022-12-17 22:18:49 DEBUG TelegramBot:45 - Received new message: /bymessage
+2022-12-17 22:18:49 INFO  TelegramBot:140 - Sending message: Введите адрес для получения координат
+2022-12-17 22:18:49 INFO  TelegramBot:140 - Sending message: Желательно вводить адрес в формате:
+2022-12-17 22:18:50 INFO  TelegramBot:140 - Sending message: (Страна), (область), (округ), населённый пункт, (уточнение), улица, номер дома
+2022-12-17 22:18:50 INFO  TelegramBot:140 - Sending message: в скобках указаны необязательные для ввода параметры
+2022-12-17 22:18:55 DEBUG TelegramBot:45 - Received new message: Санкт-Петербург
+2022-12-17 22:18:55 INFO  LinkForGeocoderApi:34 - Received address for request: null
+2022-12-17 22:18:55 INFO  ObjectAddress:96 - FeatureMemberItem{geoObject = 'GeoObject{metaDataProperty = 'MetaDataProperty{geocoderResponseMetaData = 'null',geocoderMetaData = 'GeocoderMetaData{address = 'Address{components = '[ComponentsItem{kind = 'country',name = 'Россия'}, ComponentsItem{kind = 'province',name = 'Северо-Западный федеральный округ'}, ComponentsItem{kind = 'province',name = 'Санкт-Петербург'}]',country_code = 'RU',formatted = 'Россия, Санкт-Петербург'}',addressDetails = 'AddressDetails{country = 'Country{administrativeArea = 'AdministrativeArea{administrativeAreaName = 'Санкт-Петербург',subAdministrativeArea = 'null'}',countryName = 'Россия',addressLine = 'Россия, Санкт-Петербург',countryNameCode = 'RU'}'}',kind = 'province',precision = 'other',text = 'Россия, Санкт-Петербург'}'}',boundedBy = 'BoundedBy{envelope = 'Envelope{lowerCorner = '29.425117 59.633711',upperCorner = '30.759528 60.244813'}'}',name = 'Санкт-Петербург',description = 'Россия',point = 'Point{pos = '30.315644 59.938955'}'}'}
+2022-12-17 22:18:55 INFO  AnswerConfigurator:113 - ---------------------------------Answer start---------------------------------
+2022-12-17 22:18:55 INFO  AnswerConfigurator:114 - Адрес: Россия, Санкт-Петербург
+2022-12-17 22:18:55 INFO  AnswerConfigurator:115 - Точность найденного объекта примерные
+2022-12-17 22:18:55 INFO  AnswerConfigurator:116 - Координаты: 59.938955 с.ш. 30.315644 в. д.
+2022-12-17 22:18:55 INFO  AnswerConfigurator:117 - ---------------------------------Answer end---------------------------------
+2022-12-17 22:18:55 INFO  TelegramBot:140 - Sending message: По адресу: Россия, Санкт-Петербург Найдено примерное местоположение населенного пункта координаты 59.938955 с.ш. 30.315644 в. д.
+2022-12-17 22:18:55 INFO  TelegramBot:140 - Sending message: Введите следующий адрес или введите /restart, чтобы выбрать другую команду
+2022-12-17 22:19:44 DEBUG TelegramBot:45 - Received new message: /bymessage
+2022-12-17 22:19:44 INFO  TelegramBot:140 - Sending message: Введите адрес для получения координат
+2022-12-17 22:19:44 INFO  TelegramBot:140 - Sending message: Желательно вводить адрес в формате:
+2022-12-17 22:19:44 INFO  TelegramBot:140 - Sending message: (Страна), (область), (округ), населённый пункт, (уточнение), улица, номер дома
+2022-12-17 22:19:44 INFO  TelegramBot:140 - Sending message: в скобках указаны необязательные для ввода параметры
+2022-12-17 22:19:54 DEBUG TelegramBot:45 - Received new message: Доха
+2022-12-17 22:19:54 INFO  LinkForGeocoderApi:34 - Received address for request: null
+2022-12-17 22:19:54 INFO  ObjectAddress:96 - FeatureMemberItem{geoObject = 'GeoObject{metaDataProperty = 'MetaDataProperty{geocoderResponseMetaData = 'null',geocoderMetaData = 'GeocoderMetaData{address = 'Address{components = '[ComponentsItem{kind = 'country',name = 'Катар'}, ComponentsItem{kind = 'locality',name = 'Доха'}]',country_code = 'QA',formatted = 'Катар, Доха'}',addressDetails = 'AddressDetails{country = 'Country{administrativeArea = 'null',countryName = 'Катар',addressLine = 'Катар, Доха',countryNameCode = 'QA'}'}',kind = 'locality',precision = 'other',text = 'Катар, Доха'}'}',boundedBy = 'BoundedBy{envelope = 'Envelope{lowerCorner = '51.447648 25.205157',upperCorner = '51.636537 25.392966'}'}',name = 'Доха',description = 'Катар',point = 'Point{pos = '51.513135 25.302569'}'}'}
+2022-12-17 22:19:54 INFO  AnswerConfigurator:113 - ---------------------------------Answer start---------------------------------
+2022-12-17 22:19:54 INFO  AnswerConfigurator:114 - Адрес: Катар, Доха
+2022-12-17 22:19:54 INFO  AnswerConfigurator:115 - Точность найденного объекта примерные
+2022-12-17 22:19:54 INFO  AnswerConfigurator:116 - Координаты: 25.302569 с.ш. 51.513135 в. д.
+2022-12-17 22:19:54 INFO  AnswerConfigurator:117 - ---------------------------------Answer end---------------------------------
+2022-12-17 22:19:54 INFO  TelegramBot:140 - Sending message: По адресу: Катар, Доха Найдено местоположение населенного пункта координаты 25.302569 с.ш. 51.513135 в. д.
+2022-12-17 22:19:54 INFO  TelegramBot:140 - Sending message: Введите следующий адрес или введите /restart, чтобы выбрать другую команду
+2022-12-17 22:20:10 DEBUG TelegramBot:45 - Received new message: /getdraftfile
+2022-12-17 22:20:10 INFO  TelegramBot:140 - Sending message: Заполните файл адресами и районами, а потом пришлите его мне
+2022-12-17 22:20:13 DEBUG TelegramBot:45 - Received new message: /bytable
+2022-12-17 22:20:13 INFO  TelegramBot:140 - Sending message: Пришлите файл формата .xlsx с адресами, в котором адрес находится в столбце "D"
+2022-12-17 22:20:13 INFO  TelegramBot:140 - Sending message: Запросить файл для заполнения адресами можно командой /getdraftfile
+2022-12-17 22:20:24 DEBUG TelegramBot:45 - Received new message: null
+2022-12-17 22:20:24 INFO  TelegramBot:140 - Sending message: Получен файл
+2022-12-17 22:20:24 INFO  FileDownloadService:21 - -----------------------------------------------
+2022-12-17 22:20:24 INFO  FileDownloadService:22 - File downloading /file/bot5505170056:AAG-H1biJ_jMUMIuZrMa8yjVFRPnDNIZ4mA/documents/file_100.xlsx
+2022-12-17 22:20:24 INFO  FileDownloadService:23 - File name: fortestsLight.xlsx
+2022-12-17 22:20:24 INFO  FileDownloadService:35 - File downloaded
+2022-12-17 22:20:24 INFO  FileDownloadService:36 - -----------------------------------------------
+2022-12-17 22:20:25 INFO  LinkForGeocoderApi:34 - Received address for request: Доха
+2022-12-17 22:20:25 INFO  AnswerConfigurator:113 - ---------------------------------Answer start---------------------------------
+2022-12-17 22:20:25 INFO  AnswerConfigurator:114 - Адрес: Россия, Московская область, городской округ Егорьевск, деревня Данилово, 26
+2022-12-17 22:20:25 INFO  AnswerConfigurator:115 - Точность найденного объекта точные
+2022-12-17 22:20:25 INFO  AnswerConfigurator:116 - Координаты: 55.4184 с.ш. 39.068064 в. д.
+2022-12-17 22:20:25 INFO  AnswerConfigurator:117 - ---------------------------------Answer end---------------------------------
+2022-12-17 22:20:25 INFO  LinkForGeocoderApi:34 - Received address for request: 140000, Московская область, р-н Егорьевский, д. Данилово, д. 26
+2022-12-17 22:20:25 INFO  ObjectAddress:96 - FeatureMemberItem{geoObject = 'GeoObject{metaDataProperty = 'MetaDataProperty{geocoderResponseMetaData = 'null',geocoderMetaData = 'GeocoderMetaData{address = 'Address{components = '[ComponentsItem{kind = 'country',name = 'Россия'}, ComponentsItem{kind = 'province',name = 'Центральный федеральный округ'}, ComponentsItem{kind = 'province',name = 'Московская область'}, ComponentsItem{kind = 'area',name = 'городской округ Егорьевск'}, ComponentsItem{kind = 'locality',name = 'деревня Юрцово'}, ComponentsItem{kind = 'house',name = '220'}]',country_code = 'RU',formatted = 'Россия, Московская область, городской округ Егорьевск, деревня Юрцово, 220'}',addressDetails = 'AddressDetails{country = 'Country{administrativeArea = 'AdministrativeArea{administrativeAreaName = 'Московская область',subAdministrativeArea = 'SubAdministrativeArea{locality = 'Locality{localityName = 'деревня Юрцово',dependentLocality = 'null'}',subAdministrativeAreaName = 'городской округ Егорьевск'}'}',countryName = 'Россия',addressLine = 'Россия, Московская область, городской округ Егорьевск, деревня Юрцово, 220',countryNameCode = 'RU'}'}',kind = 'house',precision = 'near',text = 'Россия, Московская область, городской округ Егорьевск, деревня Юрцово, 220'}'}',boundedBy = 'BoundedBy{envelope = 'Envelope{lowerCorner = '39.189633 55.312917',upperCorner = '39.197844 55.317599'}'}',name = 'деревня Юрцово, 220',description = 'городской округ Егорьевск, Московская область, Россия',point = 'Point{pos = '39.193738 55.315258'}'}'}
+2022-12-17 22:20:25 INFO  AnswerConfigurator:113 - ---------------------------------Answer start---------------------------------
+2022-12-17 22:20:25 INFO  AnswerConfigurator:114 - Адрес: Россия, Московская область, городской округ Егорьевск, деревня Юрцово, 220
+2022-12-17 22:20:25 INFO  AnswerConfigurator:115 - Точность найденного объекта примерные
+2022-12-17 22:20:25 INFO  AnswerConfigurator:116 - Координаты: 55.315258 с.ш. 39.193738 в. д.
+2022-12-17 22:20:25 INFO  AnswerConfigurator:117 - ---------------------------------Answer end---------------------------------
+2022-12-17 22:20:25 INFO  LinkForGeocoderApi:34 - Received address for request: 140300, Московская обл., Егорьевский г.о., д. Юрцово, д.д.224
+2022-12-17 22:20:25 INFO  AnswerConfigurator:113 - ---------------------------------Answer start---------------------------------
+2022-12-17 22:20:25 INFO  AnswerConfigurator:114 - Адрес: null
+2022-12-17 22:20:25 INFO  AnswerConfigurator:115 - Точность найденного объекта примерные
+2022-12-17 22:20:25 INFO  AnswerConfigurator:116 - Координаты: 0.0 с.ш. 0.0 в. д.
+2022-12-17 22:20:25 INFO  AnswerConfigurator:117 - ---------------------------------Answer end---------------------------------
+2022-12-17 22:20:25 INFO  LinkForGeocoderApi:34 - Received address for request: 140500, Московская область, Луховицкий район, СНТ "Россия", уч. 123
+2022-12-17 22:20:25 INFO  AnswerConfigurator:113 - ---------------------------------Answer start---------------------------------
+2022-12-17 22:20:25 INFO  AnswerConfigurator:114 - Адрес: Россия, Московская область, городской округ Луховицы, СНТ Берёзка-4, 49
+2022-12-17 22:20:25 INFO  AnswerConfigurator:115 - Точность найденного объекта точные
+2022-12-17 22:20:25 INFO  AnswerConfigurator:116 - Координаты: 54.986299 с.ш. 39.088079 в. д.
+2022-12-17 22:20:25 INFO  AnswerConfigurator:117 - ---------------------------------Answer end---------------------------------
+2022-12-17 22:20:25 INFO  LinkForGeocoderApi:34 - Received address for request: 140514, установлено относительно ориентира, расположенного в границах участка. Почтовый адрес ориентира: Московская обл., р-н Луховицкий, снт Березка-4, уч-к 49
+2022-12-17 22:20:26 INFO  ObjectAddress:96 - FeatureMemberItem{geoObject = 'GeoObject{metaDataProperty = 'MetaDataProperty{geocoderResponseMetaData = 'null',geocoderMetaData = 'GeocoderMetaData{address = 'Address{components = '[ComponentsItem{kind = 'country',name = 'Россия'}, ComponentsItem{kind = 'province',name = 'Центральный федеральный округ'}, ComponentsItem{kind = 'province',name = 'Московская область'}, ComponentsItem{kind = 'area',name = 'городской округ Воскресенск'}, ComponentsItem{kind = 'locality',name = 'деревня Ёлкино'}, ComponentsItem{kind = 'street',name = 'Совхозная улица'}, ComponentsItem{kind = 'house',name = '28'}]',country_code = 'RU',formatted = 'Россия, Московская область, городской округ Воскресенск, деревня Ёлкино, Совхозная улица, 28'}',addressDetails = 'AddressDetails{country = 'Country{administrativeArea = 'AdministrativeArea{administrativeAreaName = 'Московская область',subAdministrativeArea = 'SubAdministrativeArea{locality = 'Locality{localityName = 'деревня Ёлкино',dependentLocality = 'null'}',subAdministrativeAreaName = 'городской округ Воскресенск'}'}',countryName = 'Россия',addressLine = 'Россия, Московская область, городской округ Воскресенск, деревня Ёлкино, Совхозная улица, 28',countryNameCode = 'RU'}'}',kind = 'house',precision = 'near',text = 'Россия, Московская область, городской округ Воскресенск, деревня Ёлкино, Совхозная улица, 28'}'}',boundedBy = 'BoundedBy{envelope = 'Envelope{lowerCorner = '38.824163 55.310088',upperCorner = '38.832373 55.314771'}'}',name = 'Совхозная улица, 28',description = 'деревня Ёлкино, городской округ Воскресенск, Московская область, Россия',point = 'Point{pos = '38.828268 55.31243'}'}'}
+2022-12-17 22:20:26 INFO  AnswerConfigurator:113 - ---------------------------------Answer start---------------------------------
+2022-12-17 22:20:26 INFO  AnswerConfigurator:114 - Адрес: Россия, Московская область, городской округ Воскресенск, деревня Ёлкино, Совхозная улица, 28
+2022-12-17 22:20:26 INFO  AnswerConfigurator:115 - Точность найденного объекта примерные
+2022-12-17 22:20:26 INFO  AnswerConfigurator:116 - Координаты: 55.31243 с.ш. 38.828268 в. д.
+2022-12-17 22:20:26 INFO  AnswerConfigurator:117 - ---------------------------------Answer end---------------------------------
+2022-12-17 22:20:26 INFO  TelegramBot:140 - Sending message: Записываю координаты в файл
+2022-12-17 22:20:26 INFO  TelegramBot:140 - Sending message: Вот заполенный файл
+2022-12-17 22:25:36 DEBUG TelegramBot:45 - Received new message: /bytable
+2022-12-17 22:25:36 INFO  TelegramBot:140 - Sending message: Пришлите файл формата .xlsx с адресами, в котором адрес находится в столбце "D"
+2022-12-17 22:25:36 INFO  TelegramBot:140 - Sending message: Запросить файл для заполнения адресами можно командой /getdraftfile
+2022-12-17 22:25:41 DEBUG TelegramBot:45 - Received new message: null
+2022-12-17 22:25:41 INFO  TelegramBot:140 - Sending message: Получен файл
+2022-12-17 22:25:42 INFO  FileDownloadService:21 - -----------------------------------------------
+2022-12-17 22:25:42 INFO  FileDownloadService:22 - File downloading /file/bot5505170056:AAG-H1biJ_jMUMIuZrMa8yjVFRPnDNIZ4mA/documents/file_101.xlsx
+2022-12-17 22:25:42 INFO  FileDownloadService:23 - File name: fortestsLight.xlsx
+2022-12-17 22:25:42 INFO  FileDownloadService:35 - File downloaded
+2022-12-17 22:25:42 INFO  FileDownloadService:36 - -----------------------------------------------
+2022-12-17 22:25:42 INFO  LinkForGeocoderApi:34 - Received address for request: null
+2022-12-17 22:25:42 INFO  AnswerConfigurator:113 - ---------------------------------Answer start---------------------------------
+2022-12-17 22:25:42 INFO  AnswerConfigurator:114 - Адрес: Россия, Московская область, городской округ Егорьевск, деревня Данилово, 26
+2022-12-17 22:25:42 INFO  AnswerConfigurator:115 - Точность найденного объекта точные
+2022-12-17 22:25:42 INFO  AnswerConfigurator:116 - Координаты: 55.4184 с.ш. 39.068064 в. д.
+2022-12-17 22:25:42 INFO  AnswerConfigurator:117 - ---------------------------------Answer end---------------------------------
+2022-12-17 22:25:42 INFO  LinkForGeocoderApi:34 - Received address for request: 140000, Московская область, р-н Егорьевский, д. Данилово, д. 26
+2022-12-17 22:25:42 INFO  ObjectAddress:96 - FeatureMemberItem{geoObject = 'GeoObject{metaDataProperty = 'MetaDataProperty{geocoderResponseMetaData = 'null',geocoderMetaData = 'GeocoderMetaData{address = 'Address{components = '[ComponentsItem{kind = 'country',name = 'Россия'}, ComponentsItem{kind = 'province',name = 'Центральный федеральный округ'}, ComponentsItem{kind = 'province',name = 'Московская область'}, ComponentsItem{kind = 'area',name = 'городской округ Егорьевск'}, ComponentsItem{kind = 'locality',name = 'деревня Юрцово'}, ComponentsItem{kind = 'house',name = '220'}]',country_code = 'RU',formatted = 'Россия, Московская область, городской округ Егорьевск, деревня Юрцово, 220'}',addressDetails = 'AddressDetails{country = 'Country{administrativeArea = 'AdministrativeArea{administrativeAreaName = 'Московская область',subAdministrativeArea = 'SubAdministrativeArea{locality = 'Locality{localityName = 'деревня Юрцово',dependentLocality = 'null'}',subAdministrativeAreaName = 'городской округ Егорьевск'}'}',countryName = 'Россия',addressLine = 'Россия, Московская область, городской округ Егорьевск, деревня Юрцово, 220',countryNameCode = 'RU'}'}',kind = 'house',precision = 'near',text = 'Россия, Московская область, городской округ Егорьевск, деревня Юрцово, 220'}'}',boundedBy = 'BoundedBy{envelope = 'Envelope{lowerCorner = '39.189633 55.312917',upperCorner = '39.197844 55.317599'}'}',name = 'деревня Юрцово, 220',description = 'городской округ Егорьевск, Московская область, Россия',point = 'Point{pos = '39.193738 55.315258'}'}'}
+2022-12-17 22:25:42 INFO  AnswerConfigurator:113 - ---------------------------------Answer start---------------------------------
+2022-12-17 22:25:42 INFO  AnswerConfigurator:114 - Адрес: Россия, Московская область, городской округ Егорьевск, деревня Юрцово, 220
+2022-12-17 22:25:42 INFO  AnswerConfigurator:115 - Точность найденного объекта примерные
+2022-12-17 22:25:42 INFO  AnswerConfigurator:116 - Координаты: 55.315258 с.ш. 39.193738 в. д.
+2022-12-17 22:25:42 INFO  AnswerConfigurator:117 - ---------------------------------Answer end---------------------------------
+2022-12-17 22:25:42 INFO  LinkForGeocoderApi:34 - Received address for request: 140300, Московская обл., Егорьевский г.о., д. Юрцово, д.д.224
+2022-12-17 22:25:43 INFO  AnswerConfigurator:113 - ---------------------------------Answer start---------------------------------
+2022-12-17 22:25:43 INFO  AnswerConfigurator:114 - Адрес: null
+2022-12-17 22:25:43 INFO  AnswerConfigurator:115 - Точность найденного объекта примерные
+2022-12-17 22:25:43 INFO  AnswerConfigurator:116 - Координаты: 0.0 с.ш. 0.0 в. д.
+2022-12-17 22:25:43 INFO  AnswerConfigurator:117 - ---------------------------------Answer end---------------------------------
+2022-12-17 22:25:43 INFO  LinkForGeocoderApi:34 - Received address for request: 140500, Московская область, Луховицкий район, СНТ "Россия", уч. 123
+2022-12-17 22:25:43 INFO  AnswerConfigurator:113 - ---------------------------------Answer start---------------------------------
+2022-12-17 22:25:43 INFO  AnswerConfigurator:114 - Адрес: Россия, Московская область, городской округ Луховицы, СНТ Берёзка-4, 49
+2022-12-17 22:25:43 INFO  AnswerConfigurator:115 - Точность найденного объекта точные
+2022-12-17 22:25:43 INFO  AnswerConfigurator:116 - Координаты: 54.986299 с.ш. 39.088079 в. д.
+2022-12-17 22:25:43 INFO  AnswerConfigurator:117 - ---------------------------------Answer end---------------------------------
+2022-12-17 22:25:43 INFO  LinkForGeocoderApi:34 - Received address for request: 140514, установлено относительно ориентира, расположенного в границах участка. Почтовый адрес ориентира: Московская обл., р-н Луховицкий, снт Березка-4, уч-к 49
+2022-12-17 22:25:43 INFO  ObjectAddress:96 - FeatureMemberItem{geoObject = 'GeoObject{metaDataProperty = 'MetaDataProperty{geocoderResponseMetaData = 'null',geocoderMetaData = 'GeocoderMetaData{address = 'Address{components = '[ComponentsItem{kind = 'country',name = 'Россия'}, ComponentsItem{kind = 'province',name = 'Центральный федеральный округ'}, ComponentsItem{kind = 'province',name = 'Московская область'}, ComponentsItem{kind = 'area',name = 'городской округ Воскресенск'}, ComponentsItem{kind = 'locality',name = 'деревня Ёлкино'}, ComponentsItem{kind = 'street',name = 'Совхозная улица'}, ComponentsItem{kind = 'house',name = '28'}]',country_code = 'RU',formatted = 'Россия, Московская область, городской округ Воскресенск, деревня Ёлкино, Совхозная улица, 28'}',addressDetails = 'AddressDetails{country = 'Country{administrativeArea = 'AdministrativeArea{administrativeAreaName = 'Московская область',subAdministrativeArea = 'SubAdministrativeArea{locality = 'Locality{localityName = 'деревня Ёлкино',dependentLocality = 'null'}',subAdministrativeAreaName = 'городской округ Воскресенск'}'}',countryName = 'Россия',addressLine = 'Россия, Московская область, городской округ Воскресенск, деревня Ёлкино, Совхозная улица, 28',countryNameCode = 'RU'}'}',kind = 'house',precision = 'near',text = 'Россия, Московская область, городской округ Воскресенск, деревня Ёлкино, Совхозная улица, 28'}'}',boundedBy = 'BoundedBy{envelope = 'Envelope{lowerCorner = '38.824163 55.310088',upperCorner = '38.832373 55.314771'}'}',name = 'Совхозная улица, 28',description = 'деревня Ёлкино, городской округ Воскресенск, Московская область, Россия',point = 'Point{pos = '38.828268 55.31243'}'}'}
+2022-12-17 22:25:43 INFO  AnswerConfigurator:113 - ---------------------------------Answer start---------------------------------
+2022-12-17 22:25:43 INFO  AnswerConfigurator:114 - Адрес: Россия, Московская область, городской округ Воскресенск, деревня Ёлкино, Совхозная улица, 28
+2022-12-17 22:25:43 INFO  AnswerConfigurator:115 - Точность найденного объекта примерные
+2022-12-17 22:25:43 INFO  AnswerConfigurator:116 - Координаты: 55.31243 с.ш. 38.828268 в. д.
+2022-12-17 22:25:43 INFO  AnswerConfigurator:117 - ---------------------------------Answer end---------------------------------
+2022-12-17 22:25:43 INFO  AnswerConfigurator:98 - Все строки в файле прочитаны
+2022-12-17 22:25:43 INFO  TelegramBot:140 - Sending message: Записываю координаты в файл
+2022-12-17 22:25:43 INFO  TelegramBot:140 - Sending message: Вот заполенный файл
+2022-12-17 22:30:09 DEBUG TelegramBot:45 - Received new message: /bytable
+2022-12-17 22:30:09 INFO  TelegramBot:140 - Sending message: Пришлите файл формата .xlsx с адресами, в котором адрес находится в столбце "D"
+2022-12-17 22:30:09 INFO  TelegramBot:140 - Sending message: Запросить файл для заполнения адресами можно командой /getdraftfile
+2022-12-17 22:30:21 DEBUG TelegramBot:45 - Received new message: null
+2022-12-17 22:30:21 INFO  TelegramBot:140 - Sending message: Получен файл
+2022-12-17 22:30:21 INFO  APIController:17 - Sending request to API. Link: https://api.telegram.org/bot5505170056:AAG-H1biJ_jMUMIuZrMa8yjVFRPnDNIZ4mA/getFile?file_id=BQACAgIAAxkBAAIGHmOeGM5600PIRJkJ6NfFeloJTNUPAAIcJAAC6_vxSF43OoGQjuxrLAQ
+2022-12-17 22:30:21 INFO  APIController:26 - Preparing URL
+2022-12-17 22:30:21 INFO  APIController:49 - Getting response from API
+2022-12-17 22:30:21 INFO  FileDownloadService:21 - -----------------------------------------------
+2022-12-17 22:30:21 INFO  FileDownloadService:22 - File downloading /file/bot5505170056:AAG-H1biJ_jMUMIuZrMa8yjVFRPnDNIZ4mA/documents/file_102.xlsx
+2022-12-17 22:30:21 INFO  FileDownloadService:23 - File name: fortestsLight.xlsx
+2022-12-17 22:30:21 INFO  FileDownloadService:35 - File downloaded
+2022-12-17 22:30:21 INFO  FileDownloadService:36 - -----------------------------------------------
+2022-12-17 22:30:22 INFO  LinkForGeocoderApi:34 - Received address for request: null
+2022-12-17 22:30:22 INFO  APIController:17 - Sending request to API. Link: https://geocode-maps.yandex.ru/1.x/?apikey=c2fa646e-1938-4510-91a0-71da95877d8e&geocode=140000%2C+%D0%9C%D0%BE%D1%81%D0%BA%D0%BE%D0%B2%D1%81%D0%BA%D0%B0%D1%8F+%D0%BE%D0%B1%D0%BB%D0%B0%D1%81%D1%82%D1%8C%2C+%D1%80-%D0%BD+%D0%95%D0%B3%D0%BE%D1%80%D1%8C%D0%B5%D0%B2%D1%81%D0%BA%D0%B8%D0%B9%2C+%D0%B4.+%D0%94%D0%B0%D0%BD%D0%B8%D0%BB%D0%BE%D0%B2%D0%BE%2C+%D0%B4.+26&rspn=1&ll=39.225503,55.304252&spn=1.05,0.7&format=json
+2022-12-17 22:30:22 INFO  APIController:26 - Preparing URL
+2022-12-17 22:30:22 INFO  APIController:49 - Getting response from API
+2022-12-17 22:30:22 INFO  AnswerConfigurator:113 - ---------------------------------Answer start---------------------------------
+2022-12-17 22:30:22 INFO  AnswerConfigurator:114 - Адрес: Россия, Московская область, городской округ Егорьевск, деревня Данилово, 26
+2022-12-17 22:30:22 INFO  AnswerConfigurator:115 - Точность найденного объекта точные
+2022-12-17 22:30:22 INFO  AnswerConfigurator:116 - Координаты: 55.4184 с.ш. 39.068064 в. д.
+2022-12-17 22:30:22 INFO  AnswerConfigurator:117 - ---------------------------------Answer end---------------------------------
+2022-12-17 22:30:22 INFO  LinkForGeocoderApi:34 - Received address for request: 140000, Московская область, р-н Егорьевский, д. Данилово, д. 26
+2022-12-17 22:30:22 INFO  APIController:17 - Sending request to API. Link: https://geocode-maps.yandex.ru/1.x/?apikey=c2fa646e-1938-4510-91a0-71da95877d8e&geocode=140300%2C+%D0%9C%D0%BE%D1%81%D0%BA%D0%BE%D0%B2%D1%81%D0%BA%D0%B0%D1%8F+%D0%BE%D0%B1%D0%BB.%2C+%D0%95%D0%B3%D0%BE%D1%80%D1%8C%D0%B5%D0%B2%D1%81%D0%BA%D0%B8%D0%B9+%D0%B3.%D0%BE.%2C+%D0%B4.+%D0%AE%D1%80%D1%86%D0%BE%D0%B2%D0%BE%2C+%D0%B4.%D0%B4.224&rspn=1&ll=39.225503,55.304252&spn=1.05,0.7&format=json
+2022-12-17 22:30:22 INFO  APIController:26 - Preparing URL
+2022-12-17 22:30:22 INFO  APIController:49 - Getting response from API
+2022-12-17 22:30:22 INFO  ObjectAddress:96 - FeatureMemberItem{geoObject = 'GeoObject{metaDataProperty = 'MetaDataProperty{geocoderResponseMetaData = 'null',geocoderMetaData = 'GeocoderMetaData{address = 'Address{components = '[ComponentsItem{kind = 'country',name = 'Россия'}, ComponentsItem{kind = 'province',name = 'Центральный федеральный округ'}, ComponentsItem{kind = 'province',name = 'Московская область'}, ComponentsItem{kind = 'area',name = 'городской округ Егорьевск'}, ComponentsItem{kind = 'locality',name = 'деревня Юрцово'}, ComponentsItem{kind = 'house',name = '220'}]',country_code = 'RU',formatted = 'Россия, Московская область, городской округ Егорьевск, деревня Юрцово, 220'}',addressDetails = 'AddressDetails{country = 'Country{administrativeArea = 'AdministrativeArea{administrativeAreaName = 'Московская область',subAdministrativeArea = 'SubAdministrativeArea{locality = 'Locality{localityName = 'деревня Юрцово',dependentLocality = 'null'}',subAdministrativeAreaName = 'городской округ Егорьевск'}'}',countryName = 'Россия',addressLine = 'Россия, Московская область, городской округ Егорьевск, деревня Юрцово, 220',countryNameCode = 'RU'}'}',kind = 'house',precision = 'near',text = 'Россия, Московская область, городской округ Егорьевск, деревня Юрцово, 220'}'}',boundedBy = 'BoundedBy{envelope = 'Envelope{lowerCorner = '39.189633 55.312917',upperCorner = '39.197844 55.317599'}'}',name = 'деревня Юрцово, 220',description = 'городской округ Егорьевск, Московская область, Россия',point = 'Point{pos = '39.193738 55.315258'}'}'}
+2022-12-17 22:30:22 INFO  AnswerConfigurator:113 - ---------------------------------Answer start---------------------------------
+2022-12-17 22:30:22 INFO  AnswerConfigurator:114 - Адрес: Россия, Московская область, городской округ Егорьевск, деревня Юрцово, 220
+2022-12-17 22:30:22 INFO  AnswerConfigurator:115 - Точность найденного объекта примерные
+2022-12-17 22:30:22 INFO  AnswerConfigurator:116 - Координаты: 55.315258 с.ш. 39.193738 в. д.
+2022-12-17 22:30:22 INFO  AnswerConfigurator:117 - ---------------------------------Answer end---------------------------------
+2022-12-17 22:30:22 INFO  LinkForGeocoderApi:34 - Received address for request: 140300, Московская обл., Егорьевский г.о., д. Юрцово, д.д.224
+2022-12-17 22:30:22 INFO  APIController:17 - Sending request to API. Link: https://geocode-maps.yandex.ru/1.x/?apikey=c2fa646e-1938-4510-91a0-71da95877d8e&geocode=140500%2C+%D0%9C%D0%BE%D1%81%D0%BA%D0%BE%D0%B2%D1%81%D0%BA%D0%B0%D1%8F+%D0%BE%D0%B1%D0%BB%D0%B0%D1%81%D1%82%D1%8C%2C+%D0%9B%D1%83%D1%85%D0%BE%D0%B2%D0%B8%D1%86%D0%BA%D0%B8%D0%B9+%D1%80%D0%B0%D0%B9%D0%BE%D0%BD%2C+%D0%A1%D0%9D%D0%A2+%22%D0%A0%D0%BE%D1%81%D1%81%D0%B8%D1%8F%22%2C+%D1%83%D1%87.+123&rspn=1&ll=39.225503,55.304252&spn=1.05,0.7&format=json
+2022-12-17 22:30:22 INFO  APIController:26 - Preparing URL
+2022-12-17 22:30:22 INFO  APIController:49 - Getting response from API
+2022-12-17 22:30:22 INFO  AnswerConfigurator:113 - ---------------------------------Answer start---------------------------------
+2022-12-17 22:30:22 INFO  AnswerConfigurator:114 - Адрес: null
+2022-12-17 22:30:22 INFO  AnswerConfigurator:115 - Точность найденного объекта примерные
+2022-12-17 22:30:22 INFO  AnswerConfigurator:116 - Координаты: 0.0 с.ш. 0.0 в. д.
+2022-12-17 22:30:22 INFO  AnswerConfigurator:117 - ---------------------------------Answer end---------------------------------
+2022-12-17 22:30:22 INFO  LinkForGeocoderApi:34 - Received address for request: 140500, Московская область, Луховицкий район, СНТ "Россия", уч. 123
+2022-12-17 22:30:22 INFO  APIController:17 - Sending request to API. Link: https://geocode-maps.yandex.ru/1.x/?apikey=c2fa646e-1938-4510-91a0-71da95877d8e&geocode=140514%2C+%D1%83%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%BB%D0%B5%D0%BD%D0%BE+%D0%BE%D1%82%D0%BD%D0%BE%D1%81%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D0%BE+%D0%BE%D1%80%D0%B8%D0%B5%D0%BD%D1%82%D0%B8%D1%80%D0%B0%2C+%D1%80%D0%B0%D1%81%D0%BF%D0%BE%D0%BB%D0%BE%D0%B6%D0%B5%D0%BD%D0%BD%D0%BE%D0%B3%D0%BE+%D0%B2+%D0%B3%D1%80%D0%B0%D0%BD%D0%B8%D1%86%D0%B0%D1%85+%D1%83%D1%87%D0%B0%D1%81%D1%82%D0%BA%D0%B0.+%D0%9F%D0%BE%D1%87%D1%82%D0%BE%D0%B2%D1%8B%D0%B9+%D0%B0%D0%B4%D1%80%D0%B5%D1%81+%D0%BE%D1%80%D0%B8%D0%B5%D0%BD%D1%82%D0%B8%D1%80%D0%B0%3A+%D0%9C%D0%BE%D1%81%D0%BA%D0%BE%D0%B2%D1%81%D0%BA%D0%B0%D1%8F+%D0%BE%D0%B1%D0%BB.%2C+%D1%80-%D0%BD+%D0%9B%D1%83%D1%85%D0%BE%D0%B2%D0%B8%D1%86%D0%BA%D0%B8%D0%B9%2C+%D1%81%D0%BD%D1%82+%D0%91%D0%B5%D1%80%D0%B5%D0%B7%D0%BA%D0%B0-4%2C+%D1%83%D1%87-%D0%BA+49&rspn=1&ll=39.19425,54.948649&spn=0.92,0.51&format=json
+2022-12-17 22:30:22 INFO  APIController:26 - Preparing URL
+2022-12-17 22:30:22 INFO  APIController:49 - Getting response from API
+2022-12-17 22:30:22 INFO  AnswerConfigurator:113 - ---------------------------------Answer start---------------------------------
+2022-12-17 22:30:22 INFO  AnswerConfigurator:114 - Адрес: Россия, Московская область, городской округ Луховицы, СНТ Берёзка-4, 49
+2022-12-17 22:30:22 INFO  AnswerConfigurator:115 - Точность найденного объекта точные
+2022-12-17 22:30:22 INFO  AnswerConfigurator:116 - Координаты: 54.986299 с.ш. 39.088079 в. д.
+2022-12-17 22:30:22 INFO  AnswerConfigurator:117 - ---------------------------------Answer end---------------------------------
+2022-12-17 22:30:22 INFO  LinkForGeocoderApi:34 - Received address for request: 140514, установлено относительно ориентира, расположенного в границах участка. Почтовый адрес ориентира: Московская обл., р-н Луховицкий, снт Березка-4, уч-к 49
+2022-12-17 22:30:22 INFO  APIController:17 - Sending request to API. Link: https://geocode-maps.yandex.ru/1.x/?apikey=c2fa646e-1938-4510-91a0-71da95877d8e&geocode=140235%2C+%D0%9C%D0%BE%D1%81%D0%BA%D0%BE%D0%B2%D1%81%D0%BA%D0%B0%D1%8F+%D0%BE%D0%B1%D0%BB%D0%B0%D1%81%D1%82%D1%8C%2C+%D0%92%D0%BE%D1%81%D0%BA%D1%80%D0%B5%D1%81%D0%B5%D0%BD%D1%81%D0%BA%D0%B8%D0%B9+%D1%80%D0%B0%D0%B9%D0%BE%D0%BD%2C+%D0%B4.+%D0%95%D0%BB%D0%BA%D0%B8%D0%BD%D0%BE%2C+%D1%83%D0%BB.+%D0%A1%D0%BE%D0%B2%D1%85%D0%BE%D0%B7%D0%BD%D0%B0%D1%8F%2C+%D1%83%D1%87%D0%B0%D1%81%D1%82%D0%BE%D0%BA+30-%D0%B0&rspn=1&ll=38.645685,55.380718&spn=0.75,0.43&format=json
+2022-12-17 22:30:22 INFO  APIController:26 - Preparing URL
+2022-12-17 22:30:22 INFO  APIController:49 - Getting response from API
+2022-12-17 22:30:22 INFO  ObjectAddress:96 - FeatureMemberItem{geoObject = 'GeoObject{metaDataProperty = 'MetaDataProperty{geocoderResponseMetaData = 'null',geocoderMetaData = 'GeocoderMetaData{address = 'Address{components = '[ComponentsItem{kind = 'country',name = 'Россия'}, ComponentsItem{kind = 'province',name = 'Центральный федеральный округ'}, ComponentsItem{kind = 'province',name = 'Московская область'}, ComponentsItem{kind = 'area',name = 'городской округ Воскресенск'}, ComponentsItem{kind = 'locality',name = 'деревня Ёлкино'}, ComponentsItem{kind = 'street',name = 'Совхозная улица'}, ComponentsItem{kind = 'house',name = '28'}]',country_code = 'RU',formatted = 'Россия, Московская область, городской округ Воскресенск, деревня Ёлкино, Совхозная улица, 28'}',addressDetails = 'AddressDetails{country = 'Country{administrativeArea = 'AdministrativeArea{administrativeAreaName = 'Московская область',subAdministrativeArea = 'SubAdministrativeArea{locality = 'Locality{localityName = 'деревня Ёлкино',dependentLocality = 'null'}',subAdministrativeAreaName = 'городской округ Воскресенск'}'}',countryName = 'Россия',addressLine = 'Россия, Московская область, городской округ Воскресенск, деревня Ёлкино, Совхозная улица, 28',countryNameCode = 'RU'}'}',kind = 'house',precision = 'near',text = 'Россия, Московская область, городской округ Воскресенск, деревня Ёлкино, Совхозная улица, 28'}'}',boundedBy = 'BoundedBy{envelope = 'Envelope{lowerCorner = '38.824163 55.310088',upperCorner = '38.832373 55.314771'}'}',name = 'Совхозная улица, 28',description = 'деревня Ёлкино, городской округ Воскресенск, Московская область, Россия',point = 'Point{pos = '38.828268 55.31243'}'}'}
+2022-12-17 22:30:22 INFO  AnswerConfigurator:113 - ---------------------------------Answer start---------------------------------
+2022-12-17 22:30:22 INFO  AnswerConfigurator:114 - Адрес: Россия, Московская область, городской округ Воскресенск, деревня Ёлкино, Совхозная улица, 28
+2022-12-17 22:30:22 INFO  AnswerConfigurator:115 - Точность найденного объекта примерные
+2022-12-17 22:30:22 INFO  AnswerConfigurator:116 - Координаты: 55.31243 с.ш. 38.828268 в. д.
+2022-12-17 22:30:22 INFO  AnswerConfigurator:117 - ---------------------------------Answer end---------------------------------
+2022-12-17 22:30:22 INFO  AnswerConfigurator:98 - Все строки в файле прочитаны
+2022-12-17 22:30:23 INFO  TelegramBot:140 - Sending message: Записываю координаты в файл
+2022-12-17 22:30:23 INFO  TelegramBot:140 - Sending message: Вот заполенный файл
+2022-12-17 22:42:10 DEBUG TelegramBot:45 - Received new message: /bytable
+2022-12-17 22:42:10 INFO  TelegramBot:139 - Sending message: Пришлите файл формата .xlsx с адресами, в котором адрес находится в столбце "D"
+2022-12-17 22:42:10 INFO  TelegramBot:139 - Sending message: Запросить файл для заполнения адресами можно командой /getdraftfile
+2022-12-17 22:42:15 DEBUG TelegramBot:45 - Received new message: null
+2022-12-17 22:42:15 INFO  TelegramBot:98 - File received
+2022-12-17 22:42:15 INFO  TelegramBot:139 - Sending message: Получен файл
+2022-12-17 22:42:16 INFO  APIController:17 - Sending request to API. Link: https://api.telegram.org/bot5505170056:AAG-H1biJ_jMUMIuZrMa8yjVFRPnDNIZ4mA/getFile?file_id=BQACAgIAAxkBAAIGJmOeG5hvf6mBTcHDFBOgJ-nhMUljAAIuJAAC6_vxSKmQa7mkHe3vLAQ
+2022-12-17 22:42:16 INFO  APIController:26 - Preparing URL
+2022-12-17 22:42:16 INFO  APIController:49 - Getting response from API
+2022-12-17 22:42:16 INFO  FileDownloadService:21 - -----------------------------------------------
+2022-12-17 22:42:16 INFO  FileDownloadService:22 - File downloading /file/bot5505170056:AAG-H1biJ_jMUMIuZrMa8yjVFRPnDNIZ4mA/documents/file_103.xlsx
+2022-12-17 22:42:16 INFO  FileDownloadService:23 - File name: fortestsLight.xlsx
+2022-12-17 22:42:16 INFO  FileDownloadService:35 - File downloaded
+2022-12-17 22:42:16 INFO  FileDownloadService:36 - -----------------------------------------------
+2022-12-17 22:42:16 INFO  LinkForGeocoderApi:35 - Received address for request: 140000, Московская область, р-н Егорьевский, д. Данилово, д. 26
+2022-12-17 22:42:16 INFO  LinkForGeocoderApi:36 - Region to cat area: Егорьевский
+2022-12-17 22:42:16 INFO  APIController:17 - Sending request to API. Link: https://geocode-maps.yandex.ru/1.x/?apikey=c2fa646e-1938-4510-91a0-71da95877d8e&geocode=140000%2C+%D0%9C%D0%BE%D1%81%D0%BA%D0%BE%D0%B2%D1%81%D0%BA%D0%B0%D1%8F+%D0%BE%D0%B1%D0%BB%D0%B0%D1%81%D1%82%D1%8C%2C+%D1%80-%D0%BD+%D0%95%D0%B3%D0%BE%D1%80%D1%8C%D0%B5%D0%B2%D1%81%D0%BA%D0%B8%D0%B9%2C+%D0%B4.+%D0%94%D0%B0%D0%BD%D0%B8%D0%BB%D0%BE%D0%B2%D0%BE%2C+%D0%B4.+26&rspn=1&ll=39.225503,55.304252&spn=1.05,0.7&format=json
+2022-12-17 22:42:16 INFO  APIController:26 - Preparing URL
+2022-12-17 22:42:16 INFO  APIController:49 - Getting response from API
+2022-12-17 22:42:16 INFO  AnswerConfigurator:113 - ---------------------------------Answer start---------------------------------
+2022-12-17 22:42:16 INFO  AnswerConfigurator:114 - Адрес: Россия, Московская область, городской округ Егорьевск, деревня Данилово, 26
+2022-12-17 22:42:16 INFO  AnswerConfigurator:115 - Точность найденного объекта точные
+2022-12-17 22:42:16 INFO  AnswerConfigurator:116 - Координаты: 55.4184 с.ш. 39.068064 в. д.
+2022-12-17 22:42:16 INFO  AnswerConfigurator:117 - ---------------------------------Answer end---------------------------------
+2022-12-17 22:42:16 INFO  LinkForGeocoderApi:35 - Received address for request: 140300, Московская обл., Егорьевский г.о., д. Юрцово, д.д.224
+2022-12-17 22:42:16 INFO  LinkForGeocoderApi:36 - Region to cat area: 
+2022-12-17 22:42:16 INFO  APIController:17 - Sending request to API. Link: https://geocode-maps.yandex.ru/1.x/?apikey=c2fa646e-1938-4510-91a0-71da95877d8e&geocode=140300%2C+%D0%9C%D0%BE%D1%81%D0%BA%D0%BE%D0%B2%D1%81%D0%BA%D0%B0%D1%8F+%D0%BE%D0%B1%D0%BB.%2C+%D0%95%D0%B3%D0%BE%D1%80%D1%8C%D0%B5%D0%B2%D1%81%D0%BA%D0%B8%D0%B9+%D0%B3.%D0%BE.%2C+%D0%B4.+%D0%AE%D1%80%D1%86%D0%BE%D0%B2%D0%BE%2C+%D0%B4.%D0%B4.224&rspn=1&ll=39.225503,55.304252&spn=1.05,0.7&format=json
+2022-12-17 22:42:16 INFO  APIController:26 - Preparing URL
+2022-12-17 22:42:16 INFO  APIController:49 - Getting response from API
+2022-12-17 22:42:16 INFO  ObjectAddress:96 - FeatureMemberItem{geoObject = 'GeoObject{metaDataProperty = 'MetaDataProperty{geocoderResponseMetaData = 'null',geocoderMetaData = 'GeocoderMetaData{address = 'Address{components = '[ComponentsItem{kind = 'country',name = 'Россия'}, ComponentsItem{kind = 'province',name = 'Центральный федеральный округ'}, ComponentsItem{kind = 'province',name = 'Московская область'}, ComponentsItem{kind = 'area',name = 'городской округ Егорьевск'}, ComponentsItem{kind = 'locality',name = 'деревня Юрцово'}, ComponentsItem{kind = 'house',name = '220'}]',country_code = 'RU',formatted = 'Россия, Московская область, городской округ Егорьевск, деревня Юрцово, 220'}',addressDetails = 'AddressDetails{country = 'Country{administrativeArea = 'AdministrativeArea{administrativeAreaName = 'Московская область',subAdministrativeArea = 'SubAdministrativeArea{locality = 'Locality{localityName = 'деревня Юрцово',dependentLocality = 'null'}',subAdministrativeAreaName = 'городской округ Егорьевск'}'}',countryName = 'Россия',addressLine = 'Россия, Московская область, городской округ Егорьевск, деревня Юрцово, 220',countryNameCode = 'RU'}'}',kind = 'house',precision = 'near',text = 'Россия, Московская область, городской округ Егорьевск, деревня Юрцово, 220'}'}',boundedBy = 'BoundedBy{envelope = 'Envelope{lowerCorner = '39.189633 55.312917',upperCorner = '39.197844 55.317599'}'}',name = 'деревня Юрцово, 220',description = 'городской округ Егорьевск, Московская область, Россия',point = 'Point{pos = '39.193738 55.315258'}'}'}
+2022-12-17 22:42:16 INFO  AnswerConfigurator:113 - ---------------------------------Answer start---------------------------------
+2022-12-17 22:42:16 INFO  AnswerConfigurator:114 - Адрес: Россия, Московская область, городской округ Егорьевск, деревня Юрцово, 220
+2022-12-17 22:42:16 INFO  AnswerConfigurator:115 - Точность найденного объекта примерные
+2022-12-17 22:42:16 INFO  AnswerConfigurator:116 - Координаты: 55.315258 с.ш. 39.193738 в. д.
+2022-12-17 22:42:16 INFO  AnswerConfigurator:117 - ---------------------------------Answer end---------------------------------
+2022-12-17 22:42:16 INFO  LinkForGeocoderApi:35 - Received address for request: 140500, Московская область, Луховицкий район, СНТ "Россия", уч. 123
+2022-12-17 22:42:16 INFO  LinkForGeocoderApi:36 - Region to cat area: 
+2022-12-17 22:42:16 INFO  APIController:17 - Sending request to API. Link: https://geocode-maps.yandex.ru/1.x/?apikey=c2fa646e-1938-4510-91a0-71da95877d8e&geocode=140500%2C+%D0%9C%D0%BE%D1%81%D0%BA%D0%BE%D0%B2%D1%81%D0%BA%D0%B0%D1%8F+%D0%BE%D0%B1%D0%BB%D0%B0%D1%81%D1%82%D1%8C%2C+%D0%9B%D1%83%D1%85%D0%BE%D0%B2%D0%B8%D1%86%D0%BA%D0%B8%D0%B9+%D1%80%D0%B0%D0%B9%D0%BE%D0%BD%2C+%D0%A1%D0%9D%D0%A2+%22%D0%A0%D0%BE%D1%81%D1%81%D0%B8%D1%8F%22%2C+%D1%83%D1%87.+123&rspn=1&ll=39.225503,55.304252&spn=1.05,0.7&format=json
+2022-12-17 22:42:16 INFO  APIController:26 - Preparing URL
+2022-12-17 22:42:16 INFO  APIController:49 - Getting response from API
+2022-12-17 22:42:17 INFO  AnswerConfigurator:113 - ---------------------------------Answer start---------------------------------
+2022-12-17 22:42:17 INFO  AnswerConfigurator:114 - Адрес: null
+2022-12-17 22:42:17 INFO  AnswerConfigurator:115 - Точность найденного объекта примерные
+2022-12-17 22:42:17 INFO  AnswerConfigurator:116 - Координаты: 0.0 с.ш. 0.0 в. д.
+2022-12-17 22:42:17 INFO  AnswerConfigurator:117 - ---------------------------------Answer end---------------------------------
+2022-12-17 22:42:17 INFO  LinkForGeocoderApi:35 - Received address for request: 140514, установлено относительно ориентира, расположенного в границах участка. Почтовый адрес ориентира: Московская обл., р-н Луховицкий, снт Березка-4, уч-к 49
+2022-12-17 22:42:17 INFO  LinkForGeocoderApi:36 - Region to cat area: Луховицкий
+2022-12-17 22:42:17 INFO  APIController:17 - Sending request to API. Link: https://geocode-maps.yandex.ru/1.x/?apikey=c2fa646e-1938-4510-91a0-71da95877d8e&geocode=140514%2C+%D1%83%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%BB%D0%B5%D0%BD%D0%BE+%D0%BE%D1%82%D0%BD%D0%BE%D1%81%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D0%BE+%D0%BE%D1%80%D0%B8%D0%B5%D0%BD%D1%82%D0%B8%D1%80%D0%B0%2C+%D1%80%D0%B0%D1%81%D0%BF%D0%BE%D0%BB%D0%BE%D0%B6%D0%B5%D0%BD%D0%BD%D0%BE%D0%B3%D0%BE+%D0%B2+%D0%B3%D1%80%D0%B0%D0%BD%D0%B8%D1%86%D0%B0%D1%85+%D1%83%D1%87%D0%B0%D1%81%D1%82%D0%BA%D0%B0.+%D0%9F%D0%BE%D1%87%D1%82%D0%BE%D0%B2%D1%8B%D0%B9+%D0%B0%D0%B4%D1%80%D0%B5%D1%81+%D0%BE%D1%80%D0%B8%D0%B5%D0%BD%D1%82%D0%B8%D1%80%D0%B0%3A+%D0%9C%D0%BE%D1%81%D0%BA%D0%BE%D0%B2%D1%81%D0%BA%D0%B0%D1%8F+%D0%BE%D0%B1%D0%BB.%2C+%D1%80-%D0%BD+%D0%9B%D1%83%D1%85%D0%BE%D0%B2%D0%B8%D1%86%D0%BA%D0%B8%D0%B9%2C+%D1%81%D0%BD%D1%82+%D0%91%D0%B5%D1%80%D0%B5%D0%B7%D0%BA%D0%B0-4%2C+%D1%83%D1%87-%D0%BA+49&rspn=1&ll=39.19425,54.948649&spn=0.92,0.51&format=json
+2022-12-17 22:42:17 INFO  APIController:26 - Preparing URL
+2022-12-17 22:42:17 INFO  APIController:49 - Getting response from API
+2022-12-17 22:42:17 INFO  AnswerConfigurator:113 - ---------------------------------Answer start---------------------------------
+2022-12-17 22:42:17 INFO  AnswerConfigurator:114 - Адрес: Россия, Московская область, городской округ Луховицы, СНТ Берёзка-4, 49
+2022-12-17 22:42:17 INFO  AnswerConfigurator:115 - Точность найденного объекта точные
+2022-12-17 22:42:17 INFO  AnswerConfigurator:116 - Координаты: 54.986299 с.ш. 39.088079 в. д.
+2022-12-17 22:42:17 INFO  AnswerConfigurator:117 - ---------------------------------Answer end---------------------------------
+2022-12-17 22:42:17 INFO  LinkForGeocoderApi:35 - Received address for request: 140235, Московская область, Воскресенский район, д. Елкино, ул. Совхозная, участок 30-а
+2022-12-17 22:42:17 INFO  LinkForGeocoderApi:36 - Region to cat area: Воскресенский
+2022-12-17 22:42:17 INFO  APIController:17 - Sending request to API. Link: https://geocode-maps.yandex.ru/1.x/?apikey=c2fa646e-1938-4510-91a0-71da95877d8e&geocode=140235%2C+%D0%9C%D0%BE%D1%81%D0%BA%D0%BE%D0%B2%D1%81%D0%BA%D0%B0%D1%8F+%D0%BE%D0%B1%D0%BB%D0%B0%D1%81%D1%82%D1%8C%2C+%D0%92%D0%BE%D1%81%D0%BA%D1%80%D0%B5%D1%81%D0%B5%D0%BD%D1%81%D0%BA%D0%B8%D0%B9+%D1%80%D0%B0%D0%B9%D0%BE%D0%BD%2C+%D0%B4.+%D0%95%D0%BB%D0%BA%D0%B8%D0%BD%D0%BE%2C+%D1%83%D0%BB.+%D0%A1%D0%BE%D0%B2%D1%85%D0%BE%D0%B7%D0%BD%D0%B0%D1%8F%2C+%D1%83%D1%87%D0%B0%D1%81%D1%82%D0%BE%D0%BA+30-%D0%B0&rspn=1&ll=38.645685,55.380718&spn=0.75,0.43&format=json
+2022-12-17 22:42:17 INFO  APIController:26 - Preparing URL
+2022-12-17 22:42:17 INFO  APIController:49 - Getting response from API
+2022-12-17 22:42:17 INFO  ObjectAddress:96 - FeatureMemberItem{geoObject = 'GeoObject{metaDataProperty = 'MetaDataProperty{geocoderResponseMetaData = 'null',geocoderMetaData = 'GeocoderMetaData{address = 'Address{components = '[ComponentsItem{kind = 'country',name = 'Россия'}, ComponentsItem{kind = 'province',name = 'Центральный федеральный округ'}, ComponentsItem{kind = 'province',name = 'Московская область'}, ComponentsItem{kind = 'area',name = 'городской округ Воскресенск'}, ComponentsItem{kind = 'locality',name = 'деревня Ёлкино'}, ComponentsItem{kind = 'street',name = 'Совхозная улица'}, ComponentsItem{kind = 'house',name = '28'}]',country_code = 'RU',formatted = 'Россия, Московская область, городской округ Воскресенск, деревня Ёлкино, Совхозная улица, 28'}',addressDetails = 'AddressDetails{country = 'Country{administrativeArea = 'AdministrativeArea{administrativeAreaName = 'Московская область',subAdministrativeArea = 'SubAdministrativeArea{locality = 'Locality{localityName = 'деревня Ёлкино',dependentLocality = 'null'}',subAdministrativeAreaName = 'городской округ Воскресенск'}'}',countryName = 'Россия',addressLine = 'Россия, Московская область, городской округ Воскресенск, деревня Ёлкино, Совхозная улица, 28',countryNameCode = 'RU'}'}',kind = 'house',precision = 'near',text = 'Россия, Московская область, городской округ Воскресенск, деревня Ёлкино, Совхозная улица, 28'}'}',boundedBy = 'BoundedBy{envelope = 'Envelope{lowerCorner = '38.824163 55.310088',upperCorner = '38.832373 55.314771'}'}',name = 'Совхозная улица, 28',description = 'деревня Ёлкино, городской округ Воскресенск, Московская область, Россия',point = 'Point{pos = '38.828268 55.31243'}'}'}
+2022-12-17 22:42:17 INFO  AnswerConfigurator:113 - ---------------------------------Answer start---------------------------------
+2022-12-17 22:42:17 INFO  AnswerConfigurator:114 - Адрес: Россия, Московская область, городской округ Воскресенск, деревня Ёлкино, Совхозная улица, 28
+2022-12-17 22:42:17 INFO  AnswerConfigurator:115 - Точность найденного объекта примерные
+2022-12-17 22:42:17 INFO  AnswerConfigurator:116 - Координаты: 55.31243 с.ш. 38.828268 в. д.
+2022-12-17 22:42:17 INFO  AnswerConfigurator:117 - ---------------------------------Answer end---------------------------------
+2022-12-17 22:42:17 INFO  AnswerConfigurator:98 - Все строки в файле прочитаны
+2022-12-17 22:42:17 INFO  TelegramBot:139 - Sending message: Записываю координаты в файл
+2022-12-17 22:42:17 INFO  TelegramBot:139 - Sending message: Вот заполенный файл
+2022-12-17 22:45:24 DEBUG TelegramBot:45 - Received new message: /bytable
+2022-12-17 22:45:24 INFO  TelegramBot:139 - Sending message: Пришлите файл формата .xlsx с адресами, в котором адрес находится в столбце "D"
+2022-12-17 22:45:24 INFO  TelegramBot:139 - Sending message: Запросить файл для заполнения адресами можно командой /getdraftfile
+2022-12-17 22:45:38 DEBUG TelegramBot:45 - Received new message: null
+2022-12-17 22:45:38 INFO  TelegramBot:98 - File received
+2022-12-17 22:45:38 INFO  TelegramBot:139 - Sending message: Получен файл
+2022-12-17 22:45:38 INFO  APIController:17 - Sending request to API. Link: https://api.telegram.org/bot5505170056:AAG-H1biJ_jMUMIuZrMa8yjVFRPnDNIZ4mA/getFile?file_id=BQACAgIAAxkBAAIGLmOeHGN-gOq8AWgSmhcNVGf4syrUAAIyJAAC6_vxSBdzPXLXv_KbLAQ
+2022-12-17 22:45:38 INFO  APIController:26 - Preparing URL
+2022-12-17 22:45:38 INFO  APIController:49 - Getting response from API
+2022-12-17 22:45:39 INFO  FileDownloadService:21 - -----------------------------------------------
+2022-12-17 22:45:39 INFO  FileDownloadService:22 - File downloading /file/bot5505170056:AAG-H1biJ_jMUMIuZrMa8yjVFRPnDNIZ4mA/documents/file_104.xlsx
+2022-12-17 22:45:39 INFO  FileDownloadService:23 - File name: fortestsLight.xlsx
+2022-12-17 22:45:39 INFO  FileDownloadService:35 - File downloaded
+2022-12-17 22:45:39 INFO  FileDownloadService:36 - -----------------------------------------------
+2022-12-17 22:45:39 INFO  LinkForGeocoderApi:35 - Received address for request: 140000, Московская область, р-н Егорьевский, д. Данилово, д. 26
+2022-12-17 22:45:39 INFO  LinkForGeocoderApi:36 - Region to cat area: Егорьевский
+2022-12-17 22:45:39 INFO  APIController:17 - Sending request to API. Link: https://geocode-maps.yandex.ru/1.x/?apikey=c2fa646e-1938-4510-91a0-71da95877d8e&geocode=140000%2C+%D0%9C%D0%BE%D1%81%D0%BA%D0%BE%D0%B2%D1%81%D0%BA%D0%B0%D1%8F+%D0%BE%D0%B1%D0%BB%D0%B0%D1%81%D1%82%D1%8C%2C+%D1%80-%D0%BD+%D0%95%D0%B3%D0%BE%D1%80%D1%8C%D0%B5%D0%B2%D1%81%D0%BA%D0%B8%D0%B9%2C+%D0%B4.+%D0%94%D0%B0%D0%BD%D0%B8%D0%BB%D0%BE%D0%B2%D0%BE%2C+%D0%B4.+26&rspn=1&ll=39.225503,55.304252&spn=1.05,0.7&format=json
+2022-12-17 22:45:39 INFO  APIController:26 - Preparing URL
+2022-12-17 22:45:39 INFO  APIController:49 - Getting response from API
+2022-12-17 22:45:39 INFO  AnswerConfigurator:113 - ---------------------------------Answer start---------------------------------
+2022-12-17 22:45:39 INFO  AnswerConfigurator:114 - Адрес: Россия, Московская область, городской округ Егорьевск, деревня Данилово, 26
+2022-12-17 22:45:39 INFO  AnswerConfigurator:115 - Точность найденного объекта точные
+2022-12-17 22:45:39 INFO  AnswerConfigurator:116 - Координаты: 55.4184 с.ш. 39.068064 в. д.
+2022-12-17 22:45:39 INFO  AnswerConfigurator:117 - ---------------------------------Answer end---------------------------------
+2022-12-17 22:45:39 INFO  LinkForGeocoderApi:35 - Received address for request: 140300, Московская обл., Егорьевский г.о., д. Юрцово, д.д.224
+2022-12-17 22:45:39 INFO  LinkForGeocoderApi:36 - Region to cat area: 
+2022-12-17 22:45:39 INFO  APIController:17 - Sending request to API. Link: https://geocode-maps.yandex.ru/1.x/?apikey=c2fa646e-1938-4510-91a0-71da95877d8e&geocode=140300%2C+%D0%9C%D0%BE%D1%81%D0%BA%D0%BE%D0%B2%D1%81%D0%BA%D0%B0%D1%8F+%D0%BE%D0%B1%D0%BB.%2C+%D0%95%D0%B3%D0%BE%D1%80%D1%8C%D0%B5%D0%B2%D1%81%D0%BA%D0%B8%D0%B9+%D0%B3.%D0%BE.%2C+%D0%B4.+%D0%AE%D1%80%D1%86%D0%BE%D0%B2%D0%BE%2C+%D0%B4.%D0%B4.224&rspn=1&ll=39.225503,55.304252&spn=1.05,0.7&format=json
+2022-12-17 22:45:39 INFO  APIController:26 - Preparing URL
+2022-12-17 22:45:39 INFO  APIController:49 - Getting response from API
+2022-12-17 22:45:39 INFO  ObjectAddress:96 - FeatureMemberItem{geoObject = 'GeoObject{metaDataProperty = 'MetaDataProperty{geocoderResponseMetaData = 'null',geocoderMetaData = 'GeocoderMetaData{address = 'Address{components = '[ComponentsItem{kind = 'country',name = 'Россия'}, ComponentsItem{kind = 'province',name = 'Центральный федеральный округ'}, ComponentsItem{kind = 'province',name = 'Московская область'}, ComponentsItem{kind = 'area',name = 'городской округ Егорьевск'}, ComponentsItem{kind = 'locality',name = 'деревня Юрцово'}, ComponentsItem{kind = 'house',name = '220'}]',country_code = 'RU',formatted = 'Россия, Московская область, городской округ Егорьевск, деревня Юрцово, 220'}',addressDetails = 'AddressDetails{country = 'Country{administrativeArea = 'AdministrativeArea{administrativeAreaName = 'Московская область',subAdministrativeArea = 'SubAdministrativeArea{locality = 'Locality{localityName = 'деревня Юрцово',dependentLocality = 'null'}',subAdministrativeAreaName = 'городской округ Егорьевск'}'}',countryName = 'Россия',addressLine = 'Россия, Московская область, городской округ Егорьевск, деревня Юрцово, 220',countryNameCode = 'RU'}'}',kind = 'house',precision = 'near',text = 'Россия, Московская область, городской округ Егорьевск, деревня Юрцово, 220'}'}',boundedBy = 'BoundedBy{envelope = 'Envelope{lowerCorner = '39.189633 55.312917',upperCorner = '39.197844 55.317599'}'}',name = 'деревня Юрцово, 220',description = 'городской округ Егорьевск, Московская область, Россия',point = 'Point{pos = '39.193738 55.315258'}'}'}
+2022-12-17 22:45:39 INFO  AnswerConfigurator:113 - ---------------------------------Answer start---------------------------------
+2022-12-17 22:45:39 INFO  AnswerConfigurator:114 - Адрес: Россия, Московская область, городской округ Егорьевск, деревня Юрцово, 220
+2022-12-17 22:45:39 INFO  AnswerConfigurator:115 - Точность найденного объекта примерные
+2022-12-17 22:45:39 INFO  AnswerConfigurator:116 - Координаты: 55.315258 с.ш. 39.193738 в. д.
+2022-12-17 22:45:39 INFO  AnswerConfigurator:117 - ---------------------------------Answer end---------------------------------
+2022-12-17 22:45:39 INFO  LinkForGeocoderApi:35 - Received address for request: 140500, Московская область, Луховицкий район, СНТ "Россия", уч. 123
+2022-12-17 22:45:39 INFO  LinkForGeocoderApi:36 - Region to cat area: 
+2022-12-17 22:45:39 INFO  APIController:17 - Sending request to API. Link: https://geocode-maps.yandex.ru/1.x/?apikey=c2fa646e-1938-4510-91a0-71da95877d8e&geocode=140500%2C+%D0%9C%D0%BE%D1%81%D0%BA%D0%BE%D0%B2%D1%81%D0%BA%D0%B0%D1%8F+%D0%BE%D0%B1%D0%BB%D0%B0%D1%81%D1%82%D1%8C%2C+%D0%9B%D1%83%D1%85%D0%BE%D0%B2%D0%B8%D1%86%D0%BA%D0%B8%D0%B9+%D1%80%D0%B0%D0%B9%D0%BE%D0%BD%2C+%D0%A1%D0%9D%D0%A2+%22%D0%A0%D0%BE%D1%81%D1%81%D0%B8%D1%8F%22%2C+%D1%83%D1%87.+123&rspn=1&ll=39.225503,55.304252&spn=1.05,0.7&format=json
+2022-12-17 22:45:39 INFO  APIController:26 - Preparing URL
+2022-12-17 22:45:39 INFO  APIController:49 - Getting response from API
+2022-12-17 22:45:39 INFO  AnswerConfigurator:113 - ---------------------------------Answer start---------------------------------
+2022-12-17 22:45:39 INFO  AnswerConfigurator:114 - Адрес: null
+2022-12-17 22:45:39 INFO  AnswerConfigurator:115 - Точность найденного объекта примерные
+2022-12-17 22:45:39 INFO  AnswerConfigurator:116 - Координаты: 0.0 с.ш. 0.0 в. д.
+2022-12-17 22:45:39 INFO  AnswerConfigurator:117 - ---------------------------------Answer end---------------------------------
+2022-12-17 22:45:39 INFO  LinkForGeocoderApi:35 - Received address for request: 140514, установлено относительно ориентира, расположенного в границах участка. Почтовый адрес ориентира: Московская обл., р-н Луховицкий, снт Березка-4, уч-к 49
+2022-12-17 22:45:39 INFO  LinkForGeocoderApi:36 - Region to cat area: Луховицкий
+2022-12-17 22:45:39 INFO  APIController:17 - Sending request to API. Link: https://geocode-maps.yandex.ru/1.x/?apikey=c2fa646e-1938-4510-91a0-71da95877d8e&geocode=140514%2C+%D1%83%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%BB%D0%B5%D0%BD%D0%BE+%D0%BE%D1%82%D0%BD%D0%BE%D1%81%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D0%BE+%D0%BE%D1%80%D0%B8%D0%B5%D0%BD%D1%82%D0%B8%D1%80%D0%B0%2C+%D1%80%D0%B0%D1%81%D0%BF%D0%BE%D0%BB%D0%BE%D0%B6%D0%B5%D0%BD%D0%BD%D0%BE%D0%B3%D0%BE+%D0%B2+%D0%B3%D1%80%D0%B0%D0%BD%D0%B8%D1%86%D0%B0%D1%85+%D1%83%D1%87%D0%B0%D1%81%D1%82%D0%BA%D0%B0.+%D0%9F%D0%BE%D1%87%D1%82%D0%BE%D0%B2%D1%8B%D0%B9+%D0%B0%D0%B4%D1%80%D0%B5%D1%81+%D0%BE%D1%80%D0%B8%D0%B5%D0%BD%D1%82%D0%B8%D1%80%D0%B0%3A+%D0%9C%D0%BE%D1%81%D0%BA%D0%BE%D0%B2%D1%81%D0%BA%D0%B0%D1%8F+%D0%BE%D0%B1%D0%BB.%2C+%D1%80-%D0%BD+%D0%9B%D1%83%D1%85%D0%BE%D0%B2%D0%B8%D1%86%D0%BA%D0%B8%D0%B9%2C+%D1%81%D0%BD%D1%82+%D0%91%D0%B5%D1%80%D0%B5%D0%B7%D0%BA%D0%B0-4%2C+%D1%83%D1%87-%D0%BA+49&rspn=1&ll=39.19425,54.948649&spn=0.92,0.51&format=json
+2022-12-17 22:45:39 INFO  APIController:26 - Preparing URL
+2022-12-17 22:45:39 INFO  APIController:49 - Getting response from API
+2022-12-17 22:45:40 INFO  AnswerConfigurator:113 - ---------------------------------Answer start---------------------------------
+2022-12-17 22:45:40 INFO  AnswerConfigurator:114 - Адрес: Россия, Московская область, городской округ Луховицы, СНТ Берёзка-4, 49
+2022-12-17 22:45:40 INFO  AnswerConfigurator:115 - Точность найденного объекта точные
+2022-12-17 22:45:40 INFO  AnswerConfigurator:116 - Координаты: 54.986299 с.ш. 39.088079 в. д.
+2022-12-17 22:45:40 INFO  AnswerConfigurator:117 - ---------------------------------Answer end---------------------------------
+2022-12-17 22:45:40 INFO  LinkForGeocoderApi:35 - Received address for request: 140235, Московская область, Воскресенский район, д. Елкино, ул. Совхозная, участок 30-а
+2022-12-17 22:45:40 INFO  LinkForGeocoderApi:36 - Region to cat area: Воскресенский
+2022-12-17 22:45:40 INFO  APIController:17 - Sending request to API. Link: https://geocode-maps.yandex.ru/1.x/?apikey=c2fa646e-1938-4510-91a0-71da95877d8e&geocode=140235%2C+%D0%9C%D0%BE%D1%81%D0%BA%D0%BE%D0%B2%D1%81%D0%BA%D0%B0%D1%8F+%D0%BE%D0%B1%D0%BB%D0%B0%D1%81%D1%82%D1%8C%2C+%D0%92%D0%BE%D1%81%D0%BA%D1%80%D0%B5%D1%81%D0%B5%D0%BD%D1%81%D0%BA%D0%B8%D0%B9+%D1%80%D0%B0%D0%B9%D0%BE%D0%BD%2C+%D0%B4.+%D0%95%D0%BB%D0%BA%D0%B8%D0%BD%D0%BE%2C+%D1%83%D0%BB.+%D0%A1%D0%BE%D0%B2%D1%85%D0%BE%D0%B7%D0%BD%D0%B0%D1%8F%2C+%D1%83%D1%87%D0%B0%D1%81%D1%82%D0%BE%D0%BA+30-%D0%B0&rspn=1&ll=38.645685,55.380718&spn=0.75,0.43&format=json
+2022-12-17 22:45:40 INFO  APIController:26 - Preparing URL
+2022-12-17 22:45:40 INFO  APIController:49 - Getting response from API
+2022-12-17 22:45:40 INFO  ObjectAddress:96 - FeatureMemberItem{geoObject = 'GeoObject{metaDataProperty = 'MetaDataProperty{geocoderResponseMetaData = 'null',geocoderMetaData = 'GeocoderMetaData{address = 'Address{components = '[ComponentsItem{kind = 'country',name = 'Россия'}, ComponentsItem{kind = 'province',name = 'Центральный федеральный округ'}, ComponentsItem{kind = 'province',name = 'Московская область'}, ComponentsItem{kind = 'area',name = 'городской округ Воскресенск'}, ComponentsItem{kind = 'locality',name = 'деревня Ёлкино'}, ComponentsItem{kind = 'street',name = 'Совхозная улица'}, ComponentsItem{kind = 'house',name = '28'}]',country_code = 'RU',formatted = 'Россия, Московская область, городской округ Воскресенск, деревня Ёлкино, Совхозная улица, 28'}',addressDetails = 'AddressDetails{country = 'Country{administrativeArea = 'AdministrativeArea{administrativeAreaName = 'Московская область',subAdministrativeArea = 'SubAdministrativeArea{locality = 'Locality{localityName = 'деревня Ёлкино',dependentLocality = 'null'}',subAdministrativeAreaName = 'городской округ Воскресенск'}'}',countryName = 'Россия',addressLine = 'Россия, Московская область, городской округ Воскресенск, деревня Ёлкино, Совхозная улица, 28',countryNameCode = 'RU'}'}',kind = 'house',precision = 'near',text = 'Россия, Московская область, городской округ Воскресенск, деревня Ёлкино, Совхозная улица, 28'}'}',boundedBy = 'BoundedBy{envelope = 'Envelope{lowerCorner = '38.824163 55.310088',upperCorner = '38.832373 55.314771'}'}',name = 'Совхозная улица, 28',description = 'деревня Ёлкино, городской округ Воскресенск, Московская область, Россия',point = 'Point{pos = '38.828268 55.31243'}'}'}
+2022-12-17 22:45:40 INFO  AnswerConfigurator:113 - ---------------------------------Answer start---------------------------------
+2022-12-17 22:45:40 INFO  AnswerConfigurator:114 - Адрес: Россия, Московская область, городской округ Воскресенск, деревня Ёлкино, Совхозная улица, 28
+2022-12-17 22:45:40 INFO  AnswerConfigurator:115 - Точность найденного объекта примерные
+2022-12-17 22:45:40 INFO  AnswerConfigurator:116 - Координаты: 55.31243 с.ш. 38.828268 в. д.
+2022-12-17 22:45:40 INFO  AnswerConfigurator:117 - ---------------------------------Answer end---------------------------------
+2022-12-17 22:45:40 INFO  AnswerConfigurator:98 - Все строки в файле прочитаны
+2022-12-17 22:45:40 INFO  TelegramBot:139 - Sending message: Записываю координаты в файл
+2022-12-17 22:45:40 INFO  TelegramBot:139 - Sending message: Вот заполенный файл
+2022-12-17 22:48:41 DEBUG TelegramBot:45 - Received new message: /bytable
+2022-12-17 22:48:41 INFO  TelegramBot:139 - Sending message: Пришлите файл формата .xlsx с адресами, в котором адрес находится в столбце "D"
+2022-12-17 22:48:41 INFO  TelegramBot:139 - Sending message: Запросить файл для заполнения адресами можно командой /getdraftfile
+2022-12-17 22:48:46 DEBUG TelegramBot:45 - Received new message: null
+2022-12-17 22:48:46 INFO  TelegramBot:98 - File received
+2022-12-17 22:48:46 INFO  TelegramBot:139 - Sending message: Получен файл
+2022-12-17 22:48:46 INFO  APIController:17 - Sending request to API. Link: https://api.telegram.org/bot5505170056:AAG-H1biJ_jMUMIuZrMa8yjVFRPnDNIZ4mA/getFile?file_id=BQACAgIAAxkBAAIGNmOeHR-B5l4SWXYLvRsgGpXEJHGvAAI2JAAC6_vxSJhWYljdRgPALAQ
+2022-12-17 22:48:46 INFO  APIController:26 - Preparing URL
+2022-12-17 22:48:46 INFO  APIController:49 - Getting response from API
+2022-12-17 22:48:47 INFO  FileDownloadService:21 - -----------------------------------------------
+2022-12-17 22:48:47 INFO  FileDownloadService:22 - File downloading /file/bot5505170056:AAG-H1biJ_jMUMIuZrMa8yjVFRPnDNIZ4mA/documents/file_105.xlsx
+2022-12-17 22:48:47 INFO  FileDownloadService:23 - File name: fortestsLight.xlsx
+2022-12-17 22:48:47 INFO  FileDownloadService:35 - File downloaded
+2022-12-17 22:48:47 INFO  FileDownloadService:36 - -----------------------------------------------
+2022-12-17 22:48:47 INFO  LinkForGeocoderApi:35 - Received address for request: 140000, Московская область, р-н Егорьевский, д. Данилово, д. 26
+2022-12-17 22:48:47 INFO  LinkForGeocoderApi:36 - Region to cat area: Егорьевский
+2022-12-17 22:48:47 INFO  APIController:17 - Sending request to API. Link: https://geocode-maps.yandex.ru/1.x/?apikey=c2fa646e-1938-4510-91a0-71da95877d8e&geocode=140000%2C+%D0%9C%D0%BE%D1%81%D0%BA%D0%BE%D0%B2%D1%81%D0%BA%D0%B0%D1%8F+%D0%BE%D0%B1%D0%BB%D0%B0%D1%81%D1%82%D1%8C%2C+%D1%80-%D0%BD+%D0%95%D0%B3%D0%BE%D1%80%D1%8C%D0%B5%D0%B2%D1%81%D0%BA%D0%B8%D0%B9%2C+%D0%B4.+%D0%94%D0%B0%D0%BD%D0%B8%D0%BB%D0%BE%D0%B2%D0%BE%2C+%D0%B4.+26&rspn=1&ll=39.225503,55.304252&spn=1.05,0.7&format=json
+2022-12-17 22:48:47 INFO  APIController:26 - Preparing URL
+2022-12-17 22:48:47 INFO  APIController:49 - Getting response from API
+2022-12-17 22:48:47 INFO  AnswerConfigurator:113 - ---------------------------------Answer start---------------------------------
+2022-12-17 22:48:47 INFO  AnswerConfigurator:114 - Адрес: Россия, Московская область, городской округ Егорьевск, деревня Данилово, 26
+2022-12-17 22:48:47 INFO  AnswerConfigurator:115 - Точность найденного объекта точные
+2022-12-17 22:48:47 INFO  AnswerConfigurator:116 - Координаты: 55.4184 с.ш. 39.068064 в. д.
+2022-12-17 22:48:47 INFO  AnswerConfigurator:117 - ---------------------------------Answer end---------------------------------
+2022-12-17 22:48:47 INFO  LinkForGeocoderApi:35 - Received address for request: 140300, Московская обл., Егорьевский г.о., д. Юрцово, д.д.224
+2022-12-17 22:48:47 INFO  LinkForGeocoderApi:36 - Region to cat area: 
+2022-12-17 22:48:47 INFO  APIController:17 - Sending request to API. Link: https://geocode-maps.yandex.ru/1.x/?apikey=c2fa646e-1938-4510-91a0-71da95877d8e&geocode=140300%2C+%D0%9C%D0%BE%D1%81%D0%BA%D0%BE%D0%B2%D1%81%D0%BA%D0%B0%D1%8F+%D0%BE%D0%B1%D0%BB.%2C+%D0%95%D0%B3%D0%BE%D1%80%D1%8C%D0%B5%D0%B2%D1%81%D0%BA%D0%B8%D0%B9+%D0%B3.%D0%BE.%2C+%D0%B4.+%D0%AE%D1%80%D1%86%D0%BE%D0%B2%D0%BE%2C+%D0%B4.%D0%B4.224&format=json
+2022-12-17 22:48:47 INFO  APIController:26 - Preparing URL
+2022-12-17 22:48:47 INFO  APIController:49 - Getting response from API
+2022-12-17 22:48:47 INFO  ObjectAddress:96 - FeatureMemberItem{geoObject = 'GeoObject{metaDataProperty = 'MetaDataProperty{geocoderResponseMetaData = 'null',geocoderMetaData = 'GeocoderMetaData{address = 'Address{components = '[ComponentsItem{kind = 'country',name = 'Россия'}, ComponentsItem{kind = 'province',name = 'Центральный федеральный округ'}, ComponentsItem{kind = 'province',name = 'Московская область'}, ComponentsItem{kind = 'area',name = 'городской округ Егорьевск'}, ComponentsItem{kind = 'locality',name = 'деревня Юрцово'}, ComponentsItem{kind = 'house',name = '220'}]',country_code = 'RU',formatted = 'Россия, Московская область, городской округ Егорьевск, деревня Юрцово, 220'}',addressDetails = 'AddressDetails{country = 'Country{administrativeArea = 'AdministrativeArea{administrativeAreaName = 'Московская область',subAdministrativeArea = 'SubAdministrativeArea{locality = 'Locality{localityName = 'деревня Юрцово',dependentLocality = 'null'}',subAdministrativeAreaName = 'городской округ Егорьевск'}'}',countryName = 'Россия',addressLine = 'Россия, Московская область, городской округ Егорьевск, деревня Юрцово, 220',countryNameCode = 'RU'}'}',kind = 'house',precision = 'near',text = 'Россия, Московская область, городской округ Егорьевск, деревня Юрцово, 220'}'}',boundedBy = 'BoundedBy{envelope = 'Envelope{lowerCorner = '39.189633 55.312917',upperCorner = '39.197844 55.317599'}'}',name = 'деревня Юрцово, 220',description = 'городской округ Егорьевск, Московская область, Россия',point = 'Point{pos = '39.193738 55.315258'}'}'}
+2022-12-17 22:48:47 INFO  AnswerConfigurator:113 - ---------------------------------Answer start---------------------------------
+2022-12-17 22:48:47 INFO  AnswerConfigurator:114 - Адрес: Россия, Московская область, городской округ Егорьевск, деревня Юрцово, 220
+2022-12-17 22:48:47 INFO  AnswerConfigurator:115 - Точность найденного объекта примерные
+2022-12-17 22:48:47 INFO  AnswerConfigurator:116 - Координаты: 55.315258 с.ш. 39.193738 в. д.
+2022-12-17 22:48:47 INFO  AnswerConfigurator:117 - ---------------------------------Answer end---------------------------------
+2022-12-17 22:48:47 INFO  LinkForGeocoderApi:35 - Received address for request: 140500, Московская область, Луховицкий район, СНТ "Россия", уч. 123
+2022-12-17 22:48:47 INFO  LinkForGeocoderApi:36 - Region to cat area: 
+2022-12-17 22:48:47 INFO  APIController:17 - Sending request to API. Link: https://geocode-maps.yandex.ru/1.x/?apikey=c2fa646e-1938-4510-91a0-71da95877d8e&geocode=140500%2C+%D0%9C%D0%BE%D1%81%D0%BA%D0%BE%D0%B2%D1%81%D0%BA%D0%B0%D1%8F+%D0%BE%D0%B1%D0%BB%D0%B0%D1%81%D1%82%D1%8C%2C+%D0%9B%D1%83%D1%85%D0%BE%D0%B2%D0%B8%D1%86%D0%BA%D0%B8%D0%B9+%D1%80%D0%B0%D0%B9%D0%BE%D0%BD%2C+%D0%A1%D0%9D%D0%A2+%22%D0%A0%D0%BE%D1%81%D1%81%D0%B8%D1%8F%22%2C+%D1%83%D1%87.+123&format=json
+2022-12-17 22:48:47 INFO  APIController:26 - Preparing URL
+2022-12-17 22:48:47 INFO  APIController:49 - Getting response from API
+2022-12-17 22:48:47 INFO  AnswerConfigurator:113 - ---------------------------------Answer start---------------------------------
+2022-12-17 22:48:47 INFO  AnswerConfigurator:114 - Адрес: Россия, Московская область, городской округ Луховицы, СНТ Россия, 123
+2022-12-17 22:48:47 INFO  AnswerConfigurator:115 - Точность найденного объекта точные
+2022-12-17 22:48:47 INFO  AnswerConfigurator:116 - Координаты: 54.918607 с.ш. 39.17888 в. д.
+2022-12-17 22:48:47 INFO  AnswerConfigurator:117 - ---------------------------------Answer end---------------------------------
+2022-12-17 22:48:47 INFO  LinkForGeocoderApi:35 - Received address for request: 140514, установлено относительно ориентира, расположенного в границах участка. Почтовый адрес ориентира: Московская обл., р-н Луховицкий, снт Березка-4, уч-к 49
+2022-12-17 22:48:47 INFO  LinkForGeocoderApi:36 - Region to cat area: Луховицкий
+2022-12-17 22:48:47 INFO  APIController:17 - Sending request to API. Link: https://geocode-maps.yandex.ru/1.x/?apikey=c2fa646e-1938-4510-91a0-71da95877d8e&geocode=140514%2C+%D1%83%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%BB%D0%B5%D0%BD%D0%BE+%D0%BE%D1%82%D0%BD%D0%BE%D1%81%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D0%BE+%D0%BE%D1%80%D0%B8%D0%B5%D0%BD%D1%82%D0%B8%D1%80%D0%B0%2C+%D1%80%D0%B0%D1%81%D0%BF%D0%BE%D0%BB%D0%BE%D0%B6%D0%B5%D0%BD%D0%BD%D0%BE%D0%B3%D0%BE+%D0%B2+%D0%B3%D1%80%D0%B0%D0%BD%D0%B8%D1%86%D0%B0%D1%85+%D1%83%D1%87%D0%B0%D1%81%D1%82%D0%BA%D0%B0.+%D0%9F%D0%BE%D1%87%D1%82%D0%BE%D0%B2%D1%8B%D0%B9+%D0%B0%D0%B4%D1%80%D0%B5%D1%81+%D0%BE%D1%80%D0%B8%D0%B5%D0%BD%D1%82%D0%B8%D1%80%D0%B0%3A+%D0%9C%D0%BE%D1%81%D0%BA%D0%BE%D0%B2%D1%81%D0%BA%D0%B0%D1%8F+%D0%BE%D0%B1%D0%BB.%2C+%D1%80-%D0%BD+%D0%9B%D1%83%D1%85%D0%BE%D0%B2%D0%B8%D1%86%D0%BA%D0%B8%D0%B9%2C+%D1%81%D0%BD%D1%82+%D0%91%D0%B5%D1%80%D0%B5%D0%B7%D0%BA%D0%B0-4%2C+%D1%83%D1%87-%D0%BA+49&rspn=1&ll=39.19425,54.948649&spn=0.92,0.51&format=json
+2022-12-17 22:48:47 INFO  APIController:26 - Preparing URL
+2022-12-17 22:48:47 INFO  APIController:49 - Getting response from API
+2022-12-17 22:48:48 INFO  AnswerConfigurator:113 - ---------------------------------Answer start---------------------------------
+2022-12-17 22:48:48 INFO  AnswerConfigurator:114 - Адрес: Россия, Московская область, городской округ Луховицы, СНТ Берёзка-4, 49
+2022-12-17 22:48:48 INFO  AnswerConfigurator:115 - Точность найденного объекта точные
+2022-12-17 22:48:48 INFO  AnswerConfigurator:116 - Координаты: 54.986299 с.ш. 39.088079 в. д.
+2022-12-17 22:48:48 INFO  AnswerConfigurator:117 - ---------------------------------Answer end---------------------------------
+2022-12-17 22:48:48 INFO  LinkForGeocoderApi:35 - Received address for request: 140235, Московская область, Воскресенский район, д. Елкино, ул. Совхозная, участок 30-а
+2022-12-17 22:48:48 INFO  LinkForGeocoderApi:36 - Region to cat area: Воскресенский
+2022-12-17 22:48:48 INFO  APIController:17 - Sending request to API. Link: https://geocode-maps.yandex.ru/1.x/?apikey=c2fa646e-1938-4510-91a0-71da95877d8e&geocode=140235%2C+%D0%9C%D0%BE%D1%81%D0%BA%D0%BE%D0%B2%D1%81%D0%BA%D0%B0%D1%8F+%D0%BE%D0%B1%D0%BB%D0%B0%D1%81%D1%82%D1%8C%2C+%D0%92%D0%BE%D1%81%D0%BA%D1%80%D0%B5%D1%81%D0%B5%D0%BD%D1%81%D0%BA%D0%B8%D0%B9+%D1%80%D0%B0%D0%B9%D0%BE%D0%BD%2C+%D0%B4.+%D0%95%D0%BB%D0%BA%D0%B8%D0%BD%D0%BE%2C+%D1%83%D0%BB.+%D0%A1%D0%BE%D0%B2%D1%85%D0%BE%D0%B7%D0%BD%D0%B0%D1%8F%2C+%D1%83%D1%87%D0%B0%D1%81%D1%82%D0%BE%D0%BA+30-%D0%B0&rspn=1&ll=38.645685,55.380718&spn=0.75,0.43&format=json
+2022-12-17 22:48:48 INFO  APIController:26 - Preparing URL
+2022-12-17 22:48:48 INFO  APIController:49 - Getting response from API
+2022-12-17 22:48:48 INFO  ObjectAddress:96 - FeatureMemberItem{geoObject = 'GeoObject{metaDataProperty = 'MetaDataProperty{geocoderResponseMetaData = 'null',geocoderMetaData = 'GeocoderMetaData{address = 'Address{components = '[ComponentsItem{kind = 'country',name = 'Россия'}, ComponentsItem{kind = 'province',name = 'Центральный федеральный округ'}, ComponentsItem{kind = 'province',name = 'Московская область'}, ComponentsItem{kind = 'area',name = 'городской округ Воскресенск'}, ComponentsItem{kind = 'locality',name = 'деревня Ёлкино'}, ComponentsItem{kind = 'street',name = 'Совхозная улица'}, ComponentsItem{kind = 'house',name = '28'}]',country_code = 'RU',formatted = 'Россия, Московская область, городской округ Воскресенск, деревня Ёлкино, Совхозная улица, 28'}',addressDetails = 'AddressDetails{country = 'Country{administrativeArea = 'AdministrativeArea{administrativeAreaName = 'Московская область',subAdministrativeArea = 'SubAdministrativeArea{locality = 'Locality{localityName = 'деревня Ёлкино',dependentLocality = 'null'}',subAdministrativeAreaName = 'городской округ Воскресенск'}'}',countryName = 'Россия',addressLine = 'Россия, Московская область, городской округ Воскресенск, деревня Ёлкино, Совхозная улица, 28',countryNameCode = 'RU'}'}',kind = 'house',precision = 'near',text = 'Россия, Московская область, городской округ Воскресенск, деревня Ёлкино, Совхозная улица, 28'}'}',boundedBy = 'BoundedBy{envelope = 'Envelope{lowerCorner = '38.824163 55.310088',upperCorner = '38.832373 55.314771'}'}',name = 'Совхозная улица, 28',description = 'деревня Ёлкино, городской округ Воскресенск, Московская область, Россия',point = 'Point{pos = '38.828268 55.31243'}'}'}
+2022-12-17 22:48:48 INFO  AnswerConfigurator:113 - ---------------------------------Answer start---------------------------------
+2022-12-17 22:48:48 INFO  AnswerConfigurator:114 - Адрес: Россия, Московская область, городской округ Воскресенск, деревня Ёлкино, Совхозная улица, 28
+2022-12-17 22:48:48 INFO  AnswerConfigurator:115 - Точность найденного объекта примерные
+2022-12-17 22:48:48 INFO  AnswerConfigurator:116 - Координаты: 55.31243 с.ш. 38.828268 в. д.
+2022-12-17 22:48:48 INFO  AnswerConfigurator:117 - ---------------------------------Answer end---------------------------------
+2022-12-17 22:48:48 INFO  AnswerConfigurator:98 - Все строки в файле прочитаны
+2022-12-17 22:48:48 INFO  TelegramBot:139 - Sending message: Записываю координаты в файл
+2022-12-17 22:48:48 INFO  TelegramBot:139 - Sending message: Вот заполенный файл
+2022-12-17 22:49:37 DEBUG TelegramBot:45 - Received new message: /restart
+2022-12-17 22:49:37 INFO  TelegramBot:139 - Sending message: Выберите действие заново
+2022-12-17 22:49:39 DEBUG TelegramBot:45 - Received new message: /getcounter
+2022-12-17 22:49:39 INFO  TelegramBot:139 - Sending message: Сегодня совершено 0 запросов из 900.
+2022-12-17 22:49:41 DEBUG TelegramBot:45 - Received new message: /bymessage
+2022-12-17 22:49:41 INFO  TelegramBot:139 - Sending message: Введите адрес для получения координат
+2022-12-17 22:49:41 INFO  TelegramBot:139 - Sending message: Желательно вводить адрес в формате:
+2022-12-17 22:49:41 INFO  TelegramBot:139 - Sending message: (Страна), (область), (округ), населённый пункт, (уточнение), улица, номер дома
+2022-12-17 22:49:41 INFO  TelegramBot:139 - Sending message: в скобках указаны необязательные для ввода параметры
+2022-12-17 22:49:45 DEBUG TelegramBot:45 - Received new message: Njrbj
+2022-12-17 22:49:45 INFO  LinkForGeocoderApi:34 - Received address for request: Njrbj
+2022-12-17 22:49:45 INFO  LinkForGeocoderApi:35 - Region to cat area: null
+2022-12-17 22:52:37 DEBUG TelegramBot:45 - Received new message: /bymessage
+2022-12-17 22:52:37 INFO  TelegramBot:139 - Sending message: Введите адрес для получения координат
+2022-12-17 22:52:37 INFO  TelegramBot:139 - Sending message: Желательно вводить адрес в формате:
+2022-12-17 22:52:37 INFO  TelegramBot:139 - Sending message: (Страна), (область), (округ), населённый пункт, (уточнение), улица, номер дома
+2022-12-17 22:52:37 INFO  TelegramBot:139 - Sending message: в скобках указаны необязательные для ввода параметры
+2022-12-17 22:52:40 DEBUG TelegramBot:45 - Received new message: Токио
+2022-12-17 22:52:40 INFO  LinkForGeocoderApi:34 - Received address for request: Токио
+2022-12-17 22:52:40 INFO  LinkForGeocoderApi:35 - Region to cat area: null
+2022-12-17 22:52:40 INFO  APIController:17 - Sending request to API. Link: https://geocode-maps.yandex.ru/1.x/?apikey=c2fa646e-1938-4510-91a0-71da95877d8e&geocode=%D0%A2%D0%BE%D0%BA%D0%B8%D0%BE&format=json
+2022-12-17 22:52:40 INFO  APIController:26 - Preparing URL
+2022-12-17 22:52:40 INFO  APIController:49 - Getting response from API
+2022-12-17 22:52:40 INFO  ObjectAddress:96 - FeatureMemberItem{geoObject = 'GeoObject{metaDataProperty = 'MetaDataProperty{geocoderResponseMetaData = 'null',geocoderMetaData = 'GeocoderMetaData{address = 'Address{components = '[ComponentsItem{kind = 'country',name = 'Япония'}, ComponentsItem{kind = 'province',name = 'префектура Токио'}, ComponentsItem{kind = 'locality',name = 'Токио'}]',country_code = 'JP',formatted = 'Япония, Токио'}',addressDetails = 'AddressDetails{country = 'Country{administrativeArea = 'AdministrativeArea{administrativeAreaName = 'префектура Токио',subAdministrativeArea = 'null'}',countryName = 'Япония',addressLine = 'Япония, Токио',countryNameCode = 'JP'}'}',kind = 'locality',precision = 'other',text = 'Япония, Токио'}'}',boundedBy = 'BoundedBy{envelope = 'Envelope{lowerCorner = '138.943099 35.50113',upperCorner = '139.919002 35.8979'}'}',name = 'Токио',description = 'Япония',point = 'Point{pos = '139.753927 35.681729'}'}'}
+2022-12-17 22:52:40 INFO  AnswerConfigurator:113 - ---------------------------------Answer start---------------------------------
+2022-12-17 22:52:40 INFO  AnswerConfigurator:114 - Адрес: Япония, Токио
+2022-12-17 22:52:40 INFO  AnswerConfigurator:115 - Точность найденного объекта примерные
+2022-12-17 22:52:40 INFO  AnswerConfigurator:116 - Координаты: 35.681729 с.ш. 139.753927 в. д.
+2022-12-17 22:52:40 INFO  AnswerConfigurator:117 - ---------------------------------Answer end---------------------------------
+2022-12-17 22:52:40 INFO  TelegramBot:139 - Sending message: По адресу: Япония, Токио Найдено местоположение населенного пункта координаты 35.681729 с.ш. 139.753927 в. д.
+2022-12-17 22:52:40 INFO  TelegramBot:139 - Sending message: Введите следующий адрес или введите /restart, чтобы выбрать другую команду
+2022-12-17 22:52:45 DEBUG TelegramBot:45 - Received new message: Njrbj
+2022-12-17 22:52:45 INFO  LinkForGeocoderApi:34 - Received address for request: Njrbj
+2022-12-17 22:52:45 INFO  LinkForGeocoderApi:35 - Region to cat area: null
+2022-12-17 22:52:45 INFO  APIController:17 - Sending request to API. Link: https://geocode-maps.yandex.ru/1.x/?apikey=c2fa646e-1938-4510-91a0-71da95877d8e&geocode=Njrbj&format=json
+2022-12-17 22:52:45 INFO  APIController:26 - Preparing URL
+2022-12-17 22:52:45 INFO  APIController:49 - Getting response from API
+2022-12-17 22:52:45 INFO  ObjectAddress:96 - FeatureMemberItem{geoObject = 'GeoObject{metaDataProperty = 'MetaDataProperty{geocoderResponseMetaData = 'null',geocoderMetaData = 'GeocoderMetaData{address = 'Address{components = '[ComponentsItem{kind = 'country',name = 'Япония'}, ComponentsItem{kind = 'province',name = 'префектура Токио'}, ComponentsItem{kind = 'locality',name = 'Токио'}]',country_code = 'JP',formatted = 'Япония, Токио'}',addressDetails = 'AddressDetails{country = 'Country{administrativeArea = 'AdministrativeArea{administrativeAreaName = 'префектура Токио',subAdministrativeArea = 'null'}',countryName = 'Япония',addressLine = 'Япония, Токио',countryNameCode = 'JP'}'}',kind = 'locality',precision = 'other',text = 'Япония, Токио'}'}',boundedBy = 'BoundedBy{envelope = 'Envelope{lowerCorner = '138.943099 35.50113',upperCorner = '139.919002 35.8979'}'}',name = 'Токио',description = 'Япония',point = 'Point{pos = '139.753927 35.681729'}'}'}
+2022-12-17 22:52:45 INFO  AnswerConfigurator:113 - ---------------------------------Answer start---------------------------------
+2022-12-17 22:52:45 INFO  AnswerConfigurator:114 - Адрес: Япония, Токио
+2022-12-17 22:52:45 INFO  AnswerConfigurator:115 - Точность найденного объекта примерные
+2022-12-17 22:52:45 INFO  AnswerConfigurator:116 - Координаты: 35.681729 с.ш. 139.753927 в. д.
+2022-12-17 22:52:45 INFO  AnswerConfigurator:117 - ---------------------------------Answer end---------------------------------
+2022-12-17 22:52:45 INFO  TelegramBot:139 - Sending message: По адресу: Япония, Токио Найдено местоположение населенного пункта координаты 35.681729 с.ш. 139.753927 в. д.
+2022-12-17 22:52:45 INFO  TelegramBot:139 - Sending message: Введите следующий адрес или введите /restart, чтобы выбрать другую команду
+2022-12-17 22:52:50 DEBUG TelegramBot:45 - Received new message: /getdraftfile
+2022-12-17 22:52:50 INFO  TelegramBot:139 - Sending message: Заполните файл адресами и районами, а потом пришлите его мне
+2022-12-17 22:52:54 DEBUG TelegramBot:45 - Received new message: /restart
+2022-12-17 22:52:54 INFO  TelegramBot:139 - Sending message: Выберите действие заново
+2022-12-17 22:52:55 DEBUG TelegramBot:45 - Received new message: /getcounter
+2022-12-17 22:52:55 INFO  TelegramBot:139 - Sending message: Сегодня совершено 0 запросов из 900.
+2022-12-17 22:53:06 DEBUG TelegramBot:45 - Received new message: /bymessage
+2022-12-17 22:53:06 INFO  TelegramBot:139 - Sending message: Введите адрес для получения координат
+2022-12-17 22:53:07 INFO  TelegramBot:139 - Sending message: Желательно вводить адрес в формате:
+2022-12-17 22:53:07 INFO  TelegramBot:139 - Sending message: (Страна), (область), (округ), населённый пункт, (уточнение), улица, номер дома
+2022-12-17 22:53:07 INFO  TelegramBot:139 - Sending message: в скобках указаны необязательные для ввода параметры
+2022-12-17 22:53:15 DEBUG TelegramBot:45 - Received new message: Токио
+2022-12-17 22:53:15 INFO  LinkForGeocoderApi:34 - Received address for request: Токио
+2022-12-17 22:53:15 INFO  LinkForGeocoderApi:35 - Region to cat area: null
+2022-12-17 22:53:15 INFO  APIController:17 - Sending request to API. Link: https://geocode-maps.yandex.ru/1.x/?apikey=c2fa646e-1938-4510-91a0-71da95877d8e&geocode=%D0%A2%D0%BE%D0%BA%D0%B8%D0%BE&format=json
+2022-12-17 22:53:15 INFO  APIController:26 - Preparing URL
+2022-12-17 22:53:15 INFO  APIController:49 - Getting response from API
+2022-12-17 22:53:15 INFO  ObjectAddress:96 - FeatureMemberItem{geoObject = 'GeoObject{metaDataProperty = 'MetaDataProperty{geocoderResponseMetaData = 'null',geocoderMetaData = 'GeocoderMetaData{address = 'Address{components = '[ComponentsItem{kind = 'country',name = 'Япония'}, ComponentsItem{kind = 'province',name = 'префектура Токио'}, ComponentsItem{kind = 'locality',name = 'Токио'}]',country_code = 'JP',formatted = 'Япония, Токио'}',addressDetails = 'AddressDetails{country = 'Country{administrativeArea = 'AdministrativeArea{administrativeAreaName = 'префектура Токио',subAdministrativeArea = 'null'}',countryName = 'Япония',addressLine = 'Япония, Токио',countryNameCode = 'JP'}'}',kind = 'locality',precision = 'other',text = 'Япония, Токио'}'}',boundedBy = 'BoundedBy{envelope = 'Envelope{lowerCorner = '138.943099 35.50113',upperCorner = '139.919002 35.8979'}'}',name = 'Токио',description = 'Япония',point = 'Point{pos = '139.753927 35.681729'}'}'}
+2022-12-17 22:53:15 INFO  AnswerConfigurator:113 - ---------------------------------Answer start---------------------------------
+2022-12-17 22:53:15 INFO  AnswerConfigurator:114 - Адрес: Япония, Токио
+2022-12-17 22:53:15 INFO  AnswerConfigurator:115 - Точность найденного объекта примерные
+2022-12-17 22:53:15 INFO  AnswerConfigurator:116 - Координаты: 35.681729 с.ш. 139.753927 в. д.
+2022-12-17 22:53:15 INFO  AnswerConfigurator:117 - ---------------------------------Answer end---------------------------------
+2022-12-17 22:53:15 INFO  TelegramBot:139 - Sending message: По адресу: Япония, Токио Найдено местоположение населенного пункта координаты 35.681729 с.ш. 139.753927 в. д.
+2022-12-17 22:53:16 INFO  TelegramBot:139 - Sending message: Введите следующий адрес или введите /restart, чтобы выбрать другую команду
+2022-12-17 22:53:21 DEBUG TelegramBot:45 - Received new message: /getcounter
+2022-12-17 22:53:21 INFO  TelegramBot:139 - Sending message: Сегодня совершено 0 запросов из 900.
+2022-12-17 23:02:14 DEBUG TelegramBot:45 - Received new message: /bymessage
+2022-12-17 23:02:14 INFO  TelegramBot:139 - Sending message: Введите адрес для получения координат
+2022-12-17 23:02:14 INFO  TelegramBot:139 - Sending message: Желательно вводить адрес в формате:
+2022-12-17 23:02:14 INFO  TelegramBot:139 - Sending message: (Страна), (область), (округ), населённый пункт, (уточнение), улица, номер дома
+2022-12-17 23:02:14 INFO  TelegramBot:139 - Sending message: в скобках указаны необязательные для ввода параметры
+2022-12-17 23:02:17 DEBUG TelegramBot:45 - Received new message: Cg,
+2022-12-17 23:02:17 INFO  LinkForGeocoderApi:34 - Received address for request: Cg,
+2022-12-17 23:02:17 INFO  LinkForGeocoderApi:35 - Region to cat area: null
+2022-12-17 23:02:17 INFO  APIController:17 - Sending request to API. Link: https://geocode-maps.yandex.ru/1.x/?apikey=c2fa646e-1938-4510-91a0-71da95877d8e&geocode=Cg%2C&format=json
+2022-12-17 23:02:17 INFO  APIController:26 - Preparing URL
+2022-12-17 23:02:17 INFO  APIController:49 - Getting response from API
+2022-12-17 23:02:17 INFO  ObjectAddress:96 - FeatureMemberItem{geoObject = 'GeoObject{metaDataProperty = 'MetaDataProperty{geocoderResponseMetaData = 'null',geocoderMetaData = 'GeocoderMetaData{address = 'Address{components = '[ComponentsItem{kind = 'country',name = 'Россия'}, ComponentsItem{kind = 'province',name = 'Северо-Западный федеральный округ'}, ComponentsItem{kind = 'province',name = 'Санкт-Петербург'}]',country_code = 'RU',formatted = 'Россия, Санкт-Петербург'}',addressDetails = 'AddressDetails{country = 'Country{administrativeArea = 'AdministrativeArea{administrativeAreaName = 'Санкт-Петербург',subAdministrativeArea = 'null'}',countryName = 'Россия',addressLine = 'Россия, Санкт-Петербург',countryNameCode = 'RU'}'}',kind = 'province',precision = 'other',text = 'Россия, Санкт-Петербург'}'}',boundedBy = 'BoundedBy{envelope = 'Envelope{lowerCorner = '29.425117 59.633711',upperCorner = '30.759528 60.244813'}'}',name = 'Санкт-Петербург',description = 'Россия',point = 'Point{pos = '30.315644 59.938955'}'}'}
+2022-12-17 23:02:17 INFO  AnswerConfigurator:113 - ---------------------------------Answer start---------------------------------
+2022-12-17 23:02:17 INFO  AnswerConfigurator:114 - Адрес: Россия, Санкт-Петербург
+2022-12-17 23:02:17 INFO  AnswerConfigurator:115 - Точность найденного объекта примерные
+2022-12-17 23:02:17 INFO  AnswerConfigurator:116 - Координаты: 59.938955 с.ш. 30.315644 в. д.
+2022-12-17 23:02:17 INFO  AnswerConfigurator:117 - Счетчик запросов Геокодера = 0
+2022-12-17 23:02:17 INFO  AnswerConfigurator:118 - ---------------------------------Answer end---------------------------------
+2022-12-17 23:02:17 INFO  TelegramBot:139 - Sending message: По адресу: Россия, Санкт-Петербург Найдено местоположение населенного пункта координаты 59.938955 с.ш. 30.315644 в. д.
+2022-12-17 23:02:18 INFO  TelegramBot:139 - Sending message: Введите следующий адрес или введите /restart, чтобы выбрать другую команду
+2022-12-17 23:02:20 DEBUG TelegramBot:45 - Received new message: /getcounter
+2022-12-17 23:02:20 INFO  TelegramBot:139 - Sending message: Сегодня совершено 0 запросов из 900.
+2022-12-17 23:10:55 DEBUG TelegramBot:45 - Received new message: /bytable
+2022-12-17 23:10:55 INFO  TelegramBot:139 - Sending message: Пришлите файл формата .xlsx с адресами, в котором адрес находится в столбце "D"
+2022-12-17 23:10:55 INFO  TelegramBot:139 - Sending message: Запросить файл для заполнения адресами можно командой /getdraftfile
+2022-12-17 23:11:00 DEBUG TelegramBot:45 - Received new message: null
+2022-12-17 23:11:00 INFO  TelegramBot:98 - File received
+2022-12-17 23:11:00 INFO  TelegramBot:139 - Sending message: Получен файл
+2022-12-17 23:11:00 INFO  APIController:17 - Sending request to API. Link: https://api.telegram.org/bot5505170056:AAG-H1biJ_jMUMIuZrMa8yjVFRPnDNIZ4mA/getFile?file_id=BQACAgIAAxkBAAIGbmOeIlVzMbDGmKqMrC4J16QqqAi0AAJTJAAC6_vxSJ1sY1lOX0GSLAQ
+2022-12-17 23:11:00 INFO  APIController:26 - Preparing URL
+2022-12-17 23:11:00 INFO  APIController:49 - Getting response from API
+2022-12-17 23:11:01 INFO  FileDownloadService:21 - -----------------------------------------------
+2022-12-17 23:11:01 INFO  FileDownloadService:22 - File downloading /file/bot5505170056:AAG-H1biJ_jMUMIuZrMa8yjVFRPnDNIZ4mA/documents/file_106.xlsx
+2022-12-17 23:11:01 INFO  FileDownloadService:23 - File name: fortestsLight.xlsx
+2022-12-17 23:11:01 INFO  FileDownloadService:35 - File downloaded
+2022-12-17 23:11:01 INFO  FileDownloadService:36 - -----------------------------------------------
+2022-12-17 23:11:01 INFO  LinkForGeocoderApi:34 - Received address for request: 140000, Московская область, р-н Егорьевский, д. Данилово, д. 26
+2022-12-17 23:11:01 INFO  LinkForGeocoderApi:35 - Region to cat area: Егорьевский
+2022-12-17 23:11:01 INFO  APIController:17 - Sending request to API. Link: https://geocode-maps.yandex.ru/1.x/?apikey=c2fa646e-1938-4510-91a0-71da95877d8e&geocode=140000%2C+%D0%9C%D0%BE%D1%81%D0%BA%D0%BE%D0%B2%D1%81%D0%BA%D0%B0%D1%8F+%D0%BE%D0%B1%D0%BB%D0%B0%D1%81%D1%82%D1%8C%2C+%D1%80-%D0%BD+%D0%95%D0%B3%D0%BE%D1%80%D1%8C%D0%B5%D0%B2%D1%81%D0%BA%D0%B8%D0%B9%2C+%D0%B4.+%D0%94%D0%B0%D0%BD%D0%B8%D0%BB%D0%BE%D0%B2%D0%BE%2C+%D0%B4.+26&rspn=1&ll=39.225503,55.304252&spn=1.05,0.7&format=json
+2022-12-17 23:11:01 INFO  APIController:26 - Preparing URL
+2022-12-17 23:11:01 INFO  APIController:49 - Getting response from API
+2022-12-17 23:11:01 INFO  AnswerConfigurator:113 - ---------------------------------Answer start---------------------------------
+2022-12-17 23:11:01 INFO  AnswerConfigurator:114 - Адрес: Россия, Московская область, городской округ Егорьевск, деревня Данилово, 26
+2022-12-17 23:11:01 INFO  AnswerConfigurator:115 - Точность найденного объекта точные
+2022-12-17 23:11:01 INFO  AnswerConfigurator:116 - Координаты: 55.4184 с.ш. 39.068064 в. д.
+2022-12-17 23:11:01 INFO  AnswerConfigurator:117 - Счетчик запросов Геокодера = 1
+2022-12-17 23:11:01 INFO  AnswerConfigurator:118 - ---------------------------------Answer end---------------------------------
+2022-12-17 23:11:01 INFO  LinkForGeocoderApi:34 - Received address for request: 140300, Московская обл., Егорьевский г.о., д. Юрцово, д.д.224
+2022-12-17 23:11:01 INFO  LinkForGeocoderApi:35 - Region to cat area: 
+2022-12-17 23:11:01 INFO  APIController:17 - Sending request to API. Link: https://geocode-maps.yandex.ru/1.x/?apikey=c2fa646e-1938-4510-91a0-71da95877d8e&geocode=140300%2C+%D0%9C%D0%BE%D1%81%D0%BA%D0%BE%D0%B2%D1%81%D0%BA%D0%B0%D1%8F+%D0%BE%D0%B1%D0%BB.%2C+%D0%95%D0%B3%D0%BE%D1%80%D1%8C%D0%B5%D0%B2%D1%81%D0%BA%D0%B8%D0%B9+%D0%B3.%D0%BE.%2C+%D0%B4.+%D0%AE%D1%80%D1%86%D0%BE%D0%B2%D0%BE%2C+%D0%B4.%D0%B4.224&format=json
+2022-12-17 23:11:01 INFO  APIController:26 - Preparing URL
+2022-12-17 23:11:01 INFO  APIController:49 - Getting response from API
+2022-12-17 23:11:01 INFO  ObjectAddress:96 - FeatureMemberItem{geoObject = 'GeoObject{metaDataProperty = 'MetaDataProperty{geocoderResponseMetaData = 'null',geocoderMetaData = 'GeocoderMetaData{address = 'Address{components = '[ComponentsItem{kind = 'country',name = 'Россия'}, ComponentsItem{kind = 'province',name = 'Центральный федеральный округ'}, ComponentsItem{kind = 'province',name = 'Московская область'}, ComponentsItem{kind = 'area',name = 'городской округ Егорьевск'}, ComponentsItem{kind = 'locality',name = 'деревня Юрцово'}, ComponentsItem{kind = 'house',name = '220'}]',country_code = 'RU',formatted = 'Россия, Московская область, городской округ Егорьевск, деревня Юрцово, 220'}',addressDetails = 'AddressDetails{country = 'Country{administrativeArea = 'AdministrativeArea{administrativeAreaName = 'Московская область',subAdministrativeArea = 'SubAdministrativeArea{locality = 'Locality{localityName = 'деревня Юрцово',dependentLocality = 'null'}',subAdministrativeAreaName = 'городской округ Егорьевск'}'}',countryName = 'Россия',addressLine = 'Россия, Московская область, городской округ Егорьевск, деревня Юрцово, 220',countryNameCode = 'RU'}'}',kind = 'house',precision = 'near',text = 'Россия, Московская область, городской округ Егорьевск, деревня Юрцово, 220'}'}',boundedBy = 'BoundedBy{envelope = 'Envelope{lowerCorner = '39.189633 55.312917',upperCorner = '39.197844 55.317599'}'}',name = 'деревня Юрцово, 220',description = 'городской округ Егорьевск, Московская область, Россия',point = 'Point{pos = '39.193738 55.315258'}'}'}
+2022-12-17 23:11:01 INFO  AnswerConfigurator:113 - ---------------------------------Answer start---------------------------------
+2022-12-17 23:11:01 INFO  AnswerConfigurator:114 - Адрес: Россия, Московская область, городской округ Егорьевск, деревня Юрцово, 220
+2022-12-17 23:11:01 INFO  AnswerConfigurator:115 - Точность найденного объекта примерные
+2022-12-17 23:11:01 INFO  AnswerConfigurator:116 - Координаты: 55.315258 с.ш. 39.193738 в. д.
+2022-12-17 23:11:01 INFO  AnswerConfigurator:117 - Счетчик запросов Геокодера = 2
+2022-12-17 23:11:01 INFO  AnswerConfigurator:118 - ---------------------------------Answer end---------------------------------
+2022-12-17 23:11:01 INFO  LinkForGeocoderApi:34 - Received address for request: 140500, Московская область, Луховицкий район, СНТ "Россия", уч. 123
+2022-12-17 23:11:01 INFO  LinkForGeocoderApi:35 - Region to cat area: 
+2022-12-17 23:11:01 INFO  APIController:17 - Sending request to API. Link: https://geocode-maps.yandex.ru/1.x/?apikey=c2fa646e-1938-4510-91a0-71da95877d8e&geocode=140500%2C+%D0%9C%D0%BE%D1%81%D0%BA%D0%BE%D0%B2%D1%81%D0%BA%D0%B0%D1%8F+%D0%BE%D0%B1%D0%BB%D0%B0%D1%81%D1%82%D1%8C%2C+%D0%9B%D1%83%D1%85%D0%BE%D0%B2%D0%B8%D1%86%D0%BA%D0%B8%D0%B9+%D1%80%D0%B0%D0%B9%D0%BE%D0%BD%2C+%D0%A1%D0%9D%D0%A2+%22%D0%A0%D0%BE%D1%81%D1%81%D0%B8%D1%8F%22%2C+%D1%83%D1%87.+123&format=json
+2022-12-17 23:11:01 INFO  APIController:26 - Preparing URL
+2022-12-17 23:11:01 INFO  APIController:49 - Getting response from API
+2022-12-17 23:11:01 INFO  AnswerConfigurator:113 - ---------------------------------Answer start---------------------------------
+2022-12-17 23:11:01 INFO  AnswerConfigurator:114 - Адрес: Россия, Московская область, городской округ Луховицы, СНТ Россия, 123
+2022-12-17 23:11:01 INFO  AnswerConfigurator:115 - Точность найденного объекта точные
+2022-12-17 23:11:01 INFO  AnswerConfigurator:116 - Координаты: 54.918607 с.ш. 39.17888 в. д.
+2022-12-17 23:11:01 INFO  AnswerConfigurator:117 - Счетчик запросов Геокодера = 3
+2022-12-17 23:11:01 INFO  AnswerConfigurator:118 - ---------------------------------Answer end---------------------------------
+2022-12-17 23:11:01 INFO  LinkForGeocoderApi:34 - Received address for request: 140514, установлено относительно ориентира, расположенного в границах участка. Почтовый адрес ориентира: Московская обл., р-н Луховицкий, снт Березка-4, уч-к 49
+2022-12-17 23:11:01 INFO  LinkForGeocoderApi:35 - Region to cat area: Луховицкий
+2022-12-17 23:11:01 INFO  APIController:17 - Sending request to API. Link: https://geocode-maps.yandex.ru/1.x/?apikey=c2fa646e-1938-4510-91a0-71da95877d8e&geocode=140514%2C+%D1%83%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%BB%D0%B5%D0%BD%D0%BE+%D0%BE%D1%82%D0%BD%D0%BE%D1%81%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D0%BE+%D0%BE%D1%80%D0%B8%D0%B5%D0%BD%D1%82%D0%B8%D1%80%D0%B0%2C+%D1%80%D0%B0%D1%81%D0%BF%D0%BE%D0%BB%D0%BE%D0%B6%D0%B5%D0%BD%D0%BD%D0%BE%D0%B3%D0%BE+%D0%B2+%D0%B3%D1%80%D0%B0%D0%BD%D0%B8%D1%86%D0%B0%D1%85+%D1%83%D1%87%D0%B0%D1%81%D1%82%D0%BA%D0%B0.+%D0%9F%D0%BE%D1%87%D1%82%D0%BE%D0%B2%D1%8B%D0%B9+%D0%B0%D0%B4%D1%80%D0%B5%D1%81+%D0%BE%D1%80%D0%B8%D0%B5%D0%BD%D1%82%D0%B8%D1%80%D0%B0%3A+%D0%9C%D0%BE%D1%81%D0%BA%D0%BE%D0%B2%D1%81%D0%BA%D0%B0%D1%8F+%D0%BE%D0%B1%D0%BB.%2C+%D1%80-%D0%BD+%D0%9B%D1%83%D1%85%D0%BE%D0%B2%D0%B8%D1%86%D0%BA%D0%B8%D0%B9%2C+%D1%81%D0%BD%D1%82+%D0%91%D0%B5%D1%80%D0%B5%D0%B7%D0%BA%D0%B0-4%2C+%D1%83%D1%87-%D0%BA+49&rspn=1&ll=39.19425,54.948649&spn=0.92,0.51&format=json
+2022-12-17 23:11:01 INFO  APIController:26 - Preparing URL
+2022-12-17 23:11:01 INFO  APIController:49 - Getting response from API
+2022-12-17 23:11:02 INFO  AnswerConfigurator:113 - ---------------------------------Answer start---------------------------------
+2022-12-17 23:11:02 INFO  AnswerConfigurator:114 - Адрес: Россия, Московская область, городской округ Луховицы, СНТ Берёзка-4, 49
+2022-12-17 23:11:02 INFO  AnswerConfigurator:115 - Точность найденного объекта точные
+2022-12-17 23:11:02 INFO  AnswerConfigurator:116 - Координаты: 54.986299 с.ш. 39.088079 в. д.
+2022-12-17 23:11:02 INFO  AnswerConfigurator:117 - Счетчик запросов Геокодера = 4
+2022-12-17 23:11:02 INFO  AnswerConfigurator:118 - ---------------------------------Answer end---------------------------------
+2022-12-17 23:11:02 INFO  LinkForGeocoderApi:34 - Received address for request: 140235, Московская область, Воскресенский район, д. Елкино, ул. Совхозная, участок 30-а
+2022-12-17 23:11:02 INFO  LinkForGeocoderApi:35 - Region to cat area: Воскресенский
+2022-12-17 23:11:02 INFO  APIController:17 - Sending request to API. Link: https://geocode-maps.yandex.ru/1.x/?apikey=c2fa646e-1938-4510-91a0-71da95877d8e&geocode=140235%2C+%D0%9C%D0%BE%D1%81%D0%BA%D0%BE%D0%B2%D1%81%D0%BA%D0%B0%D1%8F+%D0%BE%D0%B1%D0%BB%D0%B0%D1%81%D1%82%D1%8C%2C+%D0%92%D0%BE%D1%81%D0%BA%D1%80%D0%B5%D1%81%D0%B5%D0%BD%D1%81%D0%BA%D0%B8%D0%B9+%D1%80%D0%B0%D0%B9%D0%BE%D0%BD%2C+%D0%B4.+%D0%95%D0%BB%D0%BA%D0%B8%D0%BD%D0%BE%2C+%D1%83%D0%BB.+%D0%A1%D0%BE%D0%B2%D1%85%D0%BE%D0%B7%D0%BD%D0%B0%D1%8F%2C+%D1%83%D1%87%D0%B0%D1%81%D1%82%D0%BE%D0%BA+30-%D0%B0&rspn=1&ll=38.645685,55.380718&spn=0.75,0.43&format=json
+2022-12-17 23:11:02 INFO  APIController:26 - Preparing URL
+2022-12-17 23:11:02 INFO  APIController:49 - Getting response from API
+2022-12-17 23:11:02 INFO  ObjectAddress:96 - FeatureMemberItem{geoObject = 'GeoObject{metaDataProperty = 'MetaDataProperty{geocoderResponseMetaData = 'null',geocoderMetaData = 'GeocoderMetaData{address = 'Address{components = '[ComponentsItem{kind = 'country',name = 'Россия'}, ComponentsItem{kind = 'province',name = 'Центральный федеральный округ'}, ComponentsItem{kind = 'province',name = 'Московская область'}, ComponentsItem{kind = 'area',name = 'городской округ Воскресенск'}, ComponentsItem{kind = 'locality',name = 'деревня Ёлкино'}, ComponentsItem{kind = 'street',name = 'Совхозная улица'}, ComponentsItem{kind = 'house',name = '28'}]',country_code = 'RU',formatted = 'Россия, Московская область, городской округ Воскресенск, деревня Ёлкино, Совхозная улица, 28'}',addressDetails = 'AddressDetails{country = 'Country{administrativeArea = 'AdministrativeArea{administrativeAreaName = 'Московская область',subAdministrativeArea = 'SubAdministrativeArea{locality = 'Locality{localityName = 'деревня Ёлкино',dependentLocality = 'null'}',subAdministrativeAreaName = 'городской округ Воскресенск'}'}',countryName = 'Россия',addressLine = 'Россия, Московская область, городской округ Воскресенск, деревня Ёлкино, Совхозная улица, 28',countryNameCode = 'RU'}'}',kind = 'house',precision = 'near',text = 'Россия, Московская область, городской округ Воскресенск, деревня Ёлкино, Совхозная улица, 28'}'}',boundedBy = 'BoundedBy{envelope = 'Envelope{lowerCorner = '38.824163 55.310088',upperCorner = '38.832373 55.314771'}'}',name = 'Совхозная улица, 28',description = 'деревня Ёлкино, городской округ Воскресенск, Московская область, Россия',point = 'Point{pos = '38.828268 55.31243'}'}'}
+2022-12-17 23:11:02 INFO  AnswerConfigurator:113 - ---------------------------------Answer start---------------------------------
+2022-12-17 23:11:02 INFO  AnswerConfigurator:114 - Адрес: Россия, Московская область, городской округ Воскресенск, деревня Ёлкино, Совхозная улица, 28
+2022-12-17 23:11:02 INFO  AnswerConfigurator:115 - Точность найденного объекта примерные
+2022-12-17 23:11:02 INFO  AnswerConfigurator:116 - Координаты: 55.31243 с.ш. 38.828268 в. д.
+2022-12-17 23:11:02 INFO  AnswerConfigurator:117 - Счетчик запросов Геокодера = 5
+2022-12-17 23:11:02 INFO  AnswerConfigurator:118 - ---------------------------------Answer end---------------------------------
+2022-12-17 23:11:02 INFO  AnswerConfigurator:98 - Все строки в файле прочитаны
+2022-12-17 23:11:02 INFO  TelegramBot:139 - Sending message: Записываю координаты в файл
+2022-12-17 23:11:02 INFO  TelegramBot:139 - Sending message: Вот заполенный файл
+2022-12-17 23:11:16 DEBUG TelegramBot:45 - Received new message: /getcounter
+2022-12-17 23:11:16 INFO  TelegramBot:139 - Sending message: Сегодня совершено 5 запросов из 900.
+2022-12-17 23:12:43 DEBUG TelegramBot:45 - Received new message: /bytable
+2022-12-17 23:12:43 INFO  TelegramBot:139 - Sending message: Пришлите файл формата .xlsx с адресами, в котором адрес находится в столбце "D"
+2022-12-17 23:12:43 INFO  TelegramBot:139 - Sending message: Запросить файл для заполнения адресами можно командой /getdraftfile
+2022-12-17 23:12:45 DEBUG TelegramBot:45 - Received new message: /restart
+2022-12-17 23:14:38 DEBUG TelegramBot:45 - Received new message: /bytable
+2022-12-17 23:14:38 INFO  TelegramBot:139 - Sending message: Пришлите файл формата .xlsx с адресами, в котором адрес находится в столбце "D"
+2022-12-17 23:14:39 INFO  TelegramBot:139 - Sending message: Запросить файл для заполнения адресами можно командой /getdraftfile
+2022-12-17 23:14:40 DEBUG TelegramBot:45 - Received new message: /restart
+2022-12-17 23:14:40 INFO  TelegramBot:139 - Sending message: Выберите действие заново
+2022-12-17 23:14:42 DEBUG TelegramBot:45 - Received new message: /getdraftfile
+2022-12-17 23:14:42 INFO  TelegramBot:139 - Sending message: Заполните файл адресами и районами, а потом пришлите его мне
+2022-12-17 23:14:43 DEBUG TelegramBot:45 - Received new message: /restart
+2022-12-17 23:14:43 INFO  TelegramBot:139 - Sending message: Выберите действие заново
+2022-12-17 23:14:47 DEBUG TelegramBot:45 - Received new message: /bymessage
+2022-12-17 23:14:47 INFO  TelegramBot:139 - Sending message: Введите адрес для получения координат
+2022-12-17 23:14:47 INFO  TelegramBot:139 - Sending message: Желательно вводить адрес в формате:
+2022-12-17 23:14:47 INFO  TelegramBot:139 - Sending message: (Страна), (область), (округ), населённый пункт, (уточнение), улица, номер дома
+2022-12-17 23:14:47 INFO  TelegramBot:139 - Sending message: в скобках указаны необязательные для ввода параметры
+2022-12-17 23:14:48 DEBUG TelegramBot:45 - Received new message: /restart
+2022-12-17 23:14:48 INFO  TelegramBot:139 - Sending message: Выберите действие заново

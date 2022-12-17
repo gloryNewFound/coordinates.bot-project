@@ -1,4 +1,4 @@
-package dvn.coordinates_bot.coordinates.bot.parser.pojoResponseGeocoderAPI;
+package dvn.coordinates_bot.coordinates.bot.parser.pojo_response_geocoder_API;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 

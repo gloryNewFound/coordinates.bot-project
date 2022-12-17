@@ -1,22 +1,20 @@
-package dvn.coordinates_bot.coordinates.bot.parser.pojoResponseTGBotAPI;
+package dvn.coordinates_bot.coordinates.bot.parser.pojo_response_tgbot_API;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 
 public class FileFromChat{
 
 	@JsonProperty("result")
-	private Result result;
+	private FileFromChatData fileFromChatData;
 
 	@JsonProperty("ok")
 	private boolean ok;
 
-	public Result getResult(){
-		return result;
+	public FileFromChatData getResult(){
+		return fileFromChatData;
 	}
 
 	public boolean isOk(){
 		return ok;
 	}
-
-
 }

@@ -1,6 +1,6 @@
 package dvn.coordinates_bot.coordinates.bot.regions;
 
-public enum Region {
+public enum RegionsAreas {
 
     BALASH("Балашихинский", 55.791202, 37.956857, 0.19, 0.45),
     VOSKR("Воскресенский", 55.380718, 38.645685, 0.43, 0.75),
@@ -23,7 +23,7 @@ public enum Region {
     private double height;
     private double width;
 
-    Region(String name, double centerLati, double centerLong, double height, double width) {
+    RegionsAreas(String name, double centerLati, double centerLong, double height, double width) {
         this.name = name;
         this.centerLati = centerLati;
         this.centerLong = centerLong;

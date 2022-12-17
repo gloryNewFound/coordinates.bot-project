@@ -1,8 +1,8 @@
-package dvn.coordinates_bot.coordinates.bot.controller;
+package dvn.coordinates_bot.coordinates.bot.services;
 
 import dvn.coordinates_bot.coordinates.bot.entity.ObjectAddress;
 import dvn.coordinates_bot.coordinates.bot.geocoderAPI.GeocoderApiCounter;
-import dvn.coordinates_bot.coordinates.bot.telegramAPI.service.FileDownloader;
+import dvn.coordinates_bot.coordinates.bot.telegramAPI.FileDownloadService;
 import lombok.extern.log4j.Log4j;
 import org.apache.poi.ss.usermodel.Cell;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
@@ -57,19 +57,13 @@ public class AnswerConfigurator {
         writeToFile(excelFile, file);
 
         if (isRequestsLimitReached()) {
-            System.out.println("Количество запросв превысило допустимые 900 шт. Новые запросы можно будет совершать завтра.");
+            log.info("Количество запросв превысило допустимые 900 шт. Новые запросы можно будет совершать завтра.");
         }
         return "Записываю координаты в файл";
     }
 
     private File openReceivedFile(String fileName, String fileId) {
-        File file = null;
-        try {
-            file = FileDownloader.downloadExcelFile(fileName, fileId);
-        } catch (IOException e) {
-            System.out.println("Файл не удалось скачать с сервера Telegram");
-        }
-        return file;
+        return FileDownloadService.downloadFileFromChat(fileName, fileId);
     }
 
     private XSSFWorkbook openExcelXFileAndSheetForRead(File file) {
@@ -77,7 +71,7 @@ public class AnswerConfigurator {
         try (FileInputStream fis = new FileInputStream(file)) {
             excelFile = new XSSFWorkbook(fis);
         } catch (IOException e) {
-            System.out.println("Не удалось открыть Excel файл. Ошибка: " + e.getMessage());
+            log.error("Не удалось открыть Excel файл. Ошибка: " + e.getMessage());
         }
         return excelFile;
     }
@@ -93,7 +87,7 @@ public class AnswerConfigurator {
         try (FileOutputStream fos = new FileOutputStream(file)) {
             excelFile.write(fos);
         } catch (IOException e) {
-            System.out.println("Не удалось записать координаты в файл. Ошибка: " + e.getMessage());
+            log.error("Не удалось записать координаты в файл. Ошибка: " + e.getMessage());
         }
     }
 
@@ -101,7 +95,7 @@ public class AnswerConfigurator {
         try {
             return excelShit.getRow(rowIndex).getCell(3);
         } catch (NullPointerException e) {
-            System.out.println("Все строки в файле прочитаны");
+            log.info("Все строки в файле прочитаны");
             return null;
         }
     }
@@ -120,7 +114,9 @@ public class AnswerConfigurator {
         log.info("Адрес: " + foundAddress);
         log.info("Точность найденного объекта " + (precision ? "точные" : "примерные"));
         log.info("Координаты: " + latitude + " с.ш. " + longitude + " в. д.");
+        log.info("Счетчик запросов Геокодера = " + GeocoderApiCounter.getAPICounter().getCounter());
         log.info("---------------------------------Answer end---------------------------------");
+        System.out.println();
     }
 
 
