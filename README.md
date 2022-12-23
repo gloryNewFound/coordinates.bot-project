@@ -1,5 +1,7 @@
 # coordinates.bot
 
+Current version - 1.1.0
+
 App for a company which uses addresses data for its business processes.
 
 Link to the bot: https://t.me/CoordinatesSearchBot
@@ -11,5 +13,7 @@ There are 4 commands:
 /bytable - the bot can work with the .xlsx table where it gets addresses and adds column with the coordinates
 <br>
 /getcounter - there are only 900 requests available per day
+<br>
+/getdraftfile - sends file to fill it by addresses
 <br>
 /restart - just to restart command.
