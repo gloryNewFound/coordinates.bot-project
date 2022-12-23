@@ -43,7 +43,7 @@ public class TelegramBot extends TelegramLongPollingBot {
         String message = update.getMessage().getText();
         log.debug("Received new message: " + message);
 
-        if (flagByFile && (message.charAt(0) != '/')) {
+        if (flagByFile && (message == null)) {
             if (update.getMessage().hasDocument()) {
                 fileReceived(chatId, update); //Starting to handle the file and stop waiting for a new message
                 return;
@@ -162,7 +162,8 @@ public class TelegramBot extends TelegramLongPollingBot {
     private void byTableAnswer(long chatId, Message message) {
         String fileDownloadStatus = answerConfigurator.fillExcelFile(
                 message.getDocument().getFileName(),
-                message.getDocument().getFileId());
+                message.getDocument().getFileId(),
+                config);
 
         sendMessage(chatId, fileDownloadStatus);
         sendMessage(chatId, "Вот заполенный файл");

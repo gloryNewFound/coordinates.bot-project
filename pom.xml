@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>dvn.coordinates_bot</groupId>
 	<artifactId>coordinates.bot</artifactId>
-	<version>1.1.0</version>
+	<version>1.1.1</version>
 	<name>coordinates.bot</name>
 	<description>Spring Boot project</description>
 	<properties>

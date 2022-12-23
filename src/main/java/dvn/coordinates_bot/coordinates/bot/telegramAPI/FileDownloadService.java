@@ -2,6 +2,7 @@ package dvn.coordinates_bot.coordinates.bot.telegramAPI;
 
 import dvn.coordinates_bot.coordinates.bot.APIController;
 import dvn.coordinates_bot.coordinates.bot.parser.ResponseParser;
+import dvn.coordinates_bot.coordinates.bot.telegramAPI.config.BotConfig;
 import lombok.extern.log4j.Log4j;
 
 import java.io.*;
@@ -14,9 +15,11 @@ import java.util.Properties;
 
 @Log4j
 public class FileDownloadService {
-    public static File downloadFileFromChat(String fileName, String fileId)  {
 
-        URL fileURL = getFileURL(fileId);
+    private final static String baseLink = "https://api.telegram.org";
+    public static File downloadFileFromChat(String fileName, String fileId, BotConfig botConfig)  {
+
+        URL fileURL = getFileURL(fileId, botConfig);
 
         log.info("-----------------------------------------------");
         log.info("File downloading " + fileURL.getPath());
@@ -39,12 +42,12 @@ public class FileDownloadService {
         return new File(fileName);
     }
 
-    private static URL getFileURL(String fileId) {
+    private static URL getFileURL(String fileId, BotConfig botConfig) {
             //Создаем объект свойств для чтения параметров из application.properties
-        Properties properties = getApplicationPropertiesFile();
+//        Properties properties = getApplicationPropertiesFile();
 
             //Собираем ссылку для запроса данных о файле у Телеграм API
-        String fileDataLink = getFileDataLink(fileId, properties);
+        String fileDataLink = getFileDataLink(fileId, botConfig);
 
             //Отправка запроса для получения данных о файле
         String fileDataResponseString = APIController.getFileDataString(fileDataLink);
@@ -53,7 +56,7 @@ public class FileDownloadService {
         String filePath = ResponseParser.getFileFromChat(fileDataResponseString).getResult().getFilePath();
 
             //Сбор ссылки для скачивания файла
-        String downloadFileLink = getDownloadFileLink(filePath, properties);
+        String downloadFileLink = getDownloadFileLink(filePath, botConfig);
 
         URL url = null;
         try {
@@ -64,35 +67,33 @@ public class FileDownloadService {
         return url;
     }
 
-    private static Properties getApplicationPropertiesFile() {
-        Properties properties = new Properties();
-        try {
-            properties.load(new FileInputStream(getPropertiesFilePath()));
-        } catch (IOException e) {
-            log.error(e.getStackTrace());
-        }
+//    private static Properties getApplicationPropertiesFile() {
+//        Properties properties = new Properties();
+//        try {
+//            properties.load(new FileInputStream(getPropertiesFilePath()));
+//        } catch (IOException e) {
+//            log.error(e.getStackTrace());
+//        }
+//
+//        return properties;
+//    }
 
-        return properties;
-    }
-
-    private static String getFileDataLink(String fileId, Properties properties) {
-        return properties.getProperty("telegramAPI.baseLink")
-                + "/bot"
-                + properties.getProperty("bot.token")
+    private static String getFileDataLink(String fileId, BotConfig botConfig) {
+        return baseLink + "/bot"
+                + botConfig.getToken()
                 + "/getFile?file_id=" + fileId;
     }
 
-    private static String getPropertiesFilePath() {
-        return "src" + File.separator
-                + "main"+ File.separator
-                + "resources" + File.separator
-                + "application.properties";
-    }
+//    private static String getPropertiesFilePath() {
+//        return "src" + File.separator
+//                + "main"+ File.separator
+//                + "resources" + File.separator
+//                + "application.properties";
+//    }
 
-    private static String getDownloadFileLink(String filePath, Properties properties) {
-        return properties.getProperty("telegramAPI.baseLink")
-                + "/file/bot"
-                + properties.getProperty("bot.token")
+    private static String getDownloadFileLink(String filePath, BotConfig botConfig) {
+        return baseLink + "/file/bot"
+                + botConfig.getToken()
                 + "/" + filePath;
     }
 }

@@ -3,6 +3,7 @@ package dvn.coordinates_bot.coordinates.bot.services;
 import dvn.coordinates_bot.coordinates.bot.entity.ObjectAddress;
 import dvn.coordinates_bot.coordinates.bot.geocoderAPI.GeocoderApiCounter;
 import dvn.coordinates_bot.coordinates.bot.telegramAPI.FileDownloadService;
+import dvn.coordinates_bot.coordinates.bot.telegramAPI.config.BotConfig;
 import lombok.extern.log4j.Log4j;
 import org.apache.poi.ss.usermodel.Cell;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
@@ -41,8 +42,8 @@ public class AnswerConfigurator {
                 + objectAddress.getLongitude() + " в. д.";
     }
 
-    public String fillExcelFile(String fileName, String fileId) {
-        File file = openReceivedFile(fileName, fileId);
+    public String fillExcelFile(String fileName, String fileId, BotConfig botConfig) {
+        File file = openReceivedFile(fileName, fileId, botConfig);
         XSSFWorkbook excelFile = openExcelXFileAndSheetForRead(file);
         XSSFSheet excelShit = excelFile.getSheetAt(0);
         Cell cellWithAddress;
@@ -62,8 +63,8 @@ public class AnswerConfigurator {
         return "Записываю координаты в файл";
     }
 
-    private File openReceivedFile(String fileName, String fileId) {
-        return FileDownloadService.downloadFileFromChat(fileName, fileId);
+    private File openReceivedFile(String fileName, String fileId, BotConfig botConfig) {
+        return FileDownloadService.downloadFileFromChat(fileName, fileId, botConfig);
     }
 
     private XSSFWorkbook openExcelXFileAndSheetForRead(File file) {

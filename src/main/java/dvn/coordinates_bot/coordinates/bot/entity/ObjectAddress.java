@@ -35,8 +35,17 @@ public class ObjectAddress {
     public ObjectAddress() {
     }
 
-    public void fillAllObjectAddressFields(String foundAddress, String region) {
-        this.requestedAddress = foundAddress;
+    public void fillAllObjectAddressFields(String findAddress, String region) {
+        this.requestedAddress = findAddress;
+        if (findAddress.isEmpty() || findAddress == null) {
+            this.precision = false;
+            this.point = null;
+            this.foundAddress = null;
+            this.latitude = 0;
+            this.longitude = 0;
+            precisionDetails = "Адрес не найден";
+            return;
+        }
         String regionString = getRegion(region);
             //Получаем из адреса и района ссылку для запроса на Геокодер API:
         String link = linkForGeocoderApi.getLinkForGeocoderApi(requestedAddress, regionString);
